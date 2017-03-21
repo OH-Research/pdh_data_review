@@ -1,11 +1,17 @@
 # Config settings
-title: Jekyll Tipue Search Demo
-baseurl: "/jekyll-tipue-search"
+title: Health Data Review
+baseurl: "/pdh_data_review"
+
+collections:
+  datasets:
+    output: true
+    permalink: /:path/:title:output_ext
 
 # Search settings
 tipue_search:
   include:
     pages: true
+    collections: [datasets]
   exclude:
     files: [search.html]
 

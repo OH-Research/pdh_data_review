@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<main class="page-content" aria-label="Content">
+<div class="wrapper">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<header class="post-header">
+  <h2 class="post-title" itemprop="name headline">{{ page.name }}</h2>
+</header>
+<div class="post-content" itemprop="articleBody">{{ page.description }}</div>
+</article>
+</div>
+</main>
+
+<h2 class="post-title" itemprop="name headline">Provider: </h2> <a href="{{ page.link }}">{{ page.provider }}</a>
