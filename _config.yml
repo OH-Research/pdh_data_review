@@ -5,11 +5,8 @@ permalink: /:categories/:title.htm
 
 # Search settings
 tipue_search:
-  include:
-    pages: true
-    collections: [datasets]
   exclude:
-    files: [search.html]
+    files: [search.html, about.html]
 
 # Build settings
 markdown: kramdown
