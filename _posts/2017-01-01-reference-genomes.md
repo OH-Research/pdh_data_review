@@ -1,8 +1,8 @@
 ---
 layout: post
 provider: "Google Cloud Platform"
-id: "Reference Genomes"
-title: "USA Contagious Disease Data"
+id: "reference-genomes"
+title: "Reference Genomes"
 link: "http://googlegenomics.readthedocs.io/en/latest/use_cases/discover_public_data/reference_genomes.html"
 date:   2017-02-20 12:27:31 -0800
 categories: non-nz genomics
