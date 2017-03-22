@@ -8,4 +8,4 @@ date:   2017-02-20 12:27:31 -0800
 categories: non-nz genomics
 ---
 
-The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context
+The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context.
