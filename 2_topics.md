@@ -4,21 +4,21 @@ title: Topics
 permalink: /topics/
 ---
 
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+
 <ul class="tag-box inline">
-{% assign tags_list = site.categories %}  
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %} 
-      <li><a href="#{{ tag }}">{{ tag | capitalize }}  (<span>{{ site.tags[tag].size }}</span>)</a></li>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %} 
-      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }}  (<span>{{ tag[1].size }}</span>)</a></li>
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags reversed %}
+    {% assign tagitems = tag | split: '#' %}
+    <li><a href="#{{ tagitems[1] }}">{{ tagitems[1] | capitalize }}  (<span>{{ tagitems[2] }}</span>)</a></li>
+{% endfor %}
 </ul>
 
-{% for tag in site.categories %} 
+{% for tag in site.tags %} 
   <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}  
