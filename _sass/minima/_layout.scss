@@ -27,7 +27,7 @@
 .site-nav {
   float: right;
   line-height: 56px;
-
+   
   .menu-icon {
     display: none;
   }
@@ -168,6 +168,15 @@
 
 .page-heading {
   font-size: 20px;
+}
+
+.tag-box {
+  margin-left: 15px;
+  margin-bottom: 500px;
+
+  > li {
+    margin-bottom: 7px;
+  }
 }
 
 .post-list {
