@@ -194,8 +194,14 @@
 }
 
 .post-link {
-  display: block;
+  display: inline;
   font-size: 16px;
+}
+
+.tag-link, .tag-link:visited, .tag-link:hover, .tag-link:active {
+  display: inline;
+  font-size: 12px;
+  color: #3FA6B7;
 }
 
 
@@ -223,7 +229,8 @@
  
   h2 {
     font-size: 32px;
-
+    display: inline;
+    margin-left: 4em; 
     @include media-query($on-laptop) {
       font-size: 28px;
     }
