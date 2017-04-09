@@ -7,6 +7,7 @@ link: "https://www.health.govt.nz/publication/annual-update-key-results-2014-15-
 categories: new-zealand government
 tags:
   - global-health
+  - figure.nz
 figure_nz_charts:
 - New Zealand adults diagnosed with anxiety disorder By sex and neighbourhood deprivation, year ended June 2015, % of adults within group|https://figure.nz/chart/2HrfqSXVU6jCBDU9-7KEXVBoiAkJs2fHz
 - New Zealand adults diagnosed with anxiety disorder By sex and ethnicity, year ended June 2015, % of adults within group|https://figure.nz/chart/2HrfqSXVU6jCBDU9-Kift4dpRjApcQohd
