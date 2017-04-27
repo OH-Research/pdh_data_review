@@ -185,6 +185,27 @@
 
   > li {
     margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
+  }
+}
+
+.post-list-l1 {
+  margin-left: 0;
+  list-style: circle;
+
+  > li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.post-list-l2 {
+  margin-left: 0;
+  list-style: square;
+
+  > li {
+    margin-left: 30px;
+    margin-bottom: 2px;
   }
 }
 
@@ -209,6 +230,8 @@
 /**
  * Posts
  */
+
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -226,7 +249,16 @@
 .post-content {
   margin-bottom: $spacing-unit;
   color: #484845;
- 
+  
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 5px;
+  }
+
   h2 {
     font-size: 32px;
     display: inline;
@@ -246,7 +278,9 @@
 
   h4 {
     font-size: 20px;
-
+    margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
+    
     @include media-query($on-laptop) {
       font-size: 18px;
     }
