@@ -1,0 +1,12 @@
+providerId:ID(Provider),name,:LABEL
+"Ministry of Business, Innovation, and Employment","Ministry of Business, Innovation, and Employment",Provider
+Auckland Council,Auckland Council,Provider
+Department of Internal Affairs,Department of Internal Affairs,Provider
+Figure.NZ,Figure.NZ,Provider
+Ministry for the Environment,Ministry for the Environment,Provider
+Ministry of Education,Ministry of Education,Provider
+Ministry of Health,Ministry of Health,Provider
+OECD,OECD,Provider
+Statistics New Zealand,Statistics New Zealand,Provider
+The Treasury,The Treasury,Provider
+provider,provider,Provider

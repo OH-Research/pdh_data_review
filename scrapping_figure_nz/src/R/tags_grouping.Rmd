@@ -1,0 +1,370 @@
+---
+title: "Figure.nz health related tags grouping"
+author: "Quentin Thurier"
+date: "2/21/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+set.seed(12345)
+library(igraph)
+library(visNetwork)
+library(RNeo4j)
+library(dplyr)
+library(stringr)
+library(stringi)
+library(plotly)
+graph <- startGraph("http://localhost:7474/db/data/", username="neo4j", password="pdh")
+```
+
+## Purpose of this notebook
+
+The website <http://figure.nz> is a good starting point for the health data sources/datasets review project because:
+
+- it is new zealand data
+- it is a charity (free + no selection bias)
+- it contains data from public/private sector as well as academic data
+- they are used to mashup/filter data sources and have the right connections
+
+One interesting feature of their website is the tagging of each [item](https://figure.nz/table/dXDhZmIT8LRE7Fmj). This set of tags could be really useful in the context of our project:
+
+- to organize all the data sources/datasets we'll find
+- to expand the research based on a relevant set of keywords (I was not happy with the health related keywords returned by google trend/google correlation) 
+
+Two problems:
+
+- no API yet, we had to scrap all health related content from figure.nz with scrapy (cf [src/py]( file:///Users/quentint/dev/figure_nz_scrapping/src/py))
+- the set of all tags returned by all health related items from figure.nz is a bit too large, we propose a quick strategy to group together some of them in this notebook and finally reduce the whole set of keywords to a core set of keywords.
+
+```{r}
+query <- "match (tag:Tag) return upper(tag.name) as tag"
+
+tags <- cypher(graph, query) %>% 
+        mutate(tag=str_trim(tag)) %>% 
+        unique() # uppercasings can results in edges duplicates
+
+print(paste("total number of tags:", nrow(tags)))
+```
+
+The strategy consists in:
+
+- proceed obvious merging (based on spelling, abbreviation)
+- build the graph with the keywords:
+    - each node/vertex is a tag
+    - two tags are connected if they appear in the same figure.nz item
+    - edges weights are the number of common items between the two tags
+- use some graph analytics to proceed less obvious grouping:
+    - merge cliques
+    - look for communities among the set of keywords (TODO: check the method)
+- finally check manually each community to read the keywords 'within their context' (ex: Growth child or economics?) and then maybe group together/replace some of them
+ 
+## Grouping based on spelling/abbreviation
+
+
+```{r, include=FALSE}
+# some keywords can be obviously be grouped together
+obvious <- c("AFTER", "DHB", "DISTRICT HEALTH", "DOCTOR", "DEATH", "EMPLOYEE", "GENERAL", "HOSPITAL", "TELEVISION", 
+             "JOB", "MEDICATION", "PRESCRITPTION", "PRIMARY", "SPORT", "TEETH", "TOOTH", "DISEASE", "HOUSEHOLD")
+
+reg.expression <- paste("^(", paste(obvious, collapse="|"), ")", sep="")
+
+corrections <- tags %>% 
+               filter(grepl(reg.expression, tag)) %>%
+               arrange(tag)
+
+head(corrections)
+```
+
+Let's build the lookup table to perform this grouping:
+
+```{r, include=FALSE}
+old <- c("AFTER HOURS", "DISTRICT HEALTH BOARD", "GENERAL MEDICAL PRACTITIONER", 
+         "PRIMARY CARE", "PRIMARY HEALTH CARE", "TOOTH", "TELEVISION")
+
+new <- c("AFTER-HOURS", "DHB", "GP", "PRIMARY HEALTHCARE", "PRIMARY HEALTHCARE", "TEETH", "TV")
+
+lkup <- data.frame(old, new) 
+
+reg.expression <- paste("^(", paste(c(old, new), collapse="|"), ")", sep="")
+
+lkup.corrections <- corrections %>% 
+                    filter((!grepl(reg.expression, tag) & grepl("S$", tag)) | (tag=="DHBS")) %>%
+                    rename(old=tag) %>%
+                    mutate(new=substr(old, 1, nchar(old)-1)) %>%
+                    bind_rows(data.frame(old, new)) %>%
+                    arrange(old)
+```
+
+```{r}
+head(lkup.corrections)
+```
+
+
+## Grouping based on graph analytics - part 1
+
+Some tags always occur together figure.nz items. Might be a good idea to group them. This is related to the concept of clique in graph theory. Lets have a look:
+
+```{r, include=FALSE}
+query <- "match (n1:Tag) --> (:Title) <-- (n2:Tag) 
+          where n1.name > n2.name 
+          return upper(n1.name) as from, upper(n2.name) as to, count(*) as coocurrence"
+
+coocurences <- cypher(graph, query) %>%
+               mutate(from=str_trim(from), to=str_trim(to)) %>%
+               group_by(from, to) %>% # uppercasing can results in edges duplicates
+               summarise(coocurrence=sum(coocurrence)) %>%
+               ungroup() %>% # avoid the warning 'Adding missing grouping variables'
+               left_join(lkup.corrections, by=c("from" = "old")) %>%
+               mutate(from=ifelse(is.na(new), from, new)) %>%
+               select(from, to, coocurrence) %>%
+               left_join(lkup.corrections, by=c("to" = "old")) %>%
+               mutate(to=ifelse(is.na(new), to, new)) %>%
+               select(from, to, coocurrence) %>%
+               group_by(from, to) %>% # correction can results in edges duplicates
+               summarise(coocurrence=sum(coocurrence)) %>%
+               as.data.frame()
+
+head(coocurences)
+
+query <- "match (n1:Tag) --> (:Title) return upper(n1.name) as tag, count(*) as degree"
+
+degrees <- cypher(graph, query) %>%
+           mutate(tag=str_trim(tag)) %>%
+           group_by(tag) %>% # uppercasing can results in nodes duplicates
+           summarise(degree=sum(degree)) %>%
+           left_join(lkup.corrections, by=c("tag" = "old")) %>%
+           mutate(tag=ifelse(is.na(new), tag, new)) %>%
+           select(tag, degree) %>% # correction can results in nodes duplicates
+           group_by(tag) %>%
+           summarise(degree=sum(degree)) %>%
+           as.data.frame()
+
+head(degrees)
+```
+
+
+```{r, fig.width=9.45}
+edges <- coocurences %>%
+         inner_join(degrees, by=c("from" = "tag")) %>%
+         mutate(weight_from_to=coocurrence/degree) %>%
+         select(from, to, coocurrence, weight_from_to) %>%
+         inner_join(degrees, by=c("to" = "tag")) %>%
+         mutate(weight_to_from=coocurrence/degree) %>%
+         filter(weight_from_to==1, weight_to_from==1)
+
+nodes <- data.frame(id=unique(c(edges$from, edges$to)))
+
+nodes$label <- nodes$id
+
+ig <- graph_from_data_frame(edges, directed=FALSE)
+
+clusters <- clusters(ig)
+
+table(clusters$csize)
+
+visNetwork(nodes, edges, main=list(text="Cliques among the health related tags graph", style="font-family:serif, Georgia, Times New Roman, Times;font-size:20px;text-align:left;color:darkblue;text-decoration:underline;"))
+
+```
+
+
+```{r, include=FALSE}
+nodes$group <- clusters$membership
+
+nodes %>% 
+select(label, group) %>% 
+filter(group %in% which(clusters$csize==5)) %>% 
+group_by(group) %>% 
+summarise(tags=toString(label)) %>% as.data.frame()
+
+nodes %>% 
+select(label, group) %>% 
+filter(group %in% which(clusters$csize==4)) %>% 
+group_by(group) %>% 
+summarise(tags=toString(label)) %>% as.data.frame()
+
+nodes %>% 
+select(label, group) %>% 
+filter(group %in% which(clusters$csize==3)) %>% 
+group_by(group) %>% 
+summarise(tags=toString(label)) %>% as.data.frame()
+```
+
+
+```{r, include=FALSE}
+group.card.5 <- data.frame(group=c(5, 7, 17), label=c("CITIES", "COUNCIL", "AGRICULTURE & FOREST"))
+group.card.4 <- data.frame(group=c(4, 10, 24, 41), label=c("BUSINESS PRICE INDEX", "ELDERLY EMERGENCY", "IMMIGRATION", "SEASONAL WORK"))
+group.card.3 <- data.frame(group=c(1, 2, 3, 6, 8, 12, 14, 16, 18, 22, 26, 33, 45), 
+                           label=c("AUTISM", "ASPERGER SYNDROME", "BANKS/ACCOUNTING", 
+                                   "CONSUMER PRICE INDEX", "DEBT/BANKPRUPT", "ENTERPRISE/COMPANY", 
+                                   "GOVERNMENT EXPENDITURE", "HEATING", "ICT", 
+                                   "TEEANAGERS HOUSING & LIFESTYLE",
+                                   "OFFENCES/SAFETY", "PREMATURE BABIES", "OUTDOOR ACTIVITIES"))
+lkup.group <- nodes %>% 
+              select(label, group) %>% 
+              filter(group %in% which(clusters$csize==2)) %>% 
+              group_by(group) %>% 
+              summarise(label=toString(label)) %>%
+              mutate(label=str_replace(label, ", ", "/")) %>% 
+              bind_rows(group.card.5) %>%
+              bind_rows(group.card.4) %>%
+              bind_rows(group.card.3) %>%
+              as.data.frame()
+```
+
+Which results in new categories after grouping:
+
+```{r}
+head(lkup.group)
+```
+
+## Grouping based on graph analytics - part 2
+
+Let's look for "tags communities" within the graph:
+
+```{r, fig.width=9.45}
+lkup.corrections.group <- nodes %>%
+                          select(id, group) %>%
+                          inner_join(lkup.group, by=c("group" = "group")) 
+
+edges <- coocurences %>%
+         left_join(lkup.corrections.group, by=c("from" = "id")) %>%
+         mutate(from=ifelse(is.na(label), from, label)) %>%
+         select(from, to, coocurrence) %>%
+         left_join(lkup.corrections.group, by=c("to" = "id")) %>%
+         mutate(to=ifelse(is.na(label), to, label)) %>%
+         select(from, to, coocurrence) %>%
+         filter(from!=to) %>% # grouping may create non existing edges
+         group_by(from, to) %>%
+         summarise(weight=sum(coocurrence))
+
+nodes <- data.frame(id=unique(c(edges$from, edges$to))) 
+
+nodes$label <- nodes$id
+
+ig <- graph_from_data_frame(edges, directed=F)
+
+clusters <- cluster_infomap(ig)
+
+nodes$group <- clusters$membership
+
+print(paste("total number of communities:", max(clusters$membership)))
+visNetwork(nodes, edges, main=list(text="Health related tags graph after first grouping", style="font-family:serif, Georgia, Times New Roman, Times;font-size:20px;text-align:left;color:darkblue;text-decoration:underline;"))
+```
+
+```{r, include=FALSE}
+make.sense <- c(6, 9, 10, 13, 17, 18, 20, 21, 22, 23, 24, 26, 27, 31, 35, 43, 44, 45, 46)
+```
+
+Some really make sense:
+
+```{r}
+paste(clusters[9][[1]], collapse=", ")
+paste(clusters[24][[1]], collapse=", ")
+paste(clusters[35][[1]], collapse=", ")
+paste(clusters[18][[1]], collapse=", ")
+paste(clusters[27][[1]], collapse=", ")
+```
+
+```{r, include=FALSE}
+# those are the non connected tags filtered with from!=to 
+singletons <- tags %>%
+              left_join(lkup.corrections, by=c("tag" = "old")) %>% 
+              select(tag, corrected=new) %>%
+              mutate(key=ifelse(is.na(corrected), tag, corrected)) %>%
+              left_join(lkup.corrections.group %>% select(id, group), by=c("key" = "id")) %>%
+              left_join(lkup.group %>% select(group, label), by=c("group" = "group")) %>% 
+              select(tag, corrected, grouped1=label) %>%
+              mutate(key=ifelse(is.na(grouped1), ifelse(is.na(corrected), tag, corrected), grouped1)) %>%
+              anti_join(nodes, by=c("key" = "id")) %>%
+              select(id=key) %>%
+              mutate(group=NA)
+
+nodes %>% 
+select(-label) %>% 
+bind_rows(singletons) %>% 
+write.csv(file="../../resources/lkup_before_manual_intervention.csv", row.names=FALSE)
+```
+
+## Final grouping
+
+Swith to excel here (don't tell anyone) to dive into each community to keep grouping tags. Final lookup table is here [lkup_after_manual_intervention.csv](file:///Users/quentint/dev/figure_nz_scrapping/resources/lkup_after_manual_intervention.csv).
+
+```{r, include=FALSE}
+lkup.manual <- read.csv("../../resources/lkup_after_manual_intervention.csv")
+lkup.final <- tags %>%
+              left_join(lkup.corrections, by=c("tag" = "old")) %>% 
+              select(tag, corrected=new) %>%
+              mutate(key=ifelse(is.na(corrected), tag, corrected)) %>%
+              left_join(lkup.corrections.group %>% select(id, group), by=c("key" = "id")) %>%
+              left_join(lkup.group %>% select(group, label), by=c("group" = "group")) %>% 
+              select(tag, corrected, grouped1=label) %>%
+              mutate(key=ifelse(is.na(grouped1), ifelse(is.na(corrected), tag, corrected), grouped1)) %>%
+              left_join(nodes %>% select(id, group), by=c("key" = "id")) %>%
+              mutate(key=stri_trans_general(key, "Latin-ASCII"),
+                     tag=stri_trans_general(tag, "Latin-ASCII")) %>% # remove accents
+              left_join(lkup.manual %>% select(id, new), by=c("key" = "id"))
+
+# final lookup table
+lkup.final %>% 
+filter(!is.na(new)) %>%
+write.csv(file="../../resources/lkup_final.csv", row.names=FALSE)
+```
+
+
+```{r, , include=FALSE, fig.width=9.3}
+edges <- coocurences %>%
+         mutate(from=stri_trans_general(from, "Latin-ASCII"), to=stri_trans_general(to, "Latin-ASCII")) %>%
+         left_join(lkup.final, by=c("from" = "tag")) %>%
+         mutate(from=ifelse(is.na(new), from, new)) %>%
+         select(from, to, coocurrence) %>%
+         left_join(lkup.final, by=c("to" = "tag")) %>%
+         mutate(to=ifelse(is.na(new), to, new)) %>%
+         select(from, to, coocurrence) %>%
+         filter(from!=to) %>% # grouping may create non existing edges
+         group_by(from, to) %>%
+         summarise(weight=sum(coocurrence))
+
+nodes <- data.frame(id=unique(c(edges$from, edges$to)))
+nodes$label <- nodes$id
+ig <- graph_from_data_frame(edges, directed=F)
+clusters <- cluster_infomap(ig)
+print(paste("total number of communities:", max(clusters$membership)))
+nodes$group <- clusters$membership
+visNetwork(nodes, edges, width=1000, height=1000, main=list(text="Health related tags graph after second grouping", style="font-family:serif, Georgia, Times New Roman, Times;font-size:20px;text-align:left;color:darkblue;text-decoration:underline;")) %>% visPhysics(maxVelocity=1) %>% visSave(file="network.html")
+```
+
+```{r, fig.width=9.45}
+print(paste("final number of tags:", nrow(lkup.final %>% filter(!is.na(new)) %>% select(new) %>% unique())))
+
+nodes$value <- betweenness(ig)
+
+nodes$degree <- degree(ig)
+
+lkup.final %>% 
+group_by(new) %>%
+summarize(tags=n()) %>%
+inner_join(nodes, by=c("new" = "id")) %>% 
+select(tag=new, tags, value, degree, group) %>%
+plot_ly(x=~degree, y=~value, size=~10*sqrt(tags),
+        type='scatter', mode='markers', sizes=c(1, 60),
+        marker=list(symbol='circle', sizemode='diameter', line=list(width=2, color='#FFFFFF')),
+        text=~paste(tag, ':  #', tags, ' tags'),
+        hoverinfo='text') %>%
+layout(title='Tags profiles in the final graph',
+       xaxis=list(title='degree',
+                  gridcolor='rgb(255, 255, 255)',
+                  type='log',
+                  zerolinewidth = 1,
+                  ticklen = 5,
+                  gridwidth = 2),
+       yaxis=list(title='betweeness',
+                  gridcolor = 'rgb(255, 255, 255)',
+                  type='log',
+                  zerolinewidth = 1,
+                  ticklen = 5,
+                  gridwith = 2),
+      paper_bgcolor = 'rgb(243, 243, 243)',
+      plot_bgcolor = 'rgb(243, 243, 243)')
+```
+

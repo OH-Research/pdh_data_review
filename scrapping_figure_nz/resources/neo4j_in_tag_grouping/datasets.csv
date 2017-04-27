@@ -1,0 +1,95 @@
+datasetId:ID(Dataset),name,:LABEL
+-1132785123057631723,Business Demography Statistics: Enterprises by industry 2000–2015,Dataset
+-1232119768194337300,Tertiary Education: Research Financing 2015,Dataset
+-1353249347057120948,Business Demography Statistics: Enterprises by business type and industry 2000–2015,Dataset
+-1891394159602508268,"National Accounts (Income and Expenditure): GDP breakdown, Year Ended March 2016",Dataset
+-2635366891801504265,dataset,Dataset
+-2737544964879564785,National Immunisation Register: Immunisation coverage data 12-month reporting period June 2016,Dataset
+-2910120658650679584,Fiscal Time Series: Core Crown Expense Tables 2000–2015,Dataset
+-3022100069395520555,"Selected Cancers 2011, 2012 & 2013",Dataset
+-3202894526025193693,Business Operations Survey 2015,Dataset
+-3473370710970906343,LEED: Measures by industry (based on ANZSIC06) and region 1999–2014,Dataset
+-3575371652139591736,OECD - Child Well-Being 2009,Dataset
+-3842814226047291383,OECD - Main Science and Technology Indicators 2000–2015,Dataset
+-398408837062815254,National Minimum Dataset: Publicly Funded Hospital Discharges - Pivot table by DHB 2013/2014,Dataset
+-4089103065066544673,OECD - Better Life Index: Edition 2015,Dataset
+-4133214440369720792,New Zealand Health Survey: Adult health conditions 2014/15,Dataset
+-4150989164290838002,Cancer Historical Summary 1948-2011,Dataset
+-4192444646902302315,Measuring New Zealand's Progress Using a Sustainable Development Approach 2008,Dataset
+-421430744528349978,Fiscal Time Series: Historical Fiscal Indicators 1972–2016,Dataset
+-4347735615974131738,Energy Use Survey: Energy use type by Industry in Terajoules (Annual-May) 2008–2016,Dataset
+-5051937937624954514,Energy Use Survey: End use of petrol and diesel by Industry in Terajoules (Annual-May) 2008–2016,Dataset
+-5483377117679920259,Auckland Business Monitor: Survey Results for waves 1 to 3,Dataset
+-562261926657337777,Regional Gross Domestic Product: By region and industry (Annual-Mar) 2000–2015,Dataset
+-5736586772478323508,Privately Funded Hospital Discharges 2011/2012,Dataset
+-5947923588193297912,National Minimum Dataset: Publicly Funded Hospital Discharges - Pivot table by age and ethnic group 2013/2014,Dataset
+-5982452580813464525,"Census: Incomes by qualification, study participation, age and industry 2013",Dataset
+-6201487102963238516,"National Accounts (Income and Expenditure): Household consumption expenditure, Year Ended March 2016",Dataset
+-6390481840003199895,Consumers Price Index: CPI Level 3 Classes for New Zealand (Qrtly-Mar/Jun/Sep/Dec) December 2016,Dataset
+-6612813662071346519,LEED: Measures by age and industry (based on ANZSIC06) 1999–2014,Dataset
+-6806743988723921837,Insolvency and Liquidations: ITS Statistical Data Report 2014–2015,Dataset
+-7006768184156439617,Energy Use Survey: Priority ratings of energy management by Industry (Annual-May) 2009–2016,Dataset
+-708603054086510519,New Zealand Health Survey: 2011-14 results for children for all 20 DHBs,Dataset
+-7096675309041027673,"Producers Price Index: Published input commodities, Base Dec 2009 (Quarterly) September 2016",Dataset
+-7263619578306871590,Mortality Collection: 2013 online tables,Dataset
+-7304603707053874151,New Zealand Health Survey: Adult health status - behaviours and risk factors 2014/15,Dataset
+-7393739475437639575,Household Use of Information and Communication Technology: Summary tables 2012,Dataset
+-7395922433085369503,New Zealand Disability Survey 2013,Dataset
+-7689963954184075057,Labour Market Statistics 1986–2015,Dataset
+-8000780847208692919,Tertiary Education: Participation - Provider-based Enrolments Field of Study 2015,Dataset
+-8699818270189531705,Business Demography Statistics: Enterprises by employee count size and industry 2000–2015,Dataset
+-8779557081243720706,Migration Trends and Outlook: Temporary visa holders 2015/16,Dataset
+-901051835541241530,Fiscal Time Series: Historical Fiscal Indicators (per capita) 1972–2016,Dataset
+-9122425995786895946,Environmental Reporting: Notified cases of salmonellosis 1997–2013,Dataset
+-938542730430433150,Business Operations Survey: Module B ICT 2008–2014,Dataset
+-969922834853916546,National Minimum Dataset: Publicly Funded Hospital Discharges - Pivot table by age and sex 2013/2014,Dataset
+-973060323092361631,Environmental Reporting: Melanoma rates 1996–2013,Dataset
+1105825195844649585,Census: Detailed Occupation by Sex and Region (absolute values and rates per 1000) 2013,Dataset
+114810458370053513,Figure.NZ: Mortality and publicly funded hospital discharges for infectious diseases 2013/2014,Dataset
+1369385689282277240,New Zealand Health Survey: Private Health Insurance Coverage 2011–2015,Dataset
+1660170972893207865,Regional Tourism Estimates: Key pivot table 2009–2015,Dataset
+1761719096265697495,Energy Use Survey: Area of greatest energy savings by Industry (Annual-May) 2009–2016,Dataset
+1784903731736985307,Recorded Crime: Apprehensions for the latest 24 Calendar Months (Monthly) 2013–2014,Dataset
+1819061892284154668,Census: Detailed Occupation by Sex and Region 2013 (d),Dataset
+1848600394516291596,Environmental Reporting: Influenza hospital discharges 2000–2013,Dataset
+1873721639718728715,Business Demography Statistics: Survival rates of enterprise births by industry 2006–2015,Dataset
+2148784683779555082,Census: Meshblock Dataset - Individual Part 2 (absolute values) 2013,Dataset
+251501645078043729,Research and Development Survey: 2014 Supplementary tables (formatted),Dataset
+259256524057688625,New Zealand Progress Indicators Tupuranga Aotearoa: Health expectancy to 2006,Dataset
+279339960679242853,Farm Expense Price Index: Expense categories 1983–2016,Dataset
+2836900474646173242,Report on Maternity 2014,Dataset
+3025188011405291355,LEED: Measures by industry (based on ANZSIC06) and firm size 1999–2014,Dataset
+3118682089358405668,Building Consents Issued: By region (Quarterly) 1965–2016,Dataset
+3609208336980149623,Census: Meshblock Dataset - Individual Part 3a (absolute values) 2013,Dataset
+3932090072999003724,Energy Use Survey: Energy management initiatives by Industry (Annual-May) 2009–2016,Dataset
+398229607126058338,LEED: Measures by industry (based on ANZSIC06) 1999–2014,Dataset
+4106405371816993750,New Zealand Health Survey: Child health status and behaviours 2014/15,Dataset
+4484233428650780561,"Producers Price Index: Published output commodities, Base Dec 2009 (Quarterly) September 2016",Dataset
+473102551950031487,Census: Qualifications by occupation by industry 2013,Dataset
+4798537976323251634,Short-term Employment Forecasts: 2016-2019 - November 2016,Dataset
+4870414409729488902,Local Authority Election Statistics 2013,Dataset
+4877046850297357290,Value of Building Work Put In Place: September 2016 quarter,Dataset
+4974884509006058656,LEED: Measures by sex and industry (based on ANZSIC06) 1999–2014,Dataset
+5187555416844014974,Business Demography Statistics: Geographic units births and deaths by area and industry 2001–2015,Dataset
+5350126886781114753,Mental Health and Addiction: Service use 2011/12,Dataset
+5688756253796078857,"New Zealand Health Survey: Child health service use, unmet need and oral health 2014/15",Dataset
+5818741480816383168,"National Accounts (Income and Expenditure): Agriculture, Year Ended March 2016",Dataset
+6070980804916985722,Energy Use Survey: Amount of petrol and diesel purchased by Industry in Terajoules (Annual-May) 2009–2016,Dataset
+6184434465108631252,Tertiary Education: Financial Resources 2016,Dataset
+6393814470996048080,Business Demography Statistics: Enterprises by overseas equity and industry 2000–2015,Dataset
+6520735183918073395,Business Demography Statistics: Geographic units by region and industry 2015 (with percentages),Dataset
+6557692897758135910,"Recorded Crime: Criminal offences by type (Division & Subdivision), scene and district 1994-2014",Dataset
+660911223354728576,Recorded Crime: Apprehensions for the latest Calendar Years (Annual) 1994–2014,Dataset
+6774268568231014473,Suicide Facts: Deaths and intentional self-harm hospitalisations 2012,Dataset
+6829654237665780929,"Producers Price Index: Inputs NZSIOC level 4, Base Dec 2010 quarter (Quarterly) September 2016",Dataset
+69007263113228263,"Household Economic Survey: Expenditure Statistics, Year ended June 2016",Dataset
+7090775448779333873,Productivity Statistics: Industry-Level Statistics 1978–2015,Dataset
+7922723840089689008,"New Zealand Health Survey: Adult health service use, unmet need and oral health 2014/15",Dataset
+8089668695929246380,New Zealand Health Survey: Child health conditions 2014/15,Dataset
+8192060807369442341,"LEED: Main earnings source, by industry 2000–2014",Dataset
+8367887672799876755,Business Operations Survey: Detailed tables 2013,Dataset
+8587595379829116780,Environmental Reporting: Air Domain Report 2014,Dataset
+8784021600408280173,Environmental Reporting: Influenza hospital discharges by week 2013,Dataset
+8791588819857446933,Tertiary Education: Research Performance 2015,Dataset
+8819082755797007722,Tatauranga Umanga Maori 2015,Dataset
+9026141901840910253,Energy Statistics: Coal 1990–2015,Dataset

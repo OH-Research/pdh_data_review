@@ -1,0 +1,413 @@
+tagId:ID(Tag),name,:LABEL
+ACC,ACC,Tag
+ADD,ADD,Tag
+ADHD,ADHD,Tag
+Accessions,Accessions,Tag
+Accounting,Accounting,Tag
+Addiction,Addiction,Tag
+After Hours,After Hours,Tag
+After-Hours,After-Hours,Tag
+Age,Age,Tag
+Aging,Aging,Tag
+Agriculture,Agriculture,Tag
+Air,Air,Tag
+Alcohol,Alcohol,Tag
+Ambulance Paramedic,Ambulance Paramedic,Tag
+Anxiety,Anxiety,Tag
+Apprehensions,Apprehensions,Tag
+Arthritis,Arthritis,Tag
+Asperger Syndrome,Asperger Syndrome,Tag
+Asthma,Asthma,Tag
+Auckland Business Monitor,Auckland Business Monitor,Tag
+Auckland,Auckland,Tag
+Audiologist,Audiologist,Tag
+Autism Spectrum Disorder,Autism Spectrum Disorder,Tag
+Autism,Autism,Tag
+BPI,BPI,Tag
+Babies,Babies,Tag
+Bankrupt,Bankrupt,Tag
+Banks,Banks,Tag
+Behaviour,Behaviour,Tag
+Beverages,Beverages,Tag
+Biomedical Engineer,Biomedical Engineer,Tag
+Bipolar,Bipolar,Tag
+Birth,Birth,Tag
+Blood Pressure,Blood Pressure,Tag
+Brain,Brain,Tag
+Breakfast,Breakfast,Tag
+Broadband,Broadband,Tag
+Building,Building,Tag
+Business Operations,Business Operations,Tag
+Business Price Index,Business Price Index,Tag
+Business Size,Business Size,Tag
+Business,Business,Tag
+CPI,CPI,Tag
+Cancer,Cancer,Tag
+Car,Car,Tag
+Cardiac Technician,Cardiac Technician,Tag
+Cardiologist,Cardiologist,Tag
+Census,Census,Tag
+Central Government,Central Government,Tag
+Chemist,Chemist,Tag
+Child Health,Child Health,Tag
+Child Poverty,Child Poverty,Tag
+Child Welfare,Child Welfare,Tag
+Childbirth,Childbirth,Tag
+Childcare,Childcare,Tag
+Children,Children,Tag
+Chinese,Chinese,Tag
+Chiropractor,Chiropractor,Tag
+Cholesterol,Cholesterol,Tag
+Christchurch,Christchurch,Tag
+Cigarettes,Cigarettes,Tag
+Cities,Cities,Tag
+City Council,City Council,Tag
+Climate,Climate,Tag
+Clinical Haematologist,Clinical Haematologist,Tag
+Clinical Psychologist,Clinical Psychologist,Tag
+Coal,Coal,Tag
+Community,Community,Tag
+Company,Company,Tag
+Conservation,Conservation,Tag
+Construction,Construction,Tag
+Consumer,Consumer,Tag
+Cost,Cost,Tag
+Costs,Costs,Tag
+Council,Council,Tag
+Coverage,Coverage,Tag
+Crime,Crime,Tag
+Crops,Crops,Tag
+Crown,Crown,Tag
+Cyber-Security,Cyber-Security,Tag
+Cycling,Cycling,Tag
+DHB,DHB,Tag
+DHBs,DHBs,Tag
+Death,Death,Tag
+Deaths,Deaths,Tag
+Debt,Debt,Tag
+Decay,Decay,Tag
+Dental Assistant,Dental Assistant,Tag
+Dental Hygienist,Dental Hygienist,Tag
+Dental Nurse,Dental Nurse,Tag
+Dentist,Dentist,Tag
+Depression,Depression,Tag
+Deprivation Quintile,Deprivation Quintile,Tag
+Deprivation,Deprivation,Tag
+Dermatologist,Dermatologist,Tag
+Diabetes,Diabetes,Tag
+Diagnostic and Interventional Radiologist,Diagnostic and Interventional Radiologist,Tag
+Diet,Diet,Tag
+Dietitian,Dietitian,Tag
+Disability,Disability,Tag
+Discharges,Discharges,Tag
+Disease,Disease,Tag
+Diseases,Diseases,Tag
+District Council,District Council,Tag
+District Health Board,District Health Board,Tag
+Doctor,Doctor,Tag
+Doctorate,Doctorate,Tag
+Doctors,Doctors,Tag
+Drinking,Drinking,Tag
+Dunedin,Dunedin,Tag
+E-Commerce,E-Commerce,Tag
+Earnings,Earnings,Tag
+Eating,Eating,Tag
+Economy,Economy,Tag
+Eczema,Eczema,Tag
+Education,Education,Tag
+Elderly,Elderly,Tag
+Elections,Elections,Tag
+Electricity,Electricity,Tag
+Emergency Medicine Specialist,Emergency Medicine Specialist,Tag
+Emergency Service Worker,Emergency Service Worker,Tag
+Emergency,Emergency,Tag
+Emissions,Emissions,Tag
+Employee,Employee,Tag
+Employees,Employees,Tag
+Employment,Employment,Tag
+Energy Transformation,Energy Transformation,Tag
+Energy,Energy,Tag
+Enrolled Nurse,Enrolled Nurse,Tag
+Enterprise,Enterprise,Tag
+Entertainment,Entertainment,Tag
+Environment,Environment,Tag
+Environmental Health Officer,Environmental Health Officer,Tag
+Ethnicity,Ethnicity,Tag
+Exercise,Exercise,Tag
+Expenditure,Expenditure,Tag
+Expenses,Expenses,Tag
+Export,Export,Tag
+Failure,Failure,Tag
+Family,Family,Tag
+Farming,Farming,Tag
+Fast Food,Fast Food,Tag
+Field,Field,Tag
+Final Consumption Expenditure,Final Consumption Expenditure,Tag
+Finance,Finance,Tag
+Firm Size,Firm Size,Tag
+Fitness,Fitness,Tag
+Fizzy Drink,Fizzy Drink,Tag
+Flu,Flu,Tag
+Food,Food,Tag
+Forecast,Forecast,Tag
+Foreign Investment,Foreign Investment,Tag
+Fruit,Fruit,Tag
+Fuel,Fuel,Tag
+GDP,GDP,Tag
+GP,GP,Tag
+General Medical Practitioner,General Medical Practitioner,Tag
+Goods,Goods,Tag
+Gout,Gout,Tag
+Government,Government,Tag
+Growth,Growth,Tag
+Hamilton,Hamilton,Tag
+Health & Safety,Health & Safety,Tag
+Health Information Manager,Health Information Manager,Tag
+Health Practice Manager,Health Practice Manager,Tag
+Health Promotion Officer,Health Promotion Officer,Tag
+Health,Health,Tag
+Healthcare,Healthcare,Tag
+Healthy Eating,Healthy Eating,Tag
+Hearing,Hearing,Tag
+Heart,Heart,Tag
+Heating,Heating,Tag
+Height,Height,Tag
+Horticulture,Horticulture,Tag
+Hospital Orderly,Hospital Orderly,Tag
+Hospital Pharmacist,Hospital Pharmacist,Tag
+Hospital,Hospital,Tag
+Hospitalisations,Hospitalisations,Tag
+Hospitals,Hospitals,Tag
+Household,Household,Tag
+Households,Households,Tag
+Housing,Housing,Tag
+ICT,ICT,Tag
+Illness,Illness,Tag
+Immigration,Immigration,Tag
+Immunisation,Immunisation,Tag
+Immunised,Immunised,Tag
+Impairment,Impairment,Tag
+Income,Income,Tag
+Industry,Industry,Tag
+Inflation,Inflation,Tag
+Influenza,Influenza,Tag
+Inhaler,Inhaler,Tag
+Injury,Injury,Tag
+Innovation,Innovation,Tag
+Inpatient,Inpatient,Tag
+Insolvency,Insolvency,Tag
+Insurance,Insurance,Tag
+Intensive Care Specialist,Intensive Care Specialist,Tag
+International,International,Tag
+Internet,Internet,Tag
+Interventions,Interventions,Tag
+Job,Job,Tag
+Jobs,Jobs,Tag
+Joint Venture,Joint Venture,Tag
+Justice,Justice,Tag
+Kaiāwhina Hauora,Kaiāwhina Hauora,Tag
+Leukaemia,Leukaemia,Tag
+Lifestyle,Lifestyle,Tag
+Living Cost,Living Cost,Tag
+Long-term User,Long-term User,Tag
+Management,Management,Tag
+Manic Depression,Manic Depression,Tag
+Manufacturing,Manufacturing,Tag
+Maori,Maori,Tag
+Market,Market,Tag
+Marketing,Marketing,Tag
+Massage Therapist,Massage Therapist,Tag
+Maternity,Maternity,Tag
+Mayor,Mayor,Tag
+Media,Media,Tag
+Medical Centre,Medical Centre,Tag
+Medical Diagnostic Radiographer,Medical Diagnostic Radiographer,Tag
+Medical Laboratory Scientist,Medical Laboratory Scientist,Tag
+Medical Laboratory Technician,Medical Laboratory Technician,Tag
+Medical Oncologist,Medical Oncologist,Tag
+Medical Radiation Therapist,Medical Radiation Therapist,Tag
+Medical Receptionist,Medical Receptionist,Tag
+Medical Superintendent,Medical Superintendent,Tag
+Medical,Medical,Tag
+Medication,Medication,Tag
+Medications,Medications,Tag
+Medicine,Medicine,Tag
+Melanoma,Melanoma,Tag
+Mental Health,Mental Health,Tag
+Microbiologist,Microbiologist,Tag
+Midwife,Midwife,Tag
+Migrants,Migrants,Tag
+Migration,Migration,Tag
+Money,Money,Tag
+Morbidity,Morbidity,Tag
+Mortality,Mortality,Tag
+Mother,Mother,Tag
+Mothercraft Nurse,Mothercraft Nurse,Tag
+Māori Authorities,Māori Authorities,Tag
+Māori,Māori,Tag
+NGO,NGO,Tag
+National Accounts,National Accounts,Tag
+Native forests,Native forests,Tag
+Natural Remedy Consultant,Natural Remedy Consultant,Tag
+Naturopath,Naturopath,Tag
+Neurodivergent,Neurodivergent,Tag
+Nurse Educator,Nurse Educator,Tag
+Nurse Manager,Nurse Manager,Tag
+Nurse Practitioner,Nurse Practitioner,Tag
+Nurse Researcher,Nurse Researcher,Tag
+Nurse,Nurse,Tag
+Nursing Clinical Director,Nursing Clinical Director,Tag
+Nursing Support Worker,Nursing Support Worker,Tag
+Nutrition,Nutrition,Tag
+OECD,OECD,Tag
+Obesity,Obesity,Tag
+Obstetrician and Gynaecologist,Obstetrician and Gynaecologist,Tag
+Occupation,Occupation,Tag
+Occupational Health and Safety Adviser,Occupational Health and Safety Adviser,Tag
+Occupations,Occupations,Tag
+Offences,Offences,Tag
+Online,Online,Tag
+Operating Theatre Technician,Operating Theatre Technician,Tag
+Operations,Operations,Tag
+Oral Health,Oral Health,Tag
+Organisation,Organisation,Tag
+Orthopaedic Surgeon,Orthopaedic Surgeon,Tag
+Osteoarthritis,Osteoarthritis,Tag
+Otorhinolaryngologist,Otorhinolaryngologist,Tag
+Ownership,Ownership,Tag
+Ozone,Ozone,Tag
+PM10,PM10,Tag
+PPI,PPI,Tag
+PTEs,PTEs,Tag
+Paediatrician,Paediatrician,Tag
+Pain,Pain,Tag
+Parenting,Parenting,Tag
+Parents,Parents,Tag
+Partnership,Partnership,Tag
+Pastures,Pastures,Tag
+Pathologist,Pathologist,Tag
+Patients,Patients,Tag
+Pay,Pay,Tag
+People,People,Tag
+Petrol,Petrol,Tag
+PhD,PhD,Tag
+Pharmaceutical,Pharmaceutical,Tag
+Pharmacy Technician,Pharmacy Technician,Tag
+Pharmacy,Pharmacy,Tag
+Phlebotomist,Phlebotomist,Tag
+Physiotherapist,Physiotherapist,Tag
+Plastic and Reconstructive Surgeon,Plastic and Reconstructive Surgeon,Tag
+Poisoning,Poisoning,Tag
+Police,Police,Tag
+Pollution,Pollution,Tag
+Polytechnics,Polytechnics,Tag
+Poverty,Poverty,Tag
+Premature,Premature,Tag
+Prescription,Prescription,Tag
+Prescriptions,Prescriptions,Tag
+Preterm,Preterm,Tag
+Prices,Prices,Tag
+Primary Care,Primary Care,Tag
+Primary Health Care,Primary Health Care,Tag
+Primary Healthcare,Primary Healthcare,Tag
+Private Hospital,Private Hospital,Tag
+Private,Private,Tag
+Producers Price Index,Producers Price Index,Tag
+Product,Product,Tag
+Productivity,Productivity,Tag
+Projections,Projections,Tag
+Psychiatrist,Psychiatrist,Tag
+Psychotherapist,Psychotherapist,Tag
+Public,Public,Tag
+Punishment,Punishment,Tag
+Qualification,Qualification,Tag
+Quality Of Life,Quality Of Life,Tag
+Quality of Life,Quality of Life,Tag
+R&D,R&D,Tag
+Referral,Referral,Tag
+Regional Council,Regional Council,Tag
+Registered Nurse,Registered Nurse,Tag
+Research,Research,Tag
+Resident Medical Officer,Resident Medical Officer,Tag
+Respiratory,Respiratory,Tag
+Retail Pharmacist,Retail Pharmacist,Tag
+Rheumatoid Arthritis,Rheumatoid Arthritis,Tag
+Safety,Safety,Tag
+Sales Representative,Sales Representative,Tag
+Salmonellosis,Salmonellosis,Tag
+Saving,Saving,Tag
+Science,Science,Tag
+Seasonality,Seasonality,Tag
+Seclusion,Seclusion,Tag
+Self-harm,Self-harm,Tag
+Self-rated,Self-rated,Tag
+Separations,Separations,Tag
+Services,Services,Tag
+Sickness,Sickness,Tag
+Skating,Skating,Tag
+Skin,Skin,Tag
+Small Business,Small Business,Tag
+Smoking,Smoking,Tag
+Social,Social,Tag
+Society,Society,Tag
+Soda,Soda,Tag
+Soil,Soil,Tag
+Solids,Solids,Tag
+Sonographer,Sonographer,Tag
+Specialist Physician,Specialist Physician,Tag
+Spending,Spending,Tag
+Sport,Sport,Tag
+Sports,Sports,Tag
+Staff,Staff,Tag
+Staffing,Staffing,Tag
+Startup,Startup,Tag
+Stomach,Stomach,Tag
+Stroke,Stroke,Tag
+Students,Students,Tag
+Study,Study,Tag
+Success,Success,Tag
+Suicide,Suicide,Tag
+Sun,Sun,Tag
+Support,Support,Tag
+Surgeon,Surgeon,Tag
+Surgery,Surgery,Tag
+Survival,Survival,Tag
+TV,TV,Tag
+Takeaways,Takeaways,Tag
+Technology,Technology,Tag
+Teenagers,Teenagers,Tag
+Teeth,Teeth,Tag
+Telecommunications,Telecommunications,Tag
+Television,Television,Tag
+Territorial Authority,Territorial Authority,Tag
+Third Age,Third Age,Tag
+Tooth,Tooth,Tag
+Transport,Transport,Tag
+Travel,Travel,Tag
+Treasury,Treasury,Tag
+Trust,Trust,Tag
+Turnout,Turnout,Tag
+University,University,Tag
+Unmet Need,Unmet Need,Tag
+Urgent Care,Urgent Care,Tag
+Use,Use,Tag
+Uterus,Uterus,Tag
+Vacancies,Vacancies,Tag
+Vaccine,Vaccine,Tag
+Vegetables,Vegetables,Tag
+Violence,Violence,Tag
+Visa,Visa,Tag
+Visit,Visit,Tag
+Voting,Voting,Tag
+Walking,Walking,Tag
+Wananga,Wananga,Tag
+Weaning,Weaning,Tag
+Weight Loss Consultant,Weight Loss Consultant,Tag
+Weight,Weight,Tag
+Wellington,Wellington,Tag
+Women,Women,Tag
+Wood,Wood,Tag
+Work,Work,Tag
+Workers,Workers,Tag
+Youth,Youth,Tag
+tags,tags,Tag
