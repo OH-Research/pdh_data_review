@@ -60,7 +60,7 @@ exclude_from_search: true
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="//listjs.com/assets/javascripts/list.min.js"></script>
+<script src="assets/list.min.js"></script>
 <script src="assets/multiple-select.js"></script>
 
 <script>
