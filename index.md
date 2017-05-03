@@ -1,7 +1,7 @@
 ---
 layout: default
 multiple_select_active: true
-tipue_search_active: false # manually added at the end
+tipue_search_active: false # must add it manually at the end (conflict with the rest of js in this page?)
 exclude_from_search: true
 --- 
 
@@ -84,6 +84,7 @@ $(document).ready(function() {
   $('#tipue_search_input').tipuesearch();
 });
 </script>
+
 
 <script>
 // define the dropdown multiselect controls
