@@ -2,7 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+tipue_search_active: true
+exclude_from_search: true
 ---
+
+<div id="tipue_search_content"></div>
 
 This website aims to review available health datasets (with a focus on New Zealand) to help researchers. 
 

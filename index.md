@@ -18,15 +18,26 @@ exclude_from_search: true
 
 -->
 
-
 <div id="datasets">
 
 <table>
+  <!-- header row, need to be out of the tbody tag -->
+   <tr align="left" height="30"> 
+    <td width="50%"> 
+       <u>Dataset name</u>    
+    </td> 
+    <td width="25%"> 
+        <u>Dataset provider</u>
+    </td>
+    <td width="25%"> 
+       <u>Dataset topics</u>
+    </td>
+    </tr>
    <!-- sorting/filtering control row, need to be out of the tbody tag -->
     <tr> 
     <td width="50%"> 
        <button class="sort" data-sort="name">sort</button>
-       <input class="search-name" placeholder="search" />     
+       <input class="search-name" placeholder="Filter by name" />     
     </td> 
     <td width="25%"> 
          <button class="sort" data-sort="provider">sort</button>
@@ -49,8 +60,8 @@ exclude_from_search: true
   	{% for post in site.posts %}
     <tr>
     	<td width="50%" class="name"><a class="post-link" href="{{ post.url | relative_url }}"><font size="2">{{ post.title | truncate: 80 }}</font></a></td>
-        <td width="25%" class="provider"><font size="2">{{ post.provider }}</font></td>
-        <td width="25%" class="tags">{% for tag in post.tags %}<a class="tag-link" href="{{ site.url }}/pdh_data_review/topics/#{{ tag }}">#{{ tag }}</a> {% endfor %}</td> 
+        <td width="25%" class="provider" value="{{ post.provider }}"><a class="tag-link" href="#" onclick='providerFiltering("{{ post.provider }}");return false;'><font size="2">{{ post.provider }}</font></a></td>
+        <td width="25%" class="tags">{% for tag in post.tags %}<a class="tag-link" href="#" onclick='topicFiltering("{{ tag }}");return false;'>#{{ tag }}</a> {% endfor %}</td> 
     </tr>
     {% endfor %}
 
@@ -63,24 +74,27 @@ exclude_from_search: true
 <script src="assets/list.min.js"></script>
 <script src="assets/multiple-select.js"></script>
 
-<script>
+<script src="assets/tipuesearch/tipuesearch_content.js"></script>
+<link rel="stylesheet" href="assets/tipuesearch/css/tipuesearch.css">
+<script src="assets/tipuesearch/tipuesearch_set.js"></script>
+<script src="assets/tipuesearch/tipuesearch.min.js"></script>
 
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
+
+<script>
+$('#tipue_search_input').tipuesearch();
 // define the dropdown multiselect controls
 $('#filter-tag').multipleSelect({name: 'tag', 
-                                 filter: true,
-                                 onClose: function() { // update providers selection when close (mimic excel behavior)
-                                         var provider_list = datasetList.matchingItems.map(function(a) {return a._values['provider'].match(/>(.*?)</)[1];});
-                                         $('#filter-provider').multipleSelect('setSelects', provider_list);
-                                }});
+                                 filter: true}                                
+                                );
 
 $('#filter-provider').multipleSelect({name: 'provider',
-                                     filter: true,
-                                      onClose: function() { // update tags selection when close (mimic excel behavior)
-                                            var tag_list = datasetList.matchingItems.map(function(a) {return a._values['tags'].match(/>#(.*?)</g);}); // extract >#tag<
-                                            tag_list = [].concat.apply([], tag_list).map(function(a) {return a.match(/[a-zA-Z|\-|\.]+/g);}); // extract tag
-                                            tag_list = [].concat.apply([], tag_list); // build the array
-                                            $('#filter-tag').multipleSelect('setSelects', tag_list);
-                                }});
+                                     filter: true}                             
+                                );
 
 // define the dynamic list
 var options = {
@@ -95,11 +109,11 @@ $('.search-name').on('keyup', function() {
   datasetList.search(searchString, ['name']);
 });
 
-// make sure that the filter matches provider and tag condition
+// make sure that the filter matches provider and tags condition
 function filterCondition(item) {
     var selection_provider = $('.filter-provider').val();
     var selection_tag = $('.filter-tag').val();
-    var provider = item.values().provider.match(/>(.*?)</)[1]; // because of the font tag we need a regex to extract the actual value
+    var provider = item.values().provider.match(/<font size="2">(.*?)<\/font>/i)[1]; // because of the font tag we need a regex to extract the actual value
     var tags = item.values().tags;
     return (selection_tag != null && 
             selection_provider != null && 
@@ -107,20 +121,59 @@ function filterCondition(item) {
             selection_tag.some(function(v) { return tags.indexOf(v) >= 0;}));
 }
 
+// helper to update the dataset list 
+function updateDatasetList() {
+    datasetList.filter(function(item) {
+        return filterCondition(item); 
+    });
+}
+
+// helper to refresh the provider filter control
+function refreshProviderFilter() {
+   var provider_list = datasetList.matchingItems.map(function(a) {return a._values['provider'].match(/<font size="2">(.*?)<\/font>/i)[1];});
+   $('#filter-provider').multipleSelect('setSelects', provider_list);
+}
+
+// helper to refresh the tags filter control
+function refreshTagFilter() {
+  var tag_list = datasetList.matchingItems.map(function(a) {return a._values['tags'].match(/>#(.*?)</g);}); // extract >#tag<
+  tag_list = [].concat.apply([], tag_list).map(function(a) {return a.match(/[a-zA-Z|\-|\.]+/g);}); // extract tag
+  tag_list = [].concat.apply([], tag_list); // build the array
+  $('#filter-tag').multipleSelect('setSelects', tag_list);
+}
+
+// make sure that the filter matches provider and tag condition
+function topicFiltering(topic) {
+    var selection_provider = $('.filter-provider').val();
+    $('#filter-tag').multipleSelect('setSelects', [topic]);
+    $('#filter-provider').multipleSelect('checkAll');
+    updateDatasetList();
+    refreshProviderFilter();
+}
+
+// make sure that the filter matches provider and tag condition
+function providerFiltering(provider) {
+    var selection_provider = $('.filter-provider').val();
+    $('#filter-provider').multipleSelect('setSelects', [provider]);
+    $('#filter-tag').multipleSelect('checkAll');
+    updateDatasetList();
+    refreshTagFilter();
+}
+
 // set up the filtering control on dataset providers - make sure that the filter matches provider and tag condition
 // we use the click event rather than change to make sure the user is actually using the control (not an update on a close event)
 $('.filter-provider').on('click', function () { 
-     datasetList.filter(function(item) {
-     	  return filterCondition(item); 
-    });
+     if($('.filter-provider').val() != null) {
+        updateDatasetList();
+    }
 });
 
 // set up the filtering control on dataset tags - make sure that the filter matches provider and tag condition
 // we use the click event rather than change to make sure the user is actually using the control (not an update on a close event)
 $('.filter-tag').on('click', function () { 
-     datasetList.filter(function(item) {
-        return filterCondition(item); 
-    });
+     if($('.filter-tag').val() != null) {
+      updateDatasetList();
+    }
 });
 
 

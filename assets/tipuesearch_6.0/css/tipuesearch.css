@@ -196,8 +196,8 @@ http://www.tipue.com/search
 
 .tipue_search_spinner
 {
-     width: 0px; /*50px;*/
-     height: 0px; /*28px;*/
+     width: 50px;
+     height: 28px;
 }
 .tipue_search_spinner > div
 {
