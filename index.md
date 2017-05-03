@@ -1,7 +1,7 @@
 ---
 layout: default
 multiple_select_active: true
-tipue_search_active: true
+tipue_search_active: false # manually added at the end
 exclude_from_search: true
 --- 
 
@@ -86,7 +86,6 @@ $(document).ready(function() {
 </script>
 
 <script>
-$('#tipue_search_input').tipuesearch();
 // define the dropdown multiselect controls
 $('#filter-tag').multipleSelect({name: 'tag', 
                                  filter: true}                                
