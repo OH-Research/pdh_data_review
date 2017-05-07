@@ -1,6 +1,7 @@
 ---
 categories: new-zealand public-health-and-research
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Monitoring and Performance of the HIV Antenatal '
 id: hiv_antenatal
 layout: post
 link: http://www.southerndhb.govt.nz/

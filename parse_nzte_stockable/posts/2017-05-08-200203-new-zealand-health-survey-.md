@@ -1,6 +1,8 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To measure health of New Zealand adults (includes Chatham Island sample,
+  institution sample)
 id: 200203_new_zealand_health_survey_
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey

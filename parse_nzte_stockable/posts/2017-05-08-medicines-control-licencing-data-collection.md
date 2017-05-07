@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Administration of the Misuse of Drugs Act 1975 and regulations and parts
+  of the Medicines Act 1981 and regulations
 id: medicines_control_licencing_data_collection
 layout: post
 link: http://www.health.govt.nz/our-work/regulation-health-and-disability-system/medicines-control

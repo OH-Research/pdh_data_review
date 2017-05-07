@@ -1,6 +1,7 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To measure nutrition intake of New Zealand adults
 id: 1997_national_nutrition_survey_
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/nutrition-survey

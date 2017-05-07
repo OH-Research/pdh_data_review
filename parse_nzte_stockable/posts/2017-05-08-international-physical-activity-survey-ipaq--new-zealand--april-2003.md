@@ -1,6 +1,7 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To collect information on physical activity levels
 id: international_physical_activity_survey_ipaq__new_zealand__april_2003
 layout: post
 link: http://www.health.govt.nz/

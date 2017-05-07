@@ -43,15 +43,16 @@ for row in stockable.iterrows():
       # add other information when available
       if not isinstance(line[description_header], float):
         template.content += '\n <h4> <u>Description:</u> </h4>' + '\n' + str(line[description_header])
+        template['description'] = str(line[description_header])
       template.content += '\n <h4> <u>Additional information:</u> </h4>' + '\n <table style="border: 1px solid">'
       if not isinstance(line[nhi_header], float):
         template.content += '\n <tr> <td width="40%">' + nhi_header + '</td> <td>' + str(line[nhi_header]) + '</td> </tr>'
       if not isinstance(line[phi_header], float):
-      	template.content += '\n <tr> <td width="40%">' + phi_header + '</td> <td>' + str(line[phi_header]) + '</td> </tr>'
+        template.content += '\n <tr> <td width="40%">' + phi_header + '</td> <td>' + str(line[phi_header]) + '</td> </tr>'
       if not isinstance(line[volume_header], float):
-      	template.content += '\n <tr> <td width="40%">' + volume_header + '</td> <td>' + str(line[volume_header]) + '</td> </tr>'
+        template.content += '\n <tr> <td width="40%">' + volume_header + '</td> <td>' + str(line[volume_header]) + '</td> </tr>'
       if not isinstance(line[access_header], float):
-      	template.content += '\n <tr> <td width="40%">' + access_header + '</td> <td>' + str(line[access_header]) + '</td> </tr>'
+        template.content += '\n <tr> <td width="40%">' + access_header + '</td> <td>' + str(line[access_header]) + '</td> </tr>'
       if not isinstance(line[scope_header], float):
         template.content += '\n <tr> <td width="40%">' + scope_header + '</td> <td>' + str(line[scope_header]) + '</td> </tr>'
       if not isinstance(line[content_header], float):

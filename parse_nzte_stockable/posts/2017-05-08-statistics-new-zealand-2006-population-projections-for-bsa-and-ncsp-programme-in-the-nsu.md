@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:48'
+date: '2017-05-08 09:07:52'
+description: This data is captured to measure coverage statistics in the NSU screening
+  progammes
 id: statistics_new_zealand_2006_population_projections_for_bsa_and_ncsp_programme_in_the_nsu
 layout: post
 link: http://www.health.govt.nz/

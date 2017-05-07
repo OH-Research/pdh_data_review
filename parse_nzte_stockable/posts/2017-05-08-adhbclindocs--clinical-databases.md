@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-ClinDocs \u2013 Clinical Databases"
 id: adhbclindocs__clinical_databases
 layout: post
 link: http://www.adhb.health.nz/

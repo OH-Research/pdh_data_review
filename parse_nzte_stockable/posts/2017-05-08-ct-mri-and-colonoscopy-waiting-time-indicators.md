@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Collection of information for Diagnostic Waiting Time indicators Programme
+  from 2012/13 onwards
 id: ct_mri_and_colonoscopy_waiting_time_indicators
 layout: post
 link: http://www.health.govt.nz/

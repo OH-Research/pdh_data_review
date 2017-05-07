@@ -1,6 +1,12 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: The National Maternity Collection (MAT) provides statistical, demographic
+  and clinical information about selected publicly funded maternity services up to
+  nine months before and three months after a birth. MAT contains data on primary
+  maternity services; inpatient and day-patient health event data during pregnancy,
+  birth and the postnatal period for mother and baby, sourced from the National Minimum
+  Dataset (NMDS).
 id: national_maternity_collection
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-maternity-collection

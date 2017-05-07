@@ -1,6 +1,8 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-Departmental Systems \u2013 Variety of systems often for Clinical
+  Audit"
 id: adhbdepartmental_systems__variety_of_systems_often_for_clinical_audit
 layout: post
 link: http://www.adhb.health.nz/

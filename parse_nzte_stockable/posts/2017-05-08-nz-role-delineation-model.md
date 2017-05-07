@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:48'
+date: '2017-05-08 09:07:52'
+description: To establish a hierarchy of services within hospital facilities.
 id: nz_role_delineation_model
 layout: post
 link: http://www.health.govt.nz/

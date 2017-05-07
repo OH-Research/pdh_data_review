@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:48'
+date: '2017-05-08 09:07:52'
+description: For long term monitoring of clinical indicators of oral health status
 id: dmft_for_age_5_and_year_8_children
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/oral-health-data-and-stats/age-5-and-year-8-oral-health-data-community-oral-health-service

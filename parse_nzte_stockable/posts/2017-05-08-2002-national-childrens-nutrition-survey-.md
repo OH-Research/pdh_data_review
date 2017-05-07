@@ -1,6 +1,7 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "To collect information on children\u2019s nutrition"
 id: 2002_national_childrens_nutrition_survey_
 layout: post
 link: http://www.health.govt.nz/publication/nz-food-nz-children

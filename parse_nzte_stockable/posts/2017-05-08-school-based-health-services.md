@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:48'
+date: '2017-05-08 09:07:52'
+description: To monitor delivery and uptake of the service components
 id: school_based_health_services
 layout: post
 link: http://www.health.govt.nz/

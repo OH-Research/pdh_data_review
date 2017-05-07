@@ -1,6 +1,13 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "The National Health Index number (NHI number) is a unique number that
+  is assigned to each person using health and disability support services. The NHI
+  is an index of information associated with that unique number. \nThe NHI holds the
+  following information: name (including alternative names such as maiden names),
+  NHI number, address, date of birth, sex, New Zealand resident status, ethnicity;
+  date of death, and flags indicating any medical warnings or donor information. Clinical
+  information is not recorded on the NHI."
 id: national_health_index
 layout: post
 link: http://www.health.govt.nz/our-work/health-identity/national-health-index

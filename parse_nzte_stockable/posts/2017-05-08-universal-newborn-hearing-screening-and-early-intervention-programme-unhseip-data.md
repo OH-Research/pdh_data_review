@@ -1,6 +1,8 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Production of Universal NewBorn Hearing Screening and Early Intervention
+  Programme (UNHSEIP) Register
 id: universal_newborn_hearing_screening_and_early_intervention_programme_unhseip_data
 layout: post
 link: http://www.health.govt.nz/publication/universal-newborn-hearing-screening-new-zealand-2005

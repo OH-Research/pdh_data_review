@@ -1,6 +1,8 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To collect information on tobacco use (study run by Nick Wilson, Wellington
+  School of Medicine)
 id: international_tobacco_study_itc_survey_followup_to_the_200607_nzhs
 layout: post
 link: http://www.health.govt.nz/

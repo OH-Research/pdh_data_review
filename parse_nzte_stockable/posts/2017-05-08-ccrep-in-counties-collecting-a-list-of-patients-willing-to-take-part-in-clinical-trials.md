@@ -1,6 +1,9 @@
 ---
 categories: new-zealand public-health-and-research
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Management of the Retinal Screening Service and linked to our Chronic
+  Care Management Programme database which holds a large amount of clinical data related
+  to long term conditions.
 id: ccrep_in_counties_collecting_a_list_of_patients_willing_to_take_part_in_clinical_trials
 layout: post
 link: http://www.countiesmanukau.health.nz/

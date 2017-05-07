@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-Soprano \u2013 EDS Electronic Discharge Summaries"
 id: adhbsoprano__eds_electronic_discharge_summaries
 layout: post
 link: http://www.adhb.health.nz/

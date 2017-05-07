@@ -1,6 +1,9 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'To monitor the health target of "Proportion of patients admitted, discharged,
+  or transferred from an ED within six hours. National goal is 95%." DA: see definitions
+  in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/386'
 id: stays_in_emergency_departments_health_target
 layout: post
 link: http://www.nationalhealthboard.govt.nz/our-priorities/health-targets

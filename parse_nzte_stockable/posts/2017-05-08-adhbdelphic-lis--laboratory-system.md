@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-Delphic (LIS) \u2013 Laboratory System"
 id: adhbdelphic_lis__laboratory_system
 layout: post
 link: http://www.adhb.health.nz/

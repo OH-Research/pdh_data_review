@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:48'
+date: '2017-05-08 09:07:52'
+description: location data for all hospitals in NZ
 id: hospitals
 layout: post
 link: http://www.health.govt.nz/

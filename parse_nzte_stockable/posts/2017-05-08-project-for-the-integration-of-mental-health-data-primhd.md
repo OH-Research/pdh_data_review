@@ -1,6 +1,7 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Contains mental health and addiction client activity information
 id: project_for_the_integration_of_mental_health_data_primhd
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/primhd-mental-health-data

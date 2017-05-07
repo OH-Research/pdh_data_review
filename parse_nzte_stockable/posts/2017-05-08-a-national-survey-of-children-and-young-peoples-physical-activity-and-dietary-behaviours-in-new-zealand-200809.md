@@ -1,6 +1,10 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: This is the first national survey of physical activity, sedentary behaviours
+  and dietary habits in five to 24 year-olds in New Zealand. The results highlight
+  the physical activity and nutrition needs of young people particularly through the
+  transition years, from puberty to adulthood.
 id: a_national_survey_of_children_and_young_peoples_physical_activity_and_dietary_behaviours_in_new_zealand_200809
 layout: post
 link: http://www.health.govt.nz/publication/national-survey-children-and-young-peoples-physical-activity-and-dietary-behaviours-new-zealand-2008

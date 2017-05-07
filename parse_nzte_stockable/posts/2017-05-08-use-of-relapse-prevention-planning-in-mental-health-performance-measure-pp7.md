@@ -1,6 +1,11 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Quantitative report on number of long-term clients (total), number of
+  long-term clients with relapse prevention plan, plus qualitative report describing
+  methodology used to ensure that those clients have up-to-date prevention plans.
+  (http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/386/$File/ReportingBurdenOverviewfor2011-12Non-financialMonitoringFramework.pdf)
+  DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/387'
 id: use_of_relapse_prevention_planning_in_mental_health_performance_measure_pp7
 layout: post
 link: http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/386/$File/ReportingBurdenOverviewfor2011-12Non-financialMonitoringFramework.pdf

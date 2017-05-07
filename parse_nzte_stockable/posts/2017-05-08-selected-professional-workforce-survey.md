@@ -1,6 +1,9 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'e.g. Health Workforce Annual Surveys 2010: The data was obtained by
+  means of a survey which accompanied the Annual Practising Certificates invoice sent
+  to health professionals in February 2010.'
 id: selected_professional_workforce_survey
 layout: post
 link: http://www.health.govt.nz/publication/selected-health-professional-workforce-new-zealand

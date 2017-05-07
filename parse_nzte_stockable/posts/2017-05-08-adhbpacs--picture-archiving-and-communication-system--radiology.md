@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: ADHB-PACS - Picture Archiving and Communication System - Radiology
 id: adhbpacs__picture_archiving_and_communication_system__radiology
 layout: post
 link: http://www.adhb.health.nz/

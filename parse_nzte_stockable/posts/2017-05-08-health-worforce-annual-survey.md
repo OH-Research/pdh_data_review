@@ -1,6 +1,7 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Answering workforce related enquries
 id: health_worforce_annual_survey
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/workforce-data-and-stats/health-professional-workforce-pamphlets/health-workforce-annual-surveys-2010

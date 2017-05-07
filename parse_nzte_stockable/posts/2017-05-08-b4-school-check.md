@@ -1,6 +1,8 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: For MOH, DHBs and contracted service providers to monitor coverage and
+  outcomes from the B4 School Check (8th core Well Child visit)
 id: b4_school_check
 layout: post
 link: http://www.health.govt.nz/

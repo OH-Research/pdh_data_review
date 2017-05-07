@@ -1,6 +1,9 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Register of all immunisation enrolments and events, including Meningococcal,
+  Childhood Immunisation, and Tuberculosis vaccine (BCG). Data Provider: Ministry
+  of Health; Data Source: Planning & Funding Analyst Team'
 id: national_immunisation_register
 layout: post
 link: http://www.health.govt.nz/our-work/preventative-health-wellness/immunisation/national-immunisation-register

@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Proportion of adolescents accessing DHB-funded oral health services.
+  DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/390'
 id: utilisation_of_dhbfunded_dental_services_by_adolescents_performance_measure_pp12
 layout: post
 link: http://www.health.govt.nz/

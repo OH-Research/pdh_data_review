@@ -1,6 +1,7 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "\_To monitor population health for adults and children"
 id: new_zealand_health_survey_continuous_survey_2011
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey

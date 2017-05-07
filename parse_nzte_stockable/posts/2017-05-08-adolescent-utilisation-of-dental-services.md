@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: For impact monitoring of service outputs
 id: adolescent_utilisation_of_dental_services
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/oral-health-data-and-stats/adolescent-oral-health-service-utilisation

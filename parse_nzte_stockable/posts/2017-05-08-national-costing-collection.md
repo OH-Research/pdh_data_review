@@ -1,6 +1,12 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Patient event level cost data for DHBs with an event level costing system
+
+  Purchase unit level cost data for DHBs for some DHBs and some services, e.g. Mental
+  Health services
+
+  Major Service group level cost data for DHBs without an event level costing system'
 id: national_costing_collection
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections

@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To report the national health target "More heart and diabetes checks"
 id: cardiovascular_disease_cvd_risk_assessment
 layout: post
 link: http://www.health.govt.nz/

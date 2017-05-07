@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-Endoscopy \u2013 Gastroenterology and Respiratory"
 id: adhbendoscopy__gastroenterology_and_respiratory
 layout: post
 link: http://www.adhb.health.nz/

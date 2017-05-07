@@ -1,6 +1,10 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'To monitor the health target of offering support and brief advice to
+  quit to 95 per cent of hospitalised patients who smoke (http://www.nationalhealthboard.govt.nz/our-priorities/health-targets;
+  http://www.hiirc.org.nz/page/38265/quit-smoking-hospital-target-achieved-for/?contentType=27&section=9088)
+  DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/384'
 id: hospitalised_smokers_provided_with_advice_to_quit_health_target
 layout: post
 link: http://www.nationalhealthboard.govt.nz/our-priorities/health-targets

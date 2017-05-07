@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Collection of data extracted from HealthCERT and Medicines control systems,
+  used to perform analysis of trends and status
 id: analysis_of_healthcert_and_medicines_control_regulatory_data
 layout: post
 link: http://www.health.govt.nz/our-work/regulation-health-and-disability-system/certification-health-care-services

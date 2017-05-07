@@ -1,6 +1,7 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To collect and  maintain BreastScreen data also for reporting.
 id: cmdhb_breast_cancer_database
 layout: post
 link: http://www.countiesmanukau.health.nz/
