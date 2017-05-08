@@ -26,7 +26,8 @@ availability_header = 'How quickly can the data be made available from time of r
 
 for row in stockable.iterrows():
   line = row[1]
-  if line['DB_Custodian_Org'] in ['MoH', 'ADHB', 'CMDHB', 'Southern DHB', 'Waikato DHB', 'WDHB']:
+  #if line['DB_Custodian_Org'] in ['MoH', 'ADHB', 'CMDHB', 'Southern DHB', 'Waikato DHB', 'WDHB']:
+  if True:
     template = copy.copy(dummy)
     dataset_fmt_name = ''.join(e for e in line['DataSet(s)'].lower() if e.isalnum() or e == ' ')
     f_dataset_name = datetime.now().strftime("%Y-%m-%d") + '-' + dataset_fmt_name.replace(" ", "-") + '.md'

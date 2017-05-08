@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: To collect information on national childhood immunisation coverage of
   the primary series of vaccinations up to the age of two years, (ie the level of
   vaccination coverage for two to three-year-olds in New Zealand)

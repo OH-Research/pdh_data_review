@@ -1,13 +1,13 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "ADHB-CBORD \u2013 Dietary System "
 id: adhbcbord__dietary_system_
 layout: post
 link: http://www.adhb.health.nz/
 provider: Auckland District Health Board
 tags:
-- ''
+- hospital
 - nzte-report
 title: "ADHB-CBORD \u2013 Dietary System "
 ---

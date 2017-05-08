@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'e.g. Health Workforce Annual Surveys 2010: The data was obtained by
   means of a survey which accompanied the Annual Practising Certificates invoice sent
   to health professionals in February 2010.'

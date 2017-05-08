@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: To monitor physical activity levels in adults and children
 id: sport_and_physical_activity_survey_19972001_
 layout: post

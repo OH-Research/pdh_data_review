@@ -1,6 +1,6 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: Initiation of the Newborn Metabolic Screening Programme
 id: newborn_metabolic
 layout: post

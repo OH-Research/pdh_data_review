@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'Community Referred Laboratory Schedule Test data. Data Provider: Ministry
   of Health; Data Source: Planning & Funding Analyst Team'
 id: laboratory_claims_collection

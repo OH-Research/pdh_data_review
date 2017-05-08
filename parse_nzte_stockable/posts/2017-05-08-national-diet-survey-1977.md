@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'Subset of data (height, weight, demographics) provided for Tracking
   the Obesity Epidemic 1977-2003 publication.  Data must not be used outside HDI. '
 id: national_diet_survey_1977

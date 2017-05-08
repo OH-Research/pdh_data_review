@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "The MWS is a value-added service closely aligned with the National Health
   Index. It is designed to warn healthcare providers of the presence of any known
   risk factors that may be important when making clinical decisions about patient

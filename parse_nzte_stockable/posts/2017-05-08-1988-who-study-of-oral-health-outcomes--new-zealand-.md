@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "To measure oral health status of New Zealanders aged 12\u201313 years,
   20\u201324 years, 35\u201344 years and 65\u201374 years"
 id: 1988_who_study_of_oral_health_outcomes__new_zealand_

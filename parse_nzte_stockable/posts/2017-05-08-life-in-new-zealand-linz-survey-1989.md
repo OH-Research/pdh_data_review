@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: Subset of data (height, weight, demographics) provided for Tracking the
   Obesity Epidemic 1977-2003 publication.  Data must not be used outside HDI.
 id: life_in_new_zealand_linz_survey_1989

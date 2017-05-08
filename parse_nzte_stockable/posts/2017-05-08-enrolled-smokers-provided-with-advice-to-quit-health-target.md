@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "To monitor the health target of offering support and brief advice to
   quit to 95 per cent of hospitalised patients who smoke, by \"enrolling them in a
   programme while they\u2019re in hospital, they can either be seen by the hospital

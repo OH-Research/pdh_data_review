@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "To collect information on children\u2019s nutrition"
 id: 2002_national_childrens_nutrition_survey_
 layout: post

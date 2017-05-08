@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: location data for all GPs in NZ
 id: general_practioners
 layout: post

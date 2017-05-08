@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "The National Health Index number (NHI number) is a unique number that
   is assigned to each person using health and disability support services. The NHI
   is an index of information associated with that unique number. \nThe NHI holds the

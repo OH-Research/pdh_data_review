@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: The General Medical Subsidies Collection contains data on the fee-for-service
   payments made to doctors for patient visits. It is used to monitor contracts with
   providers, to support the forecasting and setting of budgets and to enable the analysis

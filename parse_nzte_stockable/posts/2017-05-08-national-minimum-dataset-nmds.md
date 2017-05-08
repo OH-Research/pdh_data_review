@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'The NMDS is a national collection of public and private hospital discharge
   information, including clinical information, for inpatients and day patients.
 
