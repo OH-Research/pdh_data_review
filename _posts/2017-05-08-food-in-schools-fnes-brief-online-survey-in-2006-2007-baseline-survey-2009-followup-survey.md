@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: To collect information on the food and nutrition environment in schools
 id: food_in_schools_fnes_brief_online_survey_in_2006_2007_baseline_survey_2009_followup_survey
 layout: post

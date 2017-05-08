@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'Transaction records containing details of the non admitted patient event
   including date, facility and type of service.. Data Provider: Ministry of Health;
   Data Source: Planning & Funding Analyst Team'

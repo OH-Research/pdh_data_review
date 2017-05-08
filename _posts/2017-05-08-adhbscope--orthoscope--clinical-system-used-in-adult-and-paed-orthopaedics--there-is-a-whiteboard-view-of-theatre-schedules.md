@@ -1,6 +1,6 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "ADHB-Scope / Orthoscope \u2013 Clinical System used in Adult and Paed
   Orthopaedics.  There is a \u201Cwhiteboard\u201D view of theatre schedules"
 id: adhbscope__orthoscope__clinical_system_used_in_adult_and_paed_orthopaedics__there_is_a_whiteboard_view_of_theatre_schedules

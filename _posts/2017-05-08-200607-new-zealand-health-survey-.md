@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: To measure health of New Zealand adults and children
 id: 200607_new_zealand_health_survey_
 layout: post

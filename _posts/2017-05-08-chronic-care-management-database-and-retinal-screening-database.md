@@ -1,6 +1,6 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: Management of the Retinal Screening Service and linked to our Chronic
   Care Management Programme database which holds a large amount of clinical data related
   to long term conditions.

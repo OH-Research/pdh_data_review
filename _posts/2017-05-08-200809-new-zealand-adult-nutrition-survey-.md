@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: To measure nutrition intake of New Zealand adults
 id: 200809_new_zealand_adult_nutrition_survey_
 layout: post

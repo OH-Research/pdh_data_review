@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'Proportion of theatre time (measured in minutes) actually utilised (compared
   to resourced utilisation). DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/393'
 id: theatre_utilisation_performance_measure_os5

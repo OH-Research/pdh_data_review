@@ -1,6 +1,6 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: To determine the number of sessions that our PG providers are achieving
   each month
 id: problem_gambling_pg_intervention_clientsessions__using_the_clic_clinet_information_collection_database

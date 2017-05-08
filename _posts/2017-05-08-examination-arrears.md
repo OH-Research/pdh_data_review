@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: For impact monitoring of service effectiveness (wait times)
 id: examination_arrears
 layout: post

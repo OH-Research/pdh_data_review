@@ -1,6 +1,6 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "ADHB-CRIS \u2013 Clinical Record Information System Scanned images &
   electronically imported images of historical Clinical Records"
 id: adhbcris__clinical_record_information_system_scanned_images__electronically_imported_images_of_historical_clinical_records

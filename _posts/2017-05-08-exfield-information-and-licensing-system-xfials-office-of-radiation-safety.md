@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: Administration of the Radiation Protection Act 1965
 id: exfield_information_and_licensing_system_xfials_office_of_radiation_safety
 layout: post

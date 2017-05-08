@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'To measure the prevalence of mental disorder in New Zealand adults '
 id: te_rau_hinengaro__the_new_zealand_mental_health_survey_2004
 layout: post

@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: "To assist on reporting outcomes for the Wh\u0101nau Ora initiative"
 id: "m\u0101ori_health_healthstat"
 layout: post

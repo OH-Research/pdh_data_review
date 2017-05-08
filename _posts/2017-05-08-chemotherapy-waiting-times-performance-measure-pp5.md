@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'To monitor the waiting times for chemotherapy which was chosen as representative
   indicators of specialist treatment, and have historically had waiting time issues
   for patients. A four-week wait time is currently targeted. (http://www.health.govt.nz/new-zealand-health-system/health-targets/2012-13-health-targets/health-targets-2012-13-shorter-waits-cancer-treatment)

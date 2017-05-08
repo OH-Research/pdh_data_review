@@ -1,6 +1,6 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'Socrates is used by all 15 MoH funded Needs Assessment and Service Coordination
   (NASC) organisations and the 4 MoH funded RIDCA (Regional Intellectual Disability
   Care Agency) to record details of client demographic data, support needs, and service

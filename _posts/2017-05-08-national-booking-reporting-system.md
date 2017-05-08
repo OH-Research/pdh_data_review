@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: 'The National Booking Reporting System (NBRS) provides information by
   health speciality and booking status on how many patients are waiting for treatment,
   and also how long they have had to wait before receiving treatment.. Data Provider:

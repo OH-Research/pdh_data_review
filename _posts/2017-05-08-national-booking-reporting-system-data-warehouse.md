@@ -1,6 +1,6 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 09:07:52'
+date: '2017-05-08 13:16:22'
 description: The National Booking Reporting System Data Warehouse (NBRS DW) was established
   to consolidate information from the NBRS inpatient database, summary statistics,
   and cost weighted discharge information from the NMDS and Sector Services. This
