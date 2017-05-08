@@ -1,6 +1,8 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "\_To monitor the population\u2019s use of alcohol and drugs for recreational
+  purposes (among 16\u201364-year-olds)"
 id: 200708_new_zealand_alcohol_and_drug_use_survey_
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/alcohol-and-drug-use-survey

@@ -1,6 +1,7 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To measure health status of male and female New Zealand prisoners
 id: 2005_new_zealand_prisoner_health_survey_
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/prisoner-health-data-and-stats

@@ -1,6 +1,17 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'The NMDS is a national collection of public and private hospital discharge
+  information, including clinical information, for inpatients and day patients.
+
+  Data has been submitted electronically in an agreed format by public hospitals since
+  1993; and back-loaded with public hospital discharge information from 1988.
+
+  The private hospital discharge information for publicly funded events, eg, birth
+  events and geriatric care, has been collected since 1997. Other data is being added
+  as it becomes available electronically.
+
+'
 id: national_minimum_dataset_nmds
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-minimum-dataset-hospital-events

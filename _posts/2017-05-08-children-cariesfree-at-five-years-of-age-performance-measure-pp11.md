@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "Total number of children who are caries-free vs primary teeth of children
+  that are \ndecayed, missing and filled. DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/389"
 id: children_cariesfree_at_five_years_of_age_performance_measure_pp11
 layout: post
 link: http://www.health.govt.nz/

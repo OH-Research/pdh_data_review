@@ -1,6 +1,9 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Proportion of pre-school children enrolled in DHB-funded oral health
+  services. Proportion of enrolled and pre-school children overdue for scheduled examinations.
+  DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/391'
 id: improving_the_number_of_children_enrolled_in_dhb_funded_dental_services_performance_measure_pp13
 layout: post
 link: http://www.health.govt.nz/

@@ -1,6 +1,13 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "The MWS is a value-added service closely aligned with the National Health
+  Index. It is designed to warn healthcare providers of the presence of any known
+  risk factors that may be important when making clinical decisions about patient
+  care.\nThe MWS comprises:\n1) medical warnings incorporating adverse medical reactions
+  and significant medical conditions,\n2) event summaries incorporating identification
+  of the facility where the patient\u2019s medical record is located,\n3) donor information
+  incorporating donor summaries and healthcare user contact details."
 id: medical_warning_system
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/medical-warning-system

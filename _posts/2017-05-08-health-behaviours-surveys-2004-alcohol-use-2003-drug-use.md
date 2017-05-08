@@ -1,6 +1,8 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To collect information on alcohol and drug use patterns in the NZ population
+  (survey run by SHORE, AUT)
 id: health_behaviours_surveys_2004_alcohol_use_2003_drug_use
 layout: post
 link: http://www.health.govt.nz/

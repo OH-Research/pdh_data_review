@@ -1,6 +1,9 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Population-based register of all primary malignant tumours diagnosed
+  in New Zealand, excluding squamous and basal cell skin cancers.. Data Provider:
+  Ministry of Health; Data Source: Planning & Funding Analyst Team'
 id: new_zealand_cancer_registry_nzcr
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/new-zealand-cancer-registry-nzcr

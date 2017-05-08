@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To collect information on health literacy in the NZ population (survey
+  run by Ministry of Education (?))
 id: health_literacy__from_survey_data_1996_2006
 layout: post
 link: http://www.health.govt.nz/our-work/making-services-better-users/health-literacy

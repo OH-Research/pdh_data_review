@@ -1,6 +1,8 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Administration of Restriction Notices under the Misuse of Drugs Act 1975
+  and Medicines Act 1981
 id: drug_abuse_containment_list_of_restriction_notices_and_persons_of_interest
 layout: post
 link: http://www.health.govt.nz/

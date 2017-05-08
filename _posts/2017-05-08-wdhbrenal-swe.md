@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Renal Clinical System '
 id: wdhbrenal_swe
 layout: post
 link: http://www.waitematadhb.govt.nz/

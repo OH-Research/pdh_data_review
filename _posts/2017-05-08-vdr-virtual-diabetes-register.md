@@ -1,6 +1,8 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: This is the MOH official Diabetes Prevalence count.Use it as Denominator
+  for Diabetes Target, Diabetes related researchs etc
 id: vdr_virtual_diabetes_register
 layout: post
 link: http://www.health.govt.nz/our-work/diseases-and-conditions/diabetes/about-diabetes/virtual-diabetes-register-vdr

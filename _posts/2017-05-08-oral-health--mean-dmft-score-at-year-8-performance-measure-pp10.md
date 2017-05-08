@@ -1,6 +1,9 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Number of permanent teeth of children in school year 8 (12/13 yo) that
+  are decayed (D), missing (M) and filled (F) vs total number of children examined
+  in year 8. DA: see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/388'
 id: oral_health__mean_dmft_score_at_year_8_performance_measure_pp10
 layout: post
 link: http://www.health.govt.nz/

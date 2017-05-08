@@ -1,6 +1,8 @@
 ---
 categories: new-zealand survey
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: To measure oral health status of New Zealand adults aged 15 years and
+  over
 id: 1976_survey_of_adult_oral_health_
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/oral-health-survey

@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-Colposcopy \u2013 Colposcopy database - Gynaecology"
 id: adhbcolposcopy__colposcopy_database__gynaecology
 layout: post
 link: http://www.adhb.health.nz/

@@ -1,6 +1,7 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "ADHB-PHS \u2013 Pathways Healthcare System - Outpatients"
 id: adhbphs__pathways_healthcare_system__outpatients
 layout: post
 link: http://www.adhb.health.nz/

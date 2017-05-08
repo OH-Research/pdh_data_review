@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Administration of the Health & Disability Services (Safety) Act 2001
 id: healthcert_data_collection
 layout: post
 link: http://www.health.govt.nz/our-work/regulation-health-and-disability-system/certification-health-care-services

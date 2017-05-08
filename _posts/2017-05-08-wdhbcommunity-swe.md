@@ -1,6 +1,8 @@
 ---
 categories: new-zealand dhb
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Community electronic patient record, Public Health Nursing/District Nursing/Allied
+  Health
 id: wdhbcommunity_swe
 layout: post
 link: http://www.waitematadhb.govt.nz/

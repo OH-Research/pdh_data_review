@@ -1,6 +1,9 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:48'
+date: '2017-05-08 09:07:52'
+description: 'To manage and monitor WCTO service
+
+  coverage, service quality, and service outcomes  (collected six-monthly)'
 id: well_child__tamariki_ora
 layout: post
 link: http://www.health.govt.nz/

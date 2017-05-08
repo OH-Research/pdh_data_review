@@ -1,6 +1,11 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: "To monitor the health target of offering support and brief advice to
+  quit to 95 per cent of hospitalised patients who smoke, by \"enrolling them in a
+  programme while they\u2019re in hospital, they can either be seen by the hospital
+  service or referred to a programme in the community\" (http://www.health.govt.nz/system/files/documents/publications/targeting-smokers-to-quit.pdf)
+  see definitions in http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/384"
 id: enrolled_smokers_provided_with_advice_to_quit_health_target
 layout: post
 link: http://www.health.govt.nz/system/files/documents/publications/targeting-smokers-to-quit.pdf

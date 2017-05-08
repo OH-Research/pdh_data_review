@@ -1,6 +1,10 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: 'Classifies the underlying cause of death for all deaths registered in
+  New Zealand, including all registered fetal deaths (stillbirths), using the ICD-10-AM
+  2nd Edition and the WHO Rules and Guidelines for Mortality Coding. Data Provider:
+  Ministry of Health; Data Source: Planning & Funding Analyst Team'
 id: mortality_collection
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/mortality-collection

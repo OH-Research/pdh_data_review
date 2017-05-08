@@ -1,6 +1,9 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Set up in 2007 to inform the Director of Mental Health annual report.
+  The PRIMHD data was not good enough to be used for the annual report. And there's
+  additional data captured that sit within PRIMHD.
 id: opioid_substition
 layout: post
 link: http://www.health.govt.nz/

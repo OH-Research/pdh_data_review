@@ -1,6 +1,7 @@
 ---
 categories: new-zealand administrative
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Provides us with financial and volume information on DHB performance.
 id: mental_health_price_volume_schedule
 layout: post
 link: http://www.health.govt.nz/

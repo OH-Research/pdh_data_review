@@ -1,6 +1,14 @@
 ---
 categories: new-zealand national-collections
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: The General Medical Subsidies Collection contains data on the fee-for-service
+  payments made to doctors for patient visits. It is used to monitor contracts with
+  providers, to support the forecasting and setting of budgets and to enable the analysis
+  of health needs. Originally, almost all patient visits to general practitioners
+  would have resulted in a fee-for-service GMS claim. However since 2003, capitation
+  payments made via Primary Health Organisations (PHOs) have progressively replaced
+  fee-for-service claiming. Now GMS claims are made of only a limited number of patient
+  visits of specific types.
 id: general_medical_subsidies_collection_gms
 layout: post
 link: http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/general-medical-subsidy-collection

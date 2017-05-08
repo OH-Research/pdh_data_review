@@ -1,6 +1,7 @@
 ---
 categories: new-zealand registries-and-screening-database
-date: '2017-05-08 08:46:49'
+date: '2017-05-08 09:07:52'
+description: Monitoring and Performance of BreastScreen Aotearoa
 id: breast_screen_aotearoa_bsa_reporting_services_screening_and_treatment_data
 layout: post
 link: http://www.health.govt.nz/your-health/conditions-and-treatments/diseases-and-illnesses/breast-cancer
