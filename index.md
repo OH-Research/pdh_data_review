@@ -36,19 +36,19 @@ exclude_from_search: true
    <!-- sorting/filtering control row, need to be out of the tbody tag -->
     <tr> 
     <td width="50%"> 
-       <button class="sort" data-sort="name">sort</button>
-       <input class="search-name" placeholder="Filter by name" />     
+       <button class="sort" data-sort="name" style="height: 20px;">sort</button>
+       <input class="search-name" placeholder="Filter by name" style="height: 20px;"/>     
     </td> 
     <td width="25%"> 
-         <button class="sort" data-sort="provider">sort</button>
-         <select name="filter-provider" id="filter-provider" class="filter-provider" style="width: 150px;" multiple="multiple">
+         <button class="sort" data-sort="provider" style="height: 20px;">sort</button>
+         <select name="filter-provider" id="filter-provider" class="filter-provider" style="height: 20px; width: 150px; visibility: hidden" multiple="multiple">
        {% for provider in provider_array %}
          {% if provider.size > 0 %} <option value="{{ provider }}" selected>{{ provider }}</option>{% endif %}
        {% endfor %}
        </select>
     </td>
     <td width="25%"> 
-         <select name="filter-tag" id="filter-tag" class="filter-tag" style="width: 150px;" multiple="multiple">
+         <select name="filter-tag" id="filter-tag" class="filter-tag" style="height: 20px; width: 150px; visibility: hidden" multiple="multiple">
        {% for tag in tag_array %}
          {% if tag.size > 0 %} <option value="{{ tag }}" selected>{{ tag }}</option>{% endif %}
        {% endfor %}

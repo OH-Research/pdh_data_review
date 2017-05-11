@@ -13,12 +13,6 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  
-  {% if page.multiple_select_active %}
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/multiple-select.css" | relative_url }}">
-  <script src="assets/list.min.js"></script>
-  <script src="assets/multiple-select.js"></script>
-  {% endif %}
 
   {% if page.tipue_search_active or layout.tipue_search_active %}
   <script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
@@ -27,7 +21,12 @@
   <script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
   {% endif %}
 
-
+  {% if page.multiple_select_active %}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/multiple-select.css" | relative_url }}">
+  <script src="assets/list.min.js"></script>
+  <script src="assets/multiple-select.js"></script>
+  {% endif %}
+  
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
