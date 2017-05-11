@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Highest qualifications of health and welfare support workers in New Zealand
   url: https://figure.nz/chart/MufWnvV2BDNSMEAl-WmnXz2iI4ZTPaSLP

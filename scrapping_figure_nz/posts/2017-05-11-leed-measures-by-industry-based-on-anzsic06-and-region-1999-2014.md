@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Filled jobs in the health care and social assistance industry in New Zealand
   url: https://figure.nz/chart/volfA4CaCXWrHj6p-cW1rHnKCbqhZyy81

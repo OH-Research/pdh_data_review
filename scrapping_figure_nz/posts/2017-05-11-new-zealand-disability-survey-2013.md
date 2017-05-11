@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Percentage of the New Zealand population with impairments
   url: https://figure.nz/chart/BHeKQ9676lfIzz7t

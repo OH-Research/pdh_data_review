@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Cigarette smoking behaviour in Matamata-Piako District, New Zealand
   url: https://figure.nz/chart/uQ7bwVANkR0P6Jxv-A6FuX1hADvPlvLrb

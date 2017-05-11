@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Health care and social assistance business births/deaths in New Zealand
   url: https://figure.nz/chart/ds7lnZDk8lUK0dZo-lSD9BKNNtvARmnFX

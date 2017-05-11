@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Price paid by New Zealand businesses for accident and health insurance
     services change from previous quarter

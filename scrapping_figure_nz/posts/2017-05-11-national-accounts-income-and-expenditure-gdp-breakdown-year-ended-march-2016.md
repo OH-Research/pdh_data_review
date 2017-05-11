@@ -1,6 +1,6 @@
 ---
 categories: new-zealand finance
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Contribution to GDP by the health care and social assistance industry
     in New Zealand

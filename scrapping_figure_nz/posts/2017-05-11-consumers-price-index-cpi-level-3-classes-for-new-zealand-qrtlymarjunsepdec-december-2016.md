@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Year-on-year change in price of health insurance in New Zealand
   url: https://figure.nz/chart/0ByKhsHZZX7N8W2x-LRA1WFhM7ulFzNJv

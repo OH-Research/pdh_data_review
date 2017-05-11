@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: 'Health expectancy at birth, by sex: 1996, 2001, and 2006'
   url: https://figure.nz/table/08FFjhLJOC5U9Mjm

@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Enterprises in the allied health services industry (other) in New Zealand
   url: https://figure.nz/chart/IW0xisEu03j4YW09-tqALCmWT3DvRttiV

@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Health and welfare support workers in New Zealand
   url: https://figure.nz/chart/9s9pPXy7AJEn9fyh-FIW4zYLojZLLujUR

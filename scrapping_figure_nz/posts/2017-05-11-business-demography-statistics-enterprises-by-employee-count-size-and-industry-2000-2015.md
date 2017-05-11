@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Enterprises in the health care services industry (other) in New Zealand
   url: https://figure.nz/chart/8vpXvYloRqFDQXIE-brfVBi5lEtZDD8M7

@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Average weekly household expenditure on health in New Zealand regions
   url: https://figure.nz/chart/R4x7TMksZP34RIJl-hvlXDjhSh4HSyMp0

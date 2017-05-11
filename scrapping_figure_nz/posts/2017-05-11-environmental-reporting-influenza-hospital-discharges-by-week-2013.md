@@ -1,6 +1,6 @@
 ---
 categories: new-zealand report
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Health - Influenza hospital discharges by week 2013
   url: https://figure.nz/table/usEJlXo2Y8XYEmaZ

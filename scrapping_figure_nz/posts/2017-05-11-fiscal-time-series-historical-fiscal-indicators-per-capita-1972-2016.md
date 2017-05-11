@@ -1,6 +1,6 @@
 ---
 categories: new-zealand finance
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Core Crown spending on health in New Zealand
   url: https://figure.nz/chart/c77PxswJK8z1pA2u

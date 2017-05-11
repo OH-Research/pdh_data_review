@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:16:52'
+date: '2017-05-11 16:19:04'
 figure_nz:
 - title_l1: Average earnings in the allied health services industry in New Zealand
   url: https://figure.nz/chart/laxvO7qLz0yYoqLQ-jpBSJ7EcwrYFkA1V
