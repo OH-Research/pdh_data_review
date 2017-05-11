@@ -148,7 +148,7 @@ function providerFiltering(provider) {
 // set up the filtering control on dataset providers - make sure that the filter matches provider and tag condition
 // we use the click event rather than change to make sure the user is actually using the control (not an update on a close event)
 $('.filter-provider').on('click', function () { 
-     if($('.filter-provider').val() != null) {
+     if($('.filter-provider').val().length > 0) {
         updateDatasetList();
     }
 });
@@ -156,7 +156,7 @@ $('.filter-provider').on('click', function () {
 // set up the filtering control on dataset tags - make sure that the filter matches provider and tag condition
 // we use the click event rather than change to make sure the user is actually using the control (not an update on a close event)
 $('.filter-tag').on('click', function () { 
-     if($('.filter-tag').val() != null) {
+     if($('.filter-tag').val().length > 0) {
       updateDatasetList();
     }
 });
