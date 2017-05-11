@@ -1,7 +1,7 @@
 ---
 layout: default
 multiple_select_active: true
-tipue_search_active: false # must add it manually at the end (conflict with the rest of js in this page?)
+tipue_search_active: true # must add it manually at the end (conflict with the rest of js in this page?)
 exclude_from_search: true
 --- 
 
@@ -69,21 +69,6 @@ exclude_from_search: true
  </table>
 
 </div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="assets/list.min.js"></script>
-<script src="assets/multiple-select.js"></script>
-
-<script src="assets/tipuesearch/tipuesearch_content.js"></script>
-<link rel="stylesheet" href="assets/tipuesearch/css/tipuesearch.css">
-<script src="assets/tipuesearch/tipuesearch_set.js"></script>
-<script src="assets/tipuesearch/tipuesearch.min.js"></script>
-
-<script>
-$(document).ready(function() {
-  $('#tipue_search_input').tipuesearch();
-});
-</script>
 
 
 <script>

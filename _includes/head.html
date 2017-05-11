@@ -11,21 +11,20 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link rel="icon" type="image/jpg" href="https://pbs.twimg.com/profile_images/733399050284765184/b20bpNtQ.jpg">
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
   {% if page.multiple_select_active %}
   <link rel="stylesheet" type="text/css" href="{{ "/assets/multiple-select.css" | relative_url }}">
+  <script src="assets/list.min.js"></script>
+  <script src="assets/multiple-select.js"></script>
   {% endif %}
 
   {% if page.tipue_search_active or layout.tipue_search_active %}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
   <script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
   <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
   <script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
-  <script>
-  $(document).ready(function() {
-    $('#tipue_search_input').tipuesearch();
-  });
-  </script>
   {% endif %}
 
 
