@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Year-on-year change in price of health insurance in New Zealand
   url: https://figure.nz/chart/0ByKhsHZZX7N8W2x-LRA1WFhM7ulFzNJv
@@ -20,7 +20,7 @@ title: 'Consumers Price Index: CPI Level 3 Classes for New Zealand (Qrtly-Mar/Ju
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

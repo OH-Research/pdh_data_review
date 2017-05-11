@@ -1,6 +1,6 @@
 ---
 categories: new-zealand report
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Tertiary students enrolled in fields of health in New Zealand by sub-sector
     and residency status
@@ -27,7 +27,7 @@ title: 'Tertiary Education: Participation - Provider-based Enrolments Field of S
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

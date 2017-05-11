@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: 'Health expectancy at birth, by sex: 1996, 2001, and 2006'
   url: https://figure.nz/table/08FFjhLJOC5U9Mjm
@@ -18,7 +18,7 @@ title: 'New Zealand Progress Indicators Tupuranga Aotearoa: Health expectancy to
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

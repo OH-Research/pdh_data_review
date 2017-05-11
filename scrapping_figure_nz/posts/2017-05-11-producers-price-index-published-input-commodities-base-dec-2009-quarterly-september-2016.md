@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Price paid by New Zealand businesses for accident and health insurance
     services change from previous quarter
@@ -23,7 +23,7 @@ title: 'Producers Price Index: Published input commodities, Base Dec 2009 (Quart
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

@@ -1,6 +1,6 @@
 ---
 categories: new-zealand report
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Health - Hospitalisations by selected cause and type of microbe (custom
     summary) 2013/2014
@@ -22,7 +22,7 @@ title: 'Figure.NZ: Mortality and publicly funded hospital discharges for infecti
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

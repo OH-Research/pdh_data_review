@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Enterprises in the allied health services industry (other) in New Zealand
   url: https://figure.nz/chart/IW0xisEu03j4YW09-tqALCmWT3DvRttiV
@@ -49,7 +49,7 @@ title: 'Business Demography Statistics: Enterprises by industry 2000 2015'
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Proportion of total businesses that are in the health insurance industry
   url: https://figure.nz/chart/XDBF0NNaIJJmFpPS-6T553zi2rP9l9Fpx
@@ -41,7 +41,7 @@ title: 'Business Demography Statistics: Geographic units by region and industry 
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

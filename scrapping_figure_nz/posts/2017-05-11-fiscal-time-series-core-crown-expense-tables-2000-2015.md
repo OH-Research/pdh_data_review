@@ -1,6 +1,6 @@
 ---
 categories: new-zealand finance
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Core Crown spending on health in New Zealand by category
   url: https://figure.nz/chart/vq48v1uPvNrm37C3-fZrHO84j1XZYjRwA
@@ -21,7 +21,7 @@ title: 'Fiscal Time Series: Core Crown Expense Tables 2000 2015'
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

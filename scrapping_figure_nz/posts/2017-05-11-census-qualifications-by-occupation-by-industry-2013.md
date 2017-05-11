@@ -1,6 +1,6 @@
 ---
 categories: new-zealand survey
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Highest qualifications of health and welfare support workers in New Zealand
   url: https://figure.nz/chart/MufWnvV2BDNSMEAl-WmnXz2iI4ZTPaSLP
@@ -37,7 +37,7 @@ title: 'Census: Qualifications by occupation by industry 2013'
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>
