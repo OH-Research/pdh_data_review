@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Health and welfare support workers in New Zealand
   url: https://figure.nz/chart/9s9pPXy7AJEn9fyh-FIW4zYLojZLLujUR
@@ -233,7 +233,7 @@ title: 'Short-term Employment Forecasts: 2016-2019 - November 2016'
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

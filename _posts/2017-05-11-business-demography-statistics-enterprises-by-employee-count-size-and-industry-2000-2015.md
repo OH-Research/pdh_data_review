@@ -1,6 +1,6 @@
 ---
 categories: new-zealand statistics
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Enterprises in the health care services industry (other) in New Zealand
   url: https://figure.nz/chart/8vpXvYloRqFDQXIE-brfVBi5lEtZDD8M7
@@ -26,7 +26,7 @@ title: 'Business Demography Statistics: Enterprises by employee count size and i
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>

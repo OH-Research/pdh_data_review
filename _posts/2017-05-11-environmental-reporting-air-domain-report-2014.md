@@ -1,6 +1,6 @@
 ---
 categories: new-zealand report
-date: '2017-05-11 16:19:04'
+date: '2017-05-11 16:27:39'
 figure_nz:
 - title_l1: Air Domain Report - Estimated health impacts from exposure to PM10 2006
     and 2012
@@ -20,7 +20,7 @@ title: 'Environmental Reporting: Air Domain Report 2014'
 
 <h4><u> More details on figure.nz</u></h4>
 {% for item in page.figure_nz%}
-<ul class="post-list">
+<ul class="post-list-l2">
     <li><a href="{{ item.url }}">{{ item.title_l1 }}</a></li>
 {% endfor %}
 </ul>
