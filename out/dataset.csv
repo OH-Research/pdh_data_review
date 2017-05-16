@@ -1,376 +1,366 @@
-:LABEL,datasetId:ID(Dataset),name
-Dataset,-5056522362493552905,1000 Genomes Project
-Dataset,-977007828531188431,"Bad teeth, sugar and government health spending"
-Dataset,4655165017667278440,Blood Donation Data
-Dataset,4966053413405655275,Breast Cancer Data
-Dataset,-4756414086200157569,Death in the United States
-Dataset,4043653627602670589,ICGC-TCGA DREAM Mutation Calling Challenge
-Dataset,-4439463037212604885,Eating & Health Module Dataset
-Dataset,2703843220226821027,"Foodborne Disease Outbreaks, 1998-2015"
-Dataset,-6922529904862026051,Health Care Access/Coverage for 1995-2010
-Dataset,-5688953871968840037,New Zealand Progress Indicators Tupuranga Aotearoa: Health expectancy to 2006
-Dataset,-8377848677174666697,Health Insurance Coverage
-Dataset,-3633357439705489295,Health Insurance Market Place
-Dataset,-7533378761959961812,Health Nutrition and Population Statistics
-Dataset,6766749171216161935,Hospital General Information
-Dataset,-6435678764712713750,Human Microbiome Project
-Dataset,-1836269229512184665,Personal Genome Project Data
-Dataset,6316505539890936664,Medicare Data
-Dataset,1505188817916157961,Mental Health in Tech Survey
-Dataset,2901025773916295985,Mental Health and Addiction: Service use 2011/12
-Dataset,-3840822099931638994,National Health and Nutrition Examination Survey
-Dataset,4108588104328345276,Nursing Home Compare
-Dataset,2095711115824558773,OSMI Mental Health in Tech Survey 2016
-Dataset,-43080561031261911,Prescription-based prediction
-Dataset,-8519829766457978503,Project Tycho: Contagious Diseases
-Dataset,-879165252005449996,Reference Genomes
-Dataset,2748459712482584216,Simons Genome Diversity Project
-Dataset,-2028899619341948129,Student Alcohol Consumption
-Dataset,6589430420698230028,TCGA Cancer Genomics Data in the Cloud
-Dataset,-8805102218728925837,Tobacco Use 1995-2010
-Dataset,3155626456078404194,"Tobacco Use and Mortality, 2004-2015"
-Dataset,-7210128775709691571,US county-level mortality
-Dataset,-1571878931306008653,USA Contagious Disease Data
-Dataset,6950788238577691757,Zika Virus Epidemic
-Dataset,7654459854425138008,Auckland Business Monitor: Survey Results for waves 1 to 3
-Dataset,2198135704684474419,Cancer Historical Summary 1948-2011
-Dataset,-4027420245703973072,New Zealand Health Survey: Adult health conditions 2014/15
-Dataset,-9150749204635112207,Cavatica
-Dataset,3285883304677527555,New Zealand Disability Survey 2013
-Dataset,8726268566164483888,"New Zealand Health Survey: Adult health service use, unmet need and oral health 2014/15"
-Dataset,5455411641837285761,New Zealand Health Survey: Adult health status - behaviours and risk factors 2014/15
-Dataset,-2652898006361977885,New Zealand Health Survey: Child health conditions 2014/15
-Dataset,3821466225036832674,"New Zealand Health Survey: Child health service use, unmet need and oral health 2014/15"
-Dataset,-1004040443737057161,New Zealand Health Survey: Child health status and behaviours 2014/15
-Dataset,6105844887053929877,New Zealand Health Survey: Private Health Insurance Coverage 2011–2015
-Dataset,8850369424586615052,Regional results from the 2011-2014 New Zealand Health Survey
-Dataset,4523119041628838176,1976 Survey of Adult Oral Health 
-Dataset,-22548749191754871,1988 WHO Study of Oral Health Outcomes - New Zealand 
-Dataset,-2865661455247210088,1992/93 New Zealand Health Survey
-Dataset,-6669480440788501425,1996/97 New Zealand Health Survey
-Dataset,9093046269926151972,1997 National Nutrition Survey 
-Dataset,1931553326215010495,2002 National Children’s Nutrition Survey 
-Dataset,-148692139675759911,2002/03 New Zealand Health Survey 
-Dataset,-4232035097046068366,2005 New Zealand Prisoner Health Survey 
-Dataset,-6872679950207960983,2006/07 New Zealand Health Survey 
-Dataset,-3171021078098311602,2007/08 New Zealand Alcohol and Drug Use Survey 
-Dataset,-2988891626993220071,2008/09 New Zealand Adult Nutrition Survey 
-Dataset,5789841343902130644,2009 New Zealand Oral Health Survey 
-Dataset,-7279624985097182424,A National Survey of Children and Young People’s Physical Activity and Dietary Behaviours in New Zealand: 2008/09
-Dataset,1514136884142772521,ACC Datasets
-Dataset,7223788634207862103,Acute Coronary Syndrome (ACS) Registry (NZ and ANZ) – under development
-Dataset,6948952974894118535,Acute Coronary Syndrome
-Dataset,-1122937810835626498,ADHB-ARIA – Radiotherapy system
-Dataset,7206189078950327271,ADHB-CBORD – Dietary System 
-Dataset,4377065536206757615,ADHB-ClinDocs – Clinical Databases
-Dataset,4507346325777104104,ADHB-CMS
-Dataset,-2145049001567106967,ADHB-Colposcopy – Colposcopy database - Gynaecology
-Dataset,2721544834584802043,ADHB-CRIS – Clinical Record Information System Scanned images & electronically imported images of historical Clinical Records
-Dataset,-90132214384251352,ADHB-CTSU Scheduler – Cardiothoracic event tracker
-Dataset,8613667240579785116,ADHB-Delphic (LIS) – Laboratory System
-Dataset,-4610010588133477516,ADHB-Departmental Systems – Variety of systems often for Clinical Audit
-Dataset,-4005794660871882689,ADHB-Endoscopy – Gastroenterology and Respiratory
-Dataset,2524850739338049222,ADHB-ePharmacy – Pharmacy System 
-Dataset,-2314994374334292938,ADHB-Éclair – Data repository for results e.g. Laboratory
-Dataset,5257810378516575792,ADHB-HCC - Diabetes
-Dataset,-721652953630715977,ADHB-HCC - Health Care  Community
-Dataset,1795518686149518847,ADHB-HCC – Mental Health
-Dataset,269108181070722287,ADHB-Healthware – Women’s Health – Maternity
-Dataset,-1512148573695490556,ADHB-iPMS – Theatre Management
-Dataset,5203551525617378255,ADHB-MFM Viewpoint - Maternal Fetal Medicine
-Dataset,8953735067216198414,ADHB-OCA – Otago Clinical Audit - General Surgery
-Dataset,2897253533977662626,ADHB-PACS - Picture Archiving and Communication System - Radiology
-Dataset,-7341776963024188774,ADHB-PHS – Pathways Healthcare System - Outpatients
-Dataset,-583274387460580374,ADHB-PIMS
-Dataset,3218961172110417058,ADHB-Prosolve
-Dataset,3666507755027711505,ADHB-Regional View Visit – Displays of all encounters for 3 Auckland metro DHBs
-Dataset,8270505354990555833,ADHB-Scope / Orthoscope – Clinical System used in Adult and Paed Orthopaedics.  There is a “whiteboard” view of theatre schedules
-Dataset,-6797174877242963534,ADHB-Soprano – EDS Electronic Discharge Summaries
-Dataset,-2157965956142809868,ADHB-Soprano – MedDocs (transcription)
-Dataset,3779038738146835507,ADHB-Tdocs – Instrument and Supply Sterilisation
-Dataset,-3381942853838777774,ADHB-Titanium (Exact) – Oral Health
-Dataset,8010070569429595912,Adolescent utilisation of dental services
-Dataset,-83608813127384201,Aged Residential Care (ARC) Interdistrict flow (IDF) Report
-Dataset,3898633927019660684,Analysis of HealthCERT and Medicines Control Regulatory Data
-Dataset,6773629011998289725,Annual Attitudes and Behaviours Alcohol Survey
-Dataset,-3003535221447435587,"ASH Year 10 Smoking Survey – 2003, 2005"
-Dataset,8759333482237302488,ASH –Year 10 Survey (tobacco use)
-Dataset,3977569337379983474,Auckland Rheumatic Fever Registry
-Dataset,-6069455059006077128,Auckland/Canterbury Shared Care systems
-Dataset,-8414273367054575025,Australia and New Zealand Dialysis and Transplant Registry
-Dataset,4942655398932088381,Australia and New Zealand Liver Transplant Registry (ANZLTR)
-Dataset,-5661631532762828604,B4 School Check
-Dataset,1512383538008204210,Bowel cancer audit - south island (2008-2009)
-Dataset,5982471601047232507,Breast Screen Aotearoa (BSA) Reporting Services Screening and Treatment Data
-Dataset,-1138659602609426524,"Breastfeeding data (at 6 weeks, 3 months and 6 months of age) - included in Well Child / Tamariki Ora (WCTO) dataset, above"
-Dataset,6254818030728072813,Breast-feeding rates (performance measure SI7)
-Dataset,-4556785740304537815,Cancer networks - Midland
-Dataset,8328828866820176555,Cancer networks - Northern
-Dataset,-2707494379163035512,Cardiac Surgery – under development
-Dataset,8044190709811155901,Cardiovascular Disease (CVD) Risk Assessment
-Dataset,-8787390036998979645,CCREP in Counties (collecting a list of patients willing to take part in clinical trials)
-Dataset,1652206409133165887,CDHB-Aged Residential Care (ARC) 
-Dataset,-1587362800126463953,CDHB-Collaborative Care Management Solution (CCMS)
-Dataset,-1218220795339974177,CDHB-Community Imaging
-Dataset,7298536681853411280,CDHB-Community mental health
-Dataset,3875648493060070249,CDHB-Community Rehabilitation Enablement & Support Team (CREST)
-Dataset,-7448497446532778174,"CDHB-Community-based services (stomal, wound care, palliatve)"
-Dataset,2205321492170564239,CDHB-Day Care
-Dataset,8786298598368901539,CDHB-Electronic Referrals Management System (ERMS)
-Dataset,7095063205315911657,CDHB-Emergency Department
-Dataset,-3665286984530409963,CDHB-Event costs by service
-Dataset,2150522870952278947,CDHB-Homecare Medical Ltd Nurse-led telephone triage (HML)
-Dataset,8240675251398904832,CDHB-Inpatient
-Dataset,3817653604799314319,CDHB-Inter-District Flows (IDFs)
-Dataset,2521464814015044066,CDHB-Medication management
-Dataset,508829352657337533,CDHB-Mental Health - Additional reporting
-Dataset,-2025465925305994433,"CDHB-Mental health allocation (carer support, domestic support, respite)"
-Dataset,-4197680888410548979,CDHB-National Travel Assistance (NTA)
-Dataset,-3720231392934276479,CDHB-Outpatient
-Dataset,4235747740206527802,CDHB-PHO performance monitoring
-Dataset,3544640851109103419,CDHB-St John's
-Dataset,8424758078943712662,CDHB-Subsidised Procedures
-Dataset,368787588088987465,CDHB-Theatre
-Dataset,-5130375202607383695,CDHB-Waitlists
-Dataset,-463589725930827691,CDHB-Ward movements
-Dataset,8790638268758740660,CDHB-Well Child
-Dataset,2580208729175241469,CDHB-Whanau Ora
-Dataset,3423373404970859352,Chemotherapy waiting times (performance measure PP5)
-Dataset,174272485268100523,Children caries-free at five years of age (performance measure PP11)
-Dataset,7386278451086671887,Chronic Care Management database and Retinal Screening database
-Dataset,3177986805176765970,Clients Claims Processing System (CCPS)
-Dataset,5902009873768871765,CMDHB breast cancer database
-Dataset,-2033984011802364503,Colonoscopy audit - otago (2004-2009)
-Dataset,-739594313395808401,Contract Management System (CMS)
-Dataset,8489839990633102048,"CT, MRI and Colonoscopy Waiting Time Indicators"
-Dataset,3096723598712490383,DHB Population Projections
-Dataset,-7745618828826699887,Diabetes Care Support Service in South Auckland
-Dataset,7309468846576104130,Diabetes Cohort Study
-Dataset,4652897777519227802,Diabetes data
-Dataset,-8266665386952665371,DMFT for age 5 and Year 8 children
-Dataset,-6759085080935114096,DML
-Dataset,-4149736664279118876,DrInfo
-Dataset,-7793361497967754031,Drug Abuse Containment List of Restriction Notices and Persons of Interest
-Dataset,8348333578394787128,EchoNoRMAL
-Dataset,-565040180892980513,Electronic Prescription Monitoring (EPM)
-Dataset,9104780664854248483,Enrolled smokers provided with advice to quit (health target)
-Dataset,-4355426849022291702,Examination arrears
-Dataset,-5036118083034440529,Ex-Field Information and Licensing System (XFIALS) (Office of Radiation Safety)
-Dataset,-2005837226989851827,Faster Cancer Treatment projects - SCN
-Dataset,6286475337261021772,"Food in Schools (FNES) (brief online survey in 2006, 2007 baseline survey, 2009 follow-up survey)"
-Dataset,-7130393683817752128,General Medical Subsidies Collection (GMS)
-Dataset,-5348229974915303166,General Practioners
-Dataset,4528413188845816384,General Practitioner (GP) Fees
-Dataset,2770436181659276434,GP data in PMS (individual or a wider hosted deployment)
-Dataset,156588402370279825,Growing Up NZ
-Dataset,-8738930710863132312,"Health Behaviours Surveys (2004 Alcohol use, 2003 Drug use)"
-Dataset,-1815096364953642090,"Health Literacy – from survey data (1996, 2006)"
-Dataset,2124833041655504329,Health needs assessment - south island cancer control data (1996-2007)
-Dataset,-4541182100377181349,Health Worforce Annual Survey
-Dataset,-4546152430503099741,HealthCERT Data Collection
-Dataset,5964997763996607417,Healthline data - held by provider
-Dataset,-3668311030480936384,Healthline data- held by Ministry
-Dataset,-2106012346564215088,Healthline
-Dataset,5469281856948482670,HealthStat
-Dataset,9163143660489598316,HIV Antenatal
-Dataset,307567506029962460,Hospital medicines list (HML)
-Dataset,1107732039158832485,Hospitalised smokers provided with advice to quit (health target)
-Dataset,-7941827660450252889,Hospitals
-Dataset,9100587864906185933,Improving the number of children enrolled in DHB funded dental services (performance measure PP13
-Dataset,3251146332485944129,International Physical Activity Survey (IPAQ) – New Zealand – April 2003
-Dataset,7069582287833605193,International Tobacco Study (ITC) Survey (follow-up to the 2006/07 NZHS)
-Dataset,5966064199392211889,InterRAI
-Dataset,-4515049582962731499,Lab infectious disease dataset
-Dataset,-7472599569468310177,Laboratory Claims Collection
-Dataset,5652246840707075547,LabTests
-Dataset,-4340104945815145826,Life in New Zealand (LINZ) Survey 1989
-Dataset,2107675108664564434,Lifestyles Survey
-Dataset,6195785393547135879,Lung cancer audit - south island (2008/2010)
-Dataset,-1540337586105773141,MAGGIC dataset
-Dataset,4697036300759666525,Māori Health HealthStat
-Dataset,1894481903531800488,Medical Warning System
-Dataset,8781851471553650300,Medicines Control Licencing Data Collection
-Dataset,2790925685841442702,Mental Health Price Volume Schedule
-Dataset,3626801667159804798,Mortality Collection
-Dataset,8604220823382094309,National Booking Reporting System Data Warehouse
-Dataset,-4923981997566525115,National Booking Reporting System
-Dataset,7292435929759857190,National Cervical Screening Programme (NCSP) Data Warehouse
-Dataset,3715903761354597348,National Childhood Immunisation Coverage Survey 2005
-Dataset,-5609010490978209437,National Costing Collection
-Dataset,3926837695647160087,National Diet Survey 1977
-Dataset,-2184744817824876814,National Health Index
-Dataset,-4639010309287704609,National Immunisation Register
-Dataset,-3991615003962021498,National Maternity Collection
-Dataset,-5907662467968697704,National Minimum Dataset (NMDS)
-Dataset,-3872441249129016523,National Needs Assessment and Service Co-ordination (NASC) Information System (Socrates)
-Dataset,-3107482989069679551,National Non-Admitted Patients Collection
-Dataset,-907138040454721079,National Notifiable Disease Surveillance Database (EpiSurv)
-Dataset,2801559182363636283,"National Primary Medical Care Survey (NatMedCa), 2001/2"
-Dataset,8888598753839904070,National Travel Assistance (NTA) Data Set
-Dataset,5850860162860282944,New Zealand Cancer Registry (NZCR)
-Dataset,-8199422192299975505,New Zealand Health Survey (continuous survey 2011–)
-Dataset,2944584697533271902,Newborn Metabolic
-Dataset,6744244947661344778,NIHI-ACCESS - Te Ira Tangata                                                
-Dataset,-7725009207668679685,NIHI-ADAPT                                                                  
-Dataset,93819251259953706,NIHI-ADVANCE                                                                
-Dataset,6963897126040398794,NIHI-ARCOS                                                                  
-Dataset,-3630629954489453613,NIHI-ARCOS4                                                                 
-Dataset,-2355990168527053064,NIHI-ARCOS81                                                                
-Dataset,-7069370358649742804,NIHI-ARCOS91                                                                
-Dataset,8704241723400737494,NIHI-ASCEND                                                                 
-Dataset,-6080072001016839815,NIHI-ASPIRE                                                                 
-Dataset,2694218803894214505,NIHI-ASTRO                                                                  
-Dataset,-7614253697138465190,NIHI-AUCKLAND BLOOD DONOR PILOT
-Dataset,9109848963257588825,NIHI-AUCKLAND LEG ULCER STUDY
-Dataset,8661971533954276056,NIHI-BIONIC                                                                 
-Dataset,4261829380782080046,NIHI-CAR CRASH STUDY (ACCIS)
-Dataset,8579308189962485518,NIHI-CASCAID                                                                
-Dataset,-67319543793916910,NIHI-CSSS                                                                   
-Dataset,1345173241241781886,NIHI-CTRU SURVEYS                                                           
-Dataset,-3385760992245774440,NIHI-FIT2QUIT                                                               
-Dataset,8961026517787782415,NIHI-Fletcher Challenge                                                     
-Dataset,-2439722038848146261,NIHI-FREEMASONS HEALTH STUDY
-Dataset,-1446713314986619599,NIHI-HALT                                                                   
-Dataset,4362325436599776115,NIHI-He Tapu Te Ha: Space to Breathe                                        
-Dataset,5278246950883431170,NIHI-HIPAID                                                                 
-Dataset,4146700502127708317,NIHI-HYVET BP AUDIT                                                         
-Dataset,1710453015311121610,NIHI-ICAN                                                                   
-Dataset,2012580697413383786,NIHI-IDEAL                                                                  
-Dataset,-5794400060488806458,NIHI-IMPACT                                                                 
-Dataset,-4893717356193882484,NIHI-LIPID ULTRA-SOUND SUB-STUDY
-Dataset,1340160153211431309,NIHI-LUMS                                                                   
-Dataset,1930947905977645609,NIHI-Mission-On National Survey                                             
-Dataset,-4464359577163778509,NIHI-Nutritrack
-Dataset,-2581833315287133873,NIHI-NZ BLOOD DONORS HEALTH STUDY
-Dataset,4990424713348382200,NIHI-PACIFIC
-Dataset,22196946666700641,NIHI-PART 2
-Dataset,-422606694367528195,NIHI-PILL Pilot                                                             
-Dataset,-2516212964049000839,NIHI-PQNIQ                                                                  
-Dataset,-5336166041232862091,NIHI-PROGRESS
-Dataset,2584293432503474832,NIHI-PULMONARY EMBOLISM PREVENTION
-Dataset,-7961524767844390376,NIHI-RELIQ                                                                  
-Dataset,3836211090176875071,NIHI-SHOP                                                                   
-Dataset,3875556896696666629,NIHI-SHOP Pilot                                                             
-Dataset,7298414075285990745,NIHI-SOLD                                                                   
-Dataset,-1250829604928045608,NIHI-SONIQ                                                                  
-Dataset,-4845111966648713560,NIHI-STEROID                                                                
-Dataset,-1423207556048449804,NIHI-STEROID LABOUR STUDY
-Dataset,-2868450077795931945,NIHI-YourCall                                                               
-Dataset,-3167287382789715936,Nurse Maude - Acute Community Liaison Service
-Dataset,3994996252062878469,Nurse Maude - Acute Demand Management Service (ADMS)
-Dataset,4033742563816008266,Nurse Maude - Community-based Dialysis
-Dataset,3633735259128422386,Nurse Maude - District Nursing
-Dataset,6489187513876253866,Nurse Maude - Home-based support services (HBSS)
-Dataset,-2413686924916450425,NZ national genetic services dataset
-Dataset,-1187647710758012332,NZ Role Delineation Model
-Dataset,8061413378024680437,NZ Smoking Monitor
-Dataset,7299215229897291942,NZ Society for the Study of Diabetes
-Dataset,5851644020844988778,NZ Youth Tobacco Monitor
-Dataset,-844350128048295077,Opioid Substition
-Dataset,5854620814084235973,Oral Health – Mean DMFT score at Year 8 (performance measure PP10)
-Dataset,8345960066533896103,Organisation of Economic Co-operation and Development (OECD) Health Data 
-Dataset,-9044042354245388919,"Organisation of Economic Co-operation and Development (OECD),Eurostat, World Health Organisation (WHO) Europe Joint Collection on Non-Monetary Health Care Statistics"
-Dataset,2543029997862207084,Percentage caries-free for age 5 and Year 8 children
-Dataset,7003380133954605774,Pharmaceutical Collection (Pharmhouse)
-Dataset,-6901273710818369567,Pharmaceutical Schedule database (SiMPle)
-Dataset,1445679749316350548,PHO Enrolment Collection
-Dataset,12606794363943027,PHOs
-Dataset,3016970482810912254,PlunketLine data - held by provider
-Dataset,5492122302516928163,PlunketLine data -held by Ministry
-Dataset,-5023114222634135438,Plunket-Well Child dataset
-Dataset,-1822247597465271152,PREDICT / VIEW
-Dataset,2244751143361628826,Pre-school children's enrolments
-Dataset,-4843941545767036718,Primary Care Performance Programme - Smoking Indicator data
-Dataset,-2866404124012956663,Problem Gambling (PG) Intervention Client-Sessions - Using the CLIC (Clinet Information Collection) database
-Dataset,-4745503864666191151,Project for the integration of Mental Health Data (PRIMHD)
-Dataset,5302896901095311044,Quitline
-Dataset,-7238426373910156605,Radiotherapy waiting times (health target)
-Dataset,4444715222447175622,Safety Culture Survey 2007 
-Dataset,-256049644003395459,School Based Health Services
-Dataset,-1751439232730159616,Secondary Care Health Target
-Dataset,-8093675081940593503,Selected Professional Workforce Survey
-Dataset,5668673350108239136,Sexually Transmitted Infections Database
-Dataset,2977289373780002389,South Island Clinical Cancer Information System (SICCIS) project
-Dataset,2699390249162081113,South Island Linear Accelerator Report
-Dataset,4681979514467987997,South Island Medical Oncology Wait Time project
-Dataset,-826620080065153456,Sport and Physical Activity Survey 1997–2001 
-Dataset,2867111457057173163,Statistics New Zealand 2006 Population Projections for BSA and NCSP Programme in the NSU
-Dataset,-2325789969592411461,Stays in Emergency Departments (health target)
-Dataset,197353788954193312,Sun Exposure Survey
-Dataset,1364075366968013824,Te Rau Hinengaro – The New Zealand Mental Health Survey (2004)
-Dataset,-1647840456670976164,TestSafe
-Dataset,-6622387741110337257,The Australian and New Zealand Registry of Advanced Glaucoma
-Dataset,4368753399310105941,The National Depression Survey 2005
-Dataset,4341241790710949656,Theatre Utilisation (performance measure OS5)
-Dataset,6721716484149787005,"Tobacco Use Survey (2006, 2008, 2009)"
-Dataset,5797753234400643916,Universal NewBorn Hearing Screening and Early Intervention Programme (UNHSEIP) Data
-Dataset,7035661722928272351,"UoA BioEngineering model repository, from the perspective of CellML, but mentioned FieldML"
-Dataset,-5807992694643253480,Use of relapse prevention planning in Mental Health (performance measure PP7)
-Dataset,-6974689150885852257,Utilisation of DHB-funded dental services by adolescents (performance measure PP12)
-Dataset,4678201866638305203,VDR (Virtual Diabetes Register)
-Dataset,2939189804718620105,Waikato DHB DBs
-Dataset,861360850507158772,WDHB-Clinical Audit
-Dataset,8939703417034479746,WDHB-Community SWE
-Dataset,6572420355631175274,WDHB-Costing
-Dataset,3483578412374188487,WDHB-CVDIS
-Dataset,3184141199837423945,WDHB-Dental - Titanium
-Dataset,-6856809852287575455,WDHB-EDS
-Dataset,4605661935115746638,WDHB-HCC
-Dataset,-1081970498107205403,WDHB-HealthWare
-Dataset,-3788942896457914520,WDHB-Labs
-Dataset,6479669190872895799,WDHB-Leader
-Dataset,-5258748837352502998,WDHB-Monitor Pro
-Dataset,-8244968277046515074,WDHB-Payroll
-Dataset,-5593195868050347690,WDHB-Pharmacy
-Dataset,-7134710209112517060,WDHB-PIMS
-Dataset,-1981926106077581322,WDHB-Provation
-Dataset,3700419649893136703,WDHB-Radiology
-Dataset,2593669323620695128,WDHB-Renal SWE
-Dataset,6524481733580384841,WDHB-Trendcare
-Dataset,3874336844798842742,WDHB-XIMS
-Dataset,-2745695693042010682,"Well Child / Tamariki Ora
-"
-Dataset,-812874328131991977,Auckland Business Monitor: Survey Results for waves 1 to 3
-Dataset,8393909120849349220,Business Demography Statistics: Enterprises by business type and industry 2000 2015
-Dataset,3281080928134901698,Business Demography Statistics: Enterprises by employee count size and industry 2000 2015
-Dataset,7322635868424064441,Business Demography Statistics: Enterprises by industry 2000 2015
-Dataset,-4374821297554522551,Business Demography Statistics: Enterprises by overseas equity and industry 2000 2015
-Dataset,7728462018738747898,Business Demography Statistics: Geographic units births and deaths by area and industry 2001 2015
-Dataset,-3965761103745543129,Business Demography Statistics: Geographic units by region and industry 2015 (with percentages)
-Dataset,-2672154794112561956,Business Demography Statistics: Survival rates of enterprise births by industry 2006 2015
-Dataset,-7199495555811137369,Business Operations Survey: Module B ICT 2008 2014
-Dataset,2394081867183332210,Census: Detailed Occupation by Sex and Region 2013 (d)
-Dataset,6350649493053697180,Census: Detailed Occupation by Sex and Region (absolute values and rates per 1000) 2013
-Dataset,-7970358441830800537,"Census: Incomes by qualification, study participation, age and industry 2013"
-Dataset,-2703212453729443769,Census: Meshblock Dataset - Individual Part 2 (absolute values) 2013
-Dataset,108139340595639797,Census: Meshblock Dataset - Individual Part 3a (absolute values) 2013
-Dataset,2930774890008922748,Census: Qualifications by occupation by industry 2013
-Dataset,6546526495887855989,Consumers Price Index: CPI Level 3 Classes for New Zealand (Qrtly-Mar/Jun/Sep/Dec) December 2016
-Dataset,3693427440895108848,Environmental Reporting: Air Domain Report 2014
-Dataset,3490468038019034881,Environmental Reporting: Influenza hospital discharges 2000 2013
-Dataset,5345364332617679280,Environmental Reporting: Influenza hospital discharges by week 2013
-Dataset,-3978407813540348801,Environmental Reporting: Melanoma rates 1996 2013
-Dataset,-770460566234890394,Environmental Reporting: Notified cases of salmonellosis 1997 2013
-Dataset,-7303228434463301616,Figure.NZ: Mortality and publicly funded hospital discharges for infectious diseases 2013/2014
-Dataset,5035034354279890180,Fiscal Time Series: Core Crown Expense Tables 2000 2015
-Dataset,-6541101144517074397,Fiscal Time Series: Historical Fiscal Indicators 1972 2016
-Dataset,5159754259302927602,Fiscal Time Series: Historical Fiscal Indicators (per capita) 1972 2016
-Dataset,-3754493622077896711,"Household Economic Survey: Expenditure Statistics, Year ended June 2016"
-Dataset,3113325349287313520,Household Use of Information and Communication Technology: Summary tables 2012
-Dataset,-2151061413424190871,Labour Market Statistics 1986 2015
-Dataset,-3725743345675199541,"LEED: Main earnings source, by industry 2000 2014"
-Dataset,906127239595869255,LEED: Measures by age and industry (based on ANZSIC06) 1999 2014
-Dataset,-6345558341031665180,LEED: Measures by industry (based on ANZSIC06) 1999 2014
-Dataset,8273785158541766178,LEED: Measures by industry (based on ANZSIC06) and firm size 1999 2014
-Dataset,-8735722182243881306,LEED: Measures by industry (based on ANZSIC06) and region 1999 2014
-Dataset,51554478851827955,LEED: Measures by sex and industry (based on ANZSIC06) 1999 2014
-Dataset,8070996698752106582,Local Authority Election Statistics 2013
-Dataset,-2929974824086017251,"National Accounts (Income and Expenditure): GDP breakdown, Year Ended March 2016"
-Dataset,3493775443953445422,New Zealand Progress Indicators Tupuranga Aotearoa: Health expectancy to 2006
-Dataset,-1338238967532347878,"Producers Price Index: Inputs NZSIOC level 4, Base Dec 2010 quarter (Quarterly) September 2016"
-Dataset,8126337886357269101,"Producers Price Index: Published input commodities, Base Dec 2009 (Quarterly) September 2016"
-Dataset,6740071616454676400,"Producers Price Index: Published output commodities, Base Dec 2009 (Quarterly) September 2016"
-Dataset,4940644091094973912,Productivity Statistics: Industry-Level Statistics 1978 2015
-Dataset,-8739689227631860206,Short-term Employment Forecasts: 2016-2019 - November 2016
-Dataset,1012831241721293163,Tertiary Education: Participation - Provider-based Enrolments Field of Study 2015
-Dataset,-7448725554233780373,Tertiary Education: Research Performance 2015
+:LABEL,datasetId:ID(Dataset),name,url
+Dataset,-367088688945561187,1000 Genomes Project,https://aws.amazon.com/1000genomes/
+Dataset,-2894760873312510574,"Bad teeth, sugar and government health spending",https://www.kaggle.com/angelmm/healthteethsugar
+Dataset,3091219437783835965,Blood Donation Data,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-use-sample-datasets
+Dataset,-4875975844791292481,Breast Cancer Data,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-use-sample-datasets
+Dataset,412197494533906334,Death in the United States,https://www.kaggle.com/cdc/mortality
+Dataset,-3268321604146033833,ICGC-TCGA DREAM Mutation Calling Challenge,http://googlegenomics.readthedocs.io/en/latest/use_cases/discover_public_data/dream_smc_dna.html
+Dataset,4132044991853147512,Eating & Health Module Dataset,https://www.kaggle.com/bls/eating-health-module-dataset
+Dataset,5680875039533806150,"Foodborne Disease Outbreaks, 1998-2015",https://www.kaggle.com/cdc/foodborne-diseases
+Dataset,4834530113451736407,Health Care Access/Coverage for 1995-2010,https://www.kaggle.com/cdc/health-care-access-coverage
+Dataset,-3889760834992136201,New Zealand Progress Indicators Tupuranga Aotearoa: Health expectancy to 2006,http://www.stats.govt.nz/browse_for_stats/snapshots-of-nz/nz-progress-indicators/home/social/health-expectancy.aspx
+Dataset,-6102533447592460876,Health Insurance Coverage,https://www.kaggle.com/hhs/health-insurance
+Dataset,-7112309434128006135,Health Insurance Market Place,https://www.kaggle.com/hhs/health-insurance-marketplace
+Dataset,1725787755711399074,Health Nutrition and Population Statistics,https://www.kaggle.com/theworldbank/health-nutrition-and-population-statistics
+Dataset,1926232494965530136,Hospital General Information,https://www.kaggle.com/cms/hospital-general-information
+Dataset,4732826475023693312,Human Microbiome Project,https://aws.amazon.com/datasets/human-microbiome-project/
+Dataset,7674407472168104391,Personal Genome Project Data,http://googlegenomics.readthedocs.io/en/latest/use_cases/discover_public_data/pgp_public_data.html
+Dataset,-3697689905819082101,Medicare Data,https://cloud.google.com/bigquery/public-data/medicare
+Dataset,2688613499275929466,Mental Health in Tech Survey,https://www.kaggle.com/osmi/mental-health-in-tech-survey
+Dataset,-7813557832995466640,Mental Health and Addiction: Service use 2011/12,http://www.health.govt.nz/publication/mental-health-and-addiction-service-use-2011-12
+Dataset,5148601610848941439,National Health and Nutrition Examination Survey,https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey
+Dataset,5537729001135498189,Nursing Home Compare,https://www.kaggle.com/medicare/nursing-home-compare
+Dataset,-1953796280774122126,OSMI Mental Health in Tech Survey 2016,https://www.kaggle.com/osmi/mental-health-in-tech-2016
+Dataset,2742928474143926133,Prescription-based prediction,https://www.kaggle.com/roamresearch/prescriptionbasedprediction
+Dataset,-2099663929428045816,Project Tycho: Contagious Diseases,https://www.kaggle.com/pitt/contagious-diseases
+Dataset,-2278440419477999209,Reference Genomes,http://googlegenomics.readthedocs.io/en/latest/use_cases/discover_public_data/reference_genomes.html
+Dataset,1497737959372698798,Simons Genome Diversity Project,http://googlegenomics.readthedocs.io/en/latest/use_cases/discover_public_data/simons_foundation.html
+Dataset,6783487905873440601,Student Alcohol Consumption,https://www.kaggle.com/uciml/student-alcohol-consumption
+Dataset,-4260139794117116491,TCGA Cancer Genomics Data in the Cloud,http://googlegenomics.readthedocs.io/en/latest/use_cases/discover_public_data/isb_cgc_data.html
+Dataset,2861443827566920012,Tobacco Use 1995-2010,https://www.kaggle.com/cdc/tobacco-use
+Dataset,-1346354152846319734,"Tobacco Use and Mortality, 2004-2015",https://www.kaggle.com/nhs/tobacco-use
+Dataset,-6401046467334563283,US county-level mortality,https://www.kaggle.com/IHME/us-countylevel-mortality
+Dataset,8770332956708344169,USA Contagious Disease Data,https://cloud.google.com/bigquery/public-data/usa-disease
+Dataset,1807671237097660411,Zika Virus Epidemic,https://www.kaggle.com/cdc/zika-virus-epidemic
+Dataset,2995489682186948747,Cavatica,http://www.cavatica.org/
+Dataset,-1493352976371348754,1976 Survey of Adult Oral Health ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/oral-health-survey
+Dataset,3390008904200986362,1988 WHO Study of Oral Health Outcomes - New Zealand ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/oral-health-survey
+Dataset,6712362248119272471,1992/93 New Zealand Health Survey,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey
+Dataset,-4326107842351432563,1996/97 New Zealand Health Survey,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey
+Dataset,-3124492143719175918,1997 National Nutrition Survey ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/nutrition-survey
+Dataset,-1809382975646976826,2002 National Children’s Nutrition Survey ,http://www.health.govt.nz/publication/nz-food-nz-children
+Dataset,8493244552988894199,2002/03 New Zealand Health Survey ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey
+Dataset,-4786330297982686118,2005 New Zealand Prisoner Health Survey ,http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/prisoner-health-data-and-stats
+Dataset,-6634197220334371322,2006/07 New Zealand Health Survey ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey
+Dataset,4614728295105082882,2007/08 New Zealand Alcohol and Drug Use Survey ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/alcohol-and-drug-use-survey
+Dataset,4177201809988293771,2008/09 New Zealand Adult Nutrition Survey ,http://www.health.govt.nz/publication/2008-09-new-zealand-adult-nutrition-survey-data-tables
+Dataset,424468894867282420,2009 New Zealand Oral Health Survey ,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/oral-health-survey
+Dataset,2474670215632162362,A National Survey of Children and Young People’s Physical Activity and Dietary Behaviours in New Zealand: 2008/09,http://www.health.govt.nz/publication/national-survey-children-and-young-peoples-physical-activity-and-dietary-behaviours-new-zealand-2008
+Dataset,-2821585120339543326,ACC Datasets,http://www.acc.co.nz/about-acc/research/ABA00043
+Dataset,-129563689026268030,Acute Coronary Syndrome (ACS) Registry (NZ and ANZ) – under development,https://www.nzma.org.nz/journal/read-the-journal/all-issues/2010-2019/2016/vol-129-no-1439-5-august-2016/6959
+Dataset,5410318328982243261,Acute Coronary Syndrome,http://www.health.govt.nz/
+Dataset,-6072196690805753011,ADHB-ARIA – Radiotherapy system,http://www.adhb.health.nz/
+Dataset,7258299094598536695,ADHB-CBORD – Dietary System ,http://www.adhb.health.nz/
+Dataset,-607920241557414614,ADHB-ClinDocs – Clinical Databases,http://www.adhb.health.nz/
+Dataset,6038530880291631466,ADHB-CMS,http://www.adhb.health.nz/
+Dataset,-4842242276754246647,ADHB-Colposcopy – Colposcopy database - Gynaecology,http://www.adhb.health.nz/
+Dataset,-4089154615034424610,ADHB-CRIS – Clinical Record Information System Scanned images & electronically imported images of historical Clinical Records,http://www.adhb.health.nz/
+Dataset,4898465565028160495,ADHB-CTSU Scheduler – Cardiothoracic event tracker,http://www.adhb.health.nz/
+Dataset,3106421791436965309,ADHB-Delphic (LIS) – Laboratory System,http://www.adhb.health.nz/
+Dataset,7224399847368721444,ADHB-Departmental Systems – Variety of systems often for Clinical Audit,http://www.adhb.health.nz/
+Dataset,3800979646222970375,ADHB-Endoscopy – Gastroenterology and Respiratory,http://www.adhb.health.nz/
+Dataset,-5216985000161257322,ADHB-ePharmacy – Pharmacy System ,http://www.adhb.health.nz/
+Dataset,-2852027384342030626,ADHB-Éclair – Data repository for results e.g. Laboratory,http://www.adhb.health.nz/
+Dataset,-7793464265222776776,ADHB-HCC - Diabetes,http://www.adhb.health.nz/
+Dataset,6307720004145468603,ADHB-HCC - Health Care  Community,http://www.adhb.health.nz/
+Dataset,9095897249836927817,ADHB-HCC – Mental Health,http://www.adhb.health.nz/
+Dataset,-4418880849695254309,ADHB-Healthware – Women’s Health – Maternity,http://www.adhb.health.nz/
+Dataset,-6167403859194951602,ADHB-iPMS – Theatre Management,http://www.adhb.health.nz/
+Dataset,-6152584125253494828,ADHB-MFM Viewpoint - Maternal Fetal Medicine,http://www.adhb.health.nz/
+Dataset,8879647949827730472,ADHB-OCA – Otago Clinical Audit - General Surgery,http://www.adhb.health.nz/
+Dataset,1232191759238036067,ADHB-PACS - Picture Archiving and Communication System - Radiology,http://www.adhb.health.nz/
+Dataset,496220954916988454,ADHB-PHS – Pathways Healthcare System - Outpatients,http://www.adhb.health.nz/
+Dataset,2568189914160916267,ADHB-PIMS,http://www.adhb.health.nz/
+Dataset,-3795287838917477693,ADHB-Prosolve,http://www.adhb.health.nz/
+Dataset,-5665729573508498863,ADHB-Regional View Visit – Displays of all encounters for 3 Auckland metro DHBs,http://www.adhb.health.nz/
+Dataset,-1742892708161580655,ADHB-Scope / Orthoscope – Clinical System used in Adult and Paed Orthopaedics.  There is a “whiteboard” view of theatre schedules,http://www.adhb.health.nz/
+Dataset,-8727217804719891552,ADHB-Soprano – EDS Electronic Discharge Summaries,http://www.adhb.health.nz/
+Dataset,-1680680935523573807,ADHB-Soprano – MedDocs (transcription),http://www.adhb.health.nz/
+Dataset,-5160721501342735740,ADHB-Tdocs – Instrument and Supply Sterilisation,http://www.adhb.health.nz/
+Dataset,8015323498874685759,ADHB-Titanium (Exact) – Oral Health,http://www.adhb.health.nz/
+Dataset,-457254455920238848,Adolescent utilisation of dental services,http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/oral-health-data-and-stats/adolescent-oral-health-service-utilisation
+Dataset,-1070955996941293159,Aged Residential Care (ARC) Interdistrict flow (IDF) Report,http://www.health.govt.nz/
+Dataset,-618497281753344464,Analysis of HealthCERT and Medicines Control Regulatory Data,http://www.health.govt.nz/our-work/regulation-health-and-disability-system/certification-health-care-services
+Dataset,3937934716436801013,Annual Attitudes and Behaviours Alcohol Survey,http://www.researchnz.com/
+Dataset,7047437288773299600,"ASH Year 10 Smoking Survey – 2003, 2005",http://www.ash.org.nz/
+Dataset,5466553592538164009,ASH –Year 10 Survey (tobacco use),http://www.ash.org.nz/
+Dataset,9112768438828894777,Auckland Rheumatic Fever Registry,https://www.auckland.ac.nz/en.html
+Dataset,5110532822290559398,Auckland/Canterbury Shared Care systems,http://www.whanautahi.com/
+Dataset,8827831092000441704,Australia and New Zealand Dialysis and Transplant Registry,#
+Dataset,-2037628683695245224,Australia and New Zealand Liver Transplant Registry (ANZLTR),https://metrosouth.health.qld.gov.au/princess-alexandra-hospital
+Dataset,5415358320566797757,B4 School Check,http://www.health.govt.nz/
+Dataset,1847477175041505402,Bowel cancer audit - south island (2008-2009),https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,1637516888387088460,Breast Screen Aotearoa (BSA) Reporting Services Screening and Treatment Data,http://www.health.govt.nz/your-health/conditions-and-treatments/diseases-and-illnesses/breast-cancer
+Dataset,-7192124126793125928,"Breastfeeding data (at 6 weeks, 3 months and 6 months of age) - included in Well Child / Tamariki Ora (WCTO) dataset, above",http://www.health.govt.nz/
+Dataset,-4657776431514864625,Breast-feeding rates (performance measure SI7),http://www.health.govt.nz/
+Dataset,711545382357245446,Cancer networks - Midland,http://www.midlandcancernetwork.org.nz/
+Dataset,-8291145297652841734,Cancer networks - Northern,http://www.northerncancernetwork.org.nz/
+Dataset,-2965982023781214482,Cardiac Surgery – under development,https://anzscts.org/
+Dataset,473736029090051937,Cardiovascular Disease (CVD) Risk Assessment,http://www.health.govt.nz/
+Dataset,-1003265749711768525,CCREP in Counties (collecting a list of patients willing to take part in clinical trials),http://www.countiesmanukau.health.nz/
+Dataset,-4983962345444674869,CDHB-Aged Residential Care (ARC) ,http://www.westcoastdhb.org.nz/
+Dataset,-6949336444060477612,CDHB-Collaborative Care Management Solution (CCMS),http://www.westcoastdhb.org.nz/
+Dataset,-9163727611359854622,CDHB-Community Imaging,http://www.westcoastdhb.org.nz/
+Dataset,-6733854752228979895,CDHB-Community mental health,http://www.westcoastdhb.org.nz/
+Dataset,-8860582632742519373,CDHB-Community Rehabilitation Enablement & Support Team (CREST),http://www.westcoastdhb.org.nz/
+Dataset,-8882611359913675427,"CDHB-Community-based services (stomal, wound care, palliatve)",http://www.westcoastdhb.org.nz/
+Dataset,-5044358465522746305,CDHB-Day Care,http://www.westcoastdhb.org.nz/
+Dataset,7914871914193928006,CDHB-Electronic Referrals Management System (ERMS),http://www.westcoastdhb.org.nz/
+Dataset,-5825668097063348232,CDHB-Emergency Department,http://www.westcoastdhb.org.nz/
+Dataset,-2707975517617346695,CDHB-Event costs by service,http://www.westcoastdhb.org.nz/
+Dataset,1118065279761276145,CDHB-Homecare Medical Ltd Nurse-led telephone triage (HML),http://www.westcoastdhb.org.nz/
+Dataset,-7492349656194355687,CDHB-Inpatient,http://www.westcoastdhb.org.nz/
+Dataset,5550236096418276939,CDHB-Inter-District Flows (IDFs),http://www.westcoastdhb.org.nz/
+Dataset,5559726475392672766,CDHB-Medication management,http://www.westcoastdhb.org.nz/
+Dataset,-5802619449167468462,CDHB-Mental Health - Additional reporting,http://www.westcoastdhb.org.nz/
+Dataset,3749094963110487190,"CDHB-Mental health allocation (carer support, domestic support, respite)",http://www.westcoastdhb.org.nz/
+Dataset,-7252275118906704213,CDHB-National Travel Assistance (NTA),http://www.westcoastdhb.org.nz/
+Dataset,2165213421057691719,CDHB-Outpatient,http://www.westcoastdhb.org.nz/
+Dataset,8045882426475972990,CDHB-PHO performance monitoring,http://www.westcoastdhb.org.nz/
+Dataset,149829184588981791,CDHB-St John's,http://www.westcoastdhb.org.nz/
+Dataset,3921204065020469760,CDHB-Subsidised Procedures,http://www.westcoastdhb.org.nz/
+Dataset,2327841959141178050,CDHB-Theatre,http://www.westcoastdhb.org.nz/
+Dataset,6362125403348314899,CDHB-Waitlists,http://www.westcoastdhb.org.nz/
+Dataset,256674844452052636,CDHB-Ward movements,http://www.westcoastdhb.org.nz/
+Dataset,-4237001937891514926,CDHB-Well Child,http://www.westcoastdhb.org.nz/
+Dataset,-3155065363378337760,CDHB-Whanau Ora,http://www.westcoastdhb.org.nz/
+Dataset,8926619206087863011,Chemotherapy waiting times (performance measure PP5),http://www.health.govt.nz/new-zealand-health-system/health-targets/2012-13-health-targets/health-targets-2012-13-shorter-waits-cancer-treatment
+Dataset,716648910769226276,Children caries-free at five years of age (performance measure PP11),http://www.health.govt.nz/
+Dataset,5246413852606216760,Chronic Care Management database and Retinal Screening database,http://www.countiesmanukau.health.nz/
+Dataset,-2947301996058329485,Clients Claims Processing System (CCPS),http://www.health.govt.nz/
+Dataset,1997699557479292810,CMDHB breast cancer database,http://www.countiesmanukau.health.nz/
+Dataset,7185047542376461711,Colonoscopy audit - otago (2004-2009),https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,-893534131488252486,Contract Management System (CMS),http://www.health.govt.nz/
+Dataset,6684903526700580671,"CT, MRI and Colonoscopy Waiting Time Indicators",http://www.health.govt.nz/
+Dataset,3811183658189641187,DHB Population Projections,http://www.health.govt.nz/
+Dataset,6852636628733948201,Diabetes Care Support Service in South Auckland,http://www.dpt.org.nz/
+Dataset,-5884133032162937194,Diabetes Cohort Study,http://www.dpt.org.nz/
+Dataset,4925087698724120172,Diabetes data,http://www.health.govt.nz/
+Dataset,-3332323164336779536,DMFT for age 5 and Year 8 children,http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/oral-health-data-and-stats/age-5-and-year-8-oral-health-data-community-oral-health-service
+Dataset,-9169304073342629602,DML,http://www.dml.co.nz/
+Dataset,-5501892072434156523,DrInfo,https://www.drinfo.co.nz/
+Dataset,8178874518001766049,Drug Abuse Containment List of Restriction Notices and Persons of Interest,http://www.health.govt.nz/
+Dataset,6324349487371269204,EchoNoRMAL,https://www.auckland.ac.nz/
+Dataset,-7794791050580172997,Electronic Prescription Monitoring (EPM),http://www.health.govt.nz/
+Dataset,181074848729972709,Enrolled smokers provided with advice to quit (health target),http://www.health.govt.nz/system/files/documents/publications/targeting-smokers-to-quit.pdf
+Dataset,6843256864894761560,Examination arrears,http://www.health.govt.nz/
+Dataset,8052883709185343601,Ex-Field Information and Licensing System (XFIALS) (Office of Radiation Safety),http://www.health.govt.nz/
+Dataset,-4783497199755499473,Faster Cancer Treatment projects - SCN,https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,-6477614683396433558,"Food in Schools (FNES) (brief online survey in 2006, 2007 baseline survey, 2009 follow-up survey)",http://www.health.govt.nz/
+Dataset,-8445789207686325550,General Medical Subsidies Collection (GMS),http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/general-medical-subsidy-collection
+Dataset,3254548578726870486,General Practioners,http://www.health.govt.nz/
+Dataset,6117160543708298462,General Practitioner (GP) Fees,http://www.health.govt.nz/
+Dataset,8905036363850075975,GP data in PMS (individual or a wider hosted deployment),#
+Dataset,-5542024666140780891,Growing Up NZ,http://www.growingup.co.nz/en/access-to-guinz-data.html
+Dataset,5740461090673494005,"Health Behaviours Surveys (2004 Alcohol use, 2003 Drug use)",http://www.health.govt.nz/
+Dataset,-2692487515407316531,"Health Literacy – from survey data (1996, 2006)",http://www.health.govt.nz/our-work/making-services-better-users/health-literacy
+Dataset,-4902411210972371181,Health needs assessment - south island cancer control data (1996-2007),https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,-6038847697240790987,Health Worforce Annual Survey,http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/workforce-data-and-stats/health-professional-workforce-pamphlets/health-workforce-annual-surveys-2010
+Dataset,7400764163462342815,HealthCERT Data Collection,http://www.health.govt.nz/our-work/regulation-health-and-disability-system/certification-health-care-services
+Dataset,3743904879812623353,Healthline data - held by provider,https://www.medibankhealth.com.au/
+Dataset,-8526271973457073376,Healthline data- held by Ministry,http://www.health.govt.nz/
+Dataset,-1347361769516674066,Healthline,http://www.health.govt.nz/your-health/services-and-support/health-care-services/healthline
+Dataset,2658483631172681608,HealthStat,http://www.countiesmanukau.health.nz/
+Dataset,4033657468963011108,HIV Antenatal,http://www.southerndhb.govt.nz/
+Dataset,7134459616448420523,Hospital medicines list (HML),http://www.pharmac.govt.nz/schedule/archive
+Dataset,-3949155857002537439,Hospitalised smokers provided with advice to quit (health target),http://www.nationalhealthboard.govt.nz/our-priorities/health-targets
+Dataset,6305431811493591421,Hospitals,http://www.health.govt.nz/
+Dataset,-7658804840604277972,Improving the number of children enrolled in DHB funded dental services (performance measure PP13,http://www.health.govt.nz/
+Dataset,8358732503182756836,International Physical Activity Survey (IPAQ) – New Zealand – April 2003,http://www.health.govt.nz/
+Dataset,8787537992793436802,International Tobacco Study (ITC) Survey (follow-up to the 2006/07 NZHS),http://www.health.govt.nz/
+Dataset,-3800388582638056987,InterRAI,http://www.health.govt.nz/our-work/ehealth/other-ehealth-initiatives/common-clinical-information/comprehensive-clinical-assessment-aged-care-interrai
+Dataset,-8594894469721422669,Lab infectious disease dataset,http://www.esr.cri.nz/
+Dataset,5577056284794044456,Laboratory Claims Collection,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/laboratory-claims-collection
+Dataset,-7271700770402614988,LabTests,http://www.labtests.co.nz/
+Dataset,1158574475465988437,Life in New Zealand (LINZ) Survey 1989,http://www.health.govt.nz/
+Dataset,8820268229700633699,Lifestyles Survey,http://www.cbg.co.nz/
+Dataset,-8922782567901009631,Lung cancer audit - south island (2008/2010),https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,-4069176015977813356,MAGGIC dataset,https://www.auckland.ac.nz/
+Dataset,1917734235523403249,Māori Health HealthStat,http://www.health.govt.nz/our-work/populations/maori-health/whanau-ora-programme
+Dataset,-5078520615616803354,Medical Warning System,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/medical-warning-system
+Dataset,3346323288299014591,Medicines Control Licencing Data Collection,http://www.health.govt.nz/our-work/regulation-health-and-disability-system/medicines-control
+Dataset,8328729055521736940,Mental Health Price Volume Schedule,http://www.health.govt.nz/
+Dataset,-2047752544064102925,Mortality Collection,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/mortality-collection
+Dataset,4347520951127795527,National Booking Reporting System Data Warehouse,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-booking-reporting-system-data-warehouse
+Dataset,-7731377919496702538,National Booking Reporting System,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-booking-reporting-system
+Dataset,-4959056516146817978,National Cervical Screening Programme (NCSP) Data Warehouse,http://www.health.govt.nz/your-health/conditions-and-treatments/diseases-and-illnesses/cervical-cancer
+Dataset,3913647366057305534,National Childhood Immunisation Coverage Survey 2005,http://www.health.govt.nz/publication/national-childhood-immunisation-coverage-survey-2005
+Dataset,-6414930441205164116,National Costing Collection,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections
+Dataset,-6928489785756727151,National Diet Survey 1977,http://www.health.govt.nz/
+Dataset,-4105777116328546013,National Health Index,http://www.health.govt.nz/our-work/health-identity/national-health-index
+Dataset,8242288545817237315,National Immunisation Register,http://www.health.govt.nz/our-work/preventative-health-wellness/immunisation/national-immunisation-register
+Dataset,-4715160876827276405,National Maternity Collection,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-maternity-collection
+Dataset,-4868211483355306857,National Minimum Dataset (NMDS),http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-minimum-dataset-hospital-events
+Dataset,4134327789838580594,National Needs Assessment and Service Co-ordination (NASC) Information System (Socrates),http://www.health.govt.nz/
+Dataset,-5515578813425010152,National Non-Admitted Patients Collection,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/national-non-admitted-patient-collection
+Dataset,-695181502541221001,National Notifiable Disease Surveillance Database (EpiSurv),http://www.esr.cri.nz/
+Dataset,-2012540046242015878,"National Primary Medical Care Survey (NatMedCa), 2001/2",http://www.nzssn.org.nz/
+Dataset,5581384825673036176,National Travel Assistance (NTA) Data Set,http://www.health.govt.nz/
+Dataset,-5406829485758784910,New Zealand Cancer Registry (NZCR),http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/new-zealand-cancer-registry-nzcr
+Dataset,4536173456120835839,New Zealand Health Survey (continuous survey 2011–),http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/new-zealand-health-survey
+Dataset,-3985518145787586660,Newborn Metabolic,http://www.health.govt.nz/your-health/pregnancy-and-kids/first-year/first-6-weeks/health-visits-first-6-weeks/newborn-screening
+Dataset,6174184358061815310,NIHI-ACCESS - Te Ira Tangata                                                ,https://www.auckland.ac.nz/
+Dataset,-4014830956206397512,NIHI-ADAPT                                                                  ,https://www.auckland.ac.nz/
+Dataset,-4354425018363161120,NIHI-ADVANCE                                                                ,https://www.auckland.ac.nz/
+Dataset,1898705892334463497,NIHI-ARCOS                                                                  ,https://www.auckland.ac.nz/
+Dataset,-5843622213865824649,NIHI-ARCOS4                                                                 ,https://www.auckland.ac.nz/
+Dataset,-6189476171669222251,NIHI-ARCOS81                                                                ,https://www.auckland.ac.nz/
+Dataset,8559285239374345017,NIHI-ARCOS91                                                                ,https://www.auckland.ac.nz/
+Dataset,1747449371905897751,NIHI-ASCEND                                                                 ,https://www.auckland.ac.nz/
+Dataset,3699616587685956604,NIHI-ASPIRE                                                                 ,https://www.auckland.ac.nz/
+Dataset,2420298609324895101,NIHI-ASTRO                                                                  ,https://www.auckland.ac.nz/
+Dataset,-1971034286674973729,NIHI-AUCKLAND BLOOD DONOR PILOT,https://www.auckland.ac.nz/
+Dataset,8832986946494719448,NIHI-AUCKLAND LEG ULCER STUDY,https://www.auckland.ac.nz/
+Dataset,2906924171690422442,NIHI-BIONIC                                                                 ,https://www.auckland.ac.nz/
+Dataset,-7771941778525226765,NIHI-CAR CRASH STUDY (ACCIS),https://www.auckland.ac.nz/
+Dataset,1764261229527399817,NIHI-CASCAID                                                                ,https://www.auckland.ac.nz/
+Dataset,9209244150291795886,NIHI-CSSS                                                                   ,https://www.auckland.ac.nz/
+Dataset,4306966170901701897,NIHI-CTRU SURVEYS                                                           ,https://www.auckland.ac.nz/
+Dataset,7731216744449726054,NIHI-FIT2QUIT                                                               ,https://www.auckland.ac.nz/
+Dataset,5011873809466347649,NIHI-Fletcher Challenge                                                     ,https://www.auckland.ac.nz/
+Dataset,111222315957724424,NIHI-FREEMASONS HEALTH STUDY,https://www.auckland.ac.nz/
+Dataset,6396583570320939803,NIHI-HALT                                                                   ,https://www.auckland.ac.nz/
+Dataset,-179203428187923041,NIHI-He Tapu Te Ha: Space to Breathe                                        ,https://www.auckland.ac.nz/
+Dataset,-3693214457786894109,NIHI-HIPAID                                                                 ,https://www.auckland.ac.nz/
+Dataset,-7987812862726124737,NIHI-HYVET BP AUDIT                                                         ,https://www.auckland.ac.nz/
+Dataset,4221458780788582122,NIHI-ICAN                                                                   ,https://www.auckland.ac.nz/
+Dataset,-2971504927676404623,NIHI-IDEAL                                                                  ,https://www.auckland.ac.nz/
+Dataset,-8319937009661884739,NIHI-IMPACT                                                                 ,https://www.auckland.ac.nz/
+Dataset,-79481521993764003,NIHI-LIPID ULTRA-SOUND SUB-STUDY,https://www.auckland.ac.nz/
+Dataset,-3247491672987866553,NIHI-LUMS                                                                   ,https://www.auckland.ac.nz/
+Dataset,1377548009455815041,NIHI-Mission-On National Survey                                             ,https://www.auckland.ac.nz/
+Dataset,-2320565335584655158,NIHI-Nutritrack,https://www.auckland.ac.nz/
+Dataset,2119849747918215586,NIHI-NZ BLOOD DONORS HEALTH STUDY,https://www.auckland.ac.nz/
+Dataset,5106834610030381423,NIHI-PACIFIC,https://www.auckland.ac.nz/
+Dataset,-4213544424654966347,NIHI-PART 2,https://www.auckland.ac.nz/
+Dataset,-7557579843470937774,NIHI-PILL Pilot                                                             ,https://www.auckland.ac.nz/
+Dataset,-3598738251005464661,NIHI-PQNIQ                                                                  ,https://www.auckland.ac.nz/
+Dataset,-4837766083348694636,NIHI-PROGRESS,https://www.auckland.ac.nz/
+Dataset,-3135939593509773659,NIHI-PULMONARY EMBOLISM PREVENTION,https://www.auckland.ac.nz/
+Dataset,-126500298396270973,NIHI-RELIQ                                                                  ,https://www.auckland.ac.nz/
+Dataset,183037357662878665,NIHI-SHOP                                                                   ,https://www.auckland.ac.nz/
+Dataset,-5274102488509141000,NIHI-SHOP Pilot                                                             ,https://www.auckland.ac.nz/
+Dataset,5326485889857883211,NIHI-SOLD                                                                   ,https://www.auckland.ac.nz/
+Dataset,-3988740076264491611,NIHI-SONIQ                                                                  ,https://www.auckland.ac.nz/
+Dataset,5642156329064072291,NIHI-STEROID                                                                ,https://www.auckland.ac.nz/
+Dataset,7509819476587960898,NIHI-STEROID LABOUR STUDY,https://www.auckland.ac.nz/
+Dataset,-1021848914804028405,NIHI-YourCall                                                               ,https://www.auckland.ac.nz/
+Dataset,-7122043102757632501,Nurse Maude - Acute Community Liaison Service,https://www.nursemaude.org.nz/
+Dataset,-403032680960270643,Nurse Maude - Acute Demand Management Service (ADMS),https://www.nursemaude.org.nz/
+Dataset,-9202435117493603916,Nurse Maude - Community-based Dialysis,https://www.nursemaude.org.nz/
+Dataset,6897714455110202592,Nurse Maude - District Nursing,https://www.nursemaude.org.nz/
+Dataset,-6434641446945098189,Nurse Maude - Home-based support services (HBSS),https://www.nursemaude.org.nz/
+Dataset,-172586312481236791,NZ national genetic services dataset,http://www.genetichealthservice.org.nz/
+Dataset,-7353597885850868288,NZ Role Delineation Model,http://www.health.govt.nz/
+Dataset,2015906975395286919,NZ Smoking Monitor,http://www.hpa.org.nz/
+Dataset,4614137262406384866,NZ Society for the Study of Diabetes,http://www.dpt.org.nz/
+Dataset,6304290016268959862,NZ Youth Tobacco Monitor,http://www.hpa.org.nz/
+Dataset,5638360374687883843,Opioid Substition,http://www.health.govt.nz/
+Dataset,3571867262326618424,Oral Health – Mean DMFT score at Year 8 (performance measure PP10),http://www.health.govt.nz/
+Dataset,-7384125180277772375,Organisation of Economic Co-operation and Development (OECD) Health Data ,http://www.health.govt.nz/
+Dataset,-1492693076136620461,"Organisation of Economic Co-operation and Development (OECD),Eurostat, World Health Organisation (WHO) Europe Joint Collection on Non-Monetary Health Care Statistics",http://www.health.govt.nz/
+Dataset,3690960989903390566,Percentage caries-free for age 5 and Year 8 children,http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/oral-health-data-and-stats/age-5-and-year-8-time-series-oral-health-data
+Dataset,-8875824965747208220,Pharmaceutical Collection (Pharmhouse),http://www.health.govt.nz/publication/pharmaceutical-claims-data-mart-data-dictionary
+Dataset,8006580400748603350,Pharmaceutical Schedule database (SiMPle),http://www.pharmac.govt.nz/schedule/archive
+Dataset,-7259903407977506529,PHO Enrolment Collection,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/primary-health-organisation-enrolment-collection
+Dataset,-7644038091052747385,PHOs,#
+Dataset,-3540605382315341655,PlunketLine data - held by provider,https://www.plunket.org.nz/
+Dataset,-7739289421292219611,PlunketLine data -held by Ministry,http://www.health.govt.nz/your-health/services-and-support/health-care-services/plunketline
+Dataset,7081936911244679108,Plunket-Well Child dataset,https://www.plunket.org.nz/
+Dataset,-1470330294033677754,PREDICT / VIEW,http://www.enigma.co.nz/2015/12/23/predict-enigma-view-university-of-auckland-looking-forward-to-2016/
+Dataset,-8477732808664671129,Pre-school children's enrolments,http://www.health.govt.nz/
+Dataset,-6206899854667436208,Primary Care Performance Programme - Smoking Indicator data,http://www.health.govt.nz/
+Dataset,1204988516306204393,Problem Gambling (PG) Intervention Client-Sessions - Using the CLIC (Clinet Information Collection) database,http://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/problem-gambling-data-and-stats
+Dataset,-4603051800645550977,Project for the integration of Mental Health Data (PRIMHD),http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/collections/primhd-mental-health-data
+Dataset,-6676666574136712700,Quitline,http://www.health.govt.nz/your-health/healthy-living/addictions/smoking/stop-smoking
+Dataset,2511777956635365185,Radiotherapy waiting times (health target),http://www.health.govt.nz/new-zealand-health-system/health-targets/about-health-targets/health-targets-faster-cancer-treatment
+Dataset,-6565242798320182767,Safety Culture Survey 2007 ,http://www.health.govt.nz/
+Dataset,-2386235550493508417,School Based Health Services,http://www.health.govt.nz/
+Dataset,3333509158873774528,Secondary Care Health Target,http://www.health.govt.nz/
+Dataset,8425631779711818557,Selected Professional Workforce Survey,http://www.health.govt.nz/publication/selected-health-professional-workforce-new-zealand
+Dataset,-7856597405426253221,Sexually Transmitted Infections Database,http://www.esr.cri.nz/
+Dataset,-5648192418408598503,South Island Clinical Cancer Information System (SICCIS) project,https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,9195805320545791672,South Island Linear Accelerator Report,https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,3234444289346639326,South Island Medical Oncology Wait Time project,https://www.sialliance.health.nz/our-priorities/southern-cancer-network/
+Dataset,-6354712720813766716,Sport and Physical Activity Survey 1997–2001 ,http://www.health.govt.nz/
+Dataset,-7214231157262919637,Statistics New Zealand 2006 Population Projections for BSA and NCSP Programme in the NSU,http://www.health.govt.nz/
+Dataset,5524617148698965343,Stays in Emergency Departments (health target),http://www.nationalhealthboard.govt.nz/our-priorities/health-targets
+Dataset,-4288890799342673821,Sun Exposure Survey,http://www.hpa.org.nz/
+Dataset,-1576645494131614592,Te Rau Hinengaro – The New Zealand Mental Health Survey (2004),http://www.health.govt.nz/publication/te-rau-hinengaro-new-zealand-mental-health-survey
+Dataset,2901773455433206814,TestSafe,http://www.healthalliance.co.nz/
+Dataset,7920535328051827392,The Australian and New Zealand Registry of Advanced Glaucoma,http://www.flinders.edu.au/medicine/sites/ophthalmology/clinical/aus-nz-registry-of-advanced-glaucoma.cfm
+Dataset,2690862523467317912,The National Depression Survey 2005,http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/mental-health-survey
+Dataset,6044963432835055836,Theatre Utilisation (performance measure OS5),http://www.health.govt.nz/
+Dataset,1301991149108382292,"Tobacco Use Survey (2006, 2008, 2009)",http://www.health.govt.nz/nz-health-statistics/national-collections-and-surveys/surveys/current-recent-surveys/tobacco-use-survey
+Dataset,2749452553553114051,Universal NewBorn Hearing Screening and Early Intervention Programme (UNHSEIP) Data,http://www.health.govt.nz/publication/universal-newborn-hearing-screening-new-zealand-2005
+Dataset,5674953451881916176,"UoA BioEngineering model repository, from the perspective of CellML, but mentioned FieldML",http://models.cellml.org
+Dataset,-5149259671830191660,Use of relapse prevention planning in Mental Health (performance measure PP7),http://www.nsfl.health.govt.nz/apps/nsfl.nsf/pagesmh/386/$File/ReportingBurdenOverviewfor2011-12Non-financialMonitoringFramework.pdf
+Dataset,-7864491321028893273,Utilisation of DHB-funded dental services by adolescents (performance measure PP12),http://www.health.govt.nz/
+Dataset,4549448579379148423,VDR (Virtual Diabetes Register),http://www.health.govt.nz/our-work/diseases-and-conditions/diabetes/about-diabetes/virtual-diabetes-register-vdr
+Dataset,-2563245075603976007,Waikato DHB DBs,https://www.waikatodhb.health.nz/
+Dataset,-3229052150315660490,WDHB-Clinical Audit,http://www.waitematadhb.govt.nz/
+Dataset,1819295279568101897,WDHB-Community SWE,http://www.waitematadhb.govt.nz/
+Dataset,7330884216634016502,WDHB-Costing,http://www.waitematadhb.govt.nz/
+Dataset,-6454782579507939019,WDHB-CVDIS,http://www.waitematadhb.govt.nz/
+Dataset,-6252935794151520380,WDHB-Dental - Titanium,http://www.waitematadhb.govt.nz/
+Dataset,2780882243900563297,WDHB-EDS,http://www.waitematadhb.govt.nz/
+Dataset,-9191932726969104526,WDHB-HCC,http://www.waitematadhb.govt.nz/
+Dataset,-3465922587004876788,WDHB-HealthWare,http://www.waitematadhb.govt.nz/
+Dataset,682316298332698677,WDHB-Labs,http://www.waitematadhb.govt.nz/
+Dataset,-5106895979961189038,WDHB-Leader,http://www.waitematadhb.govt.nz/
+Dataset,5778744410449351631,WDHB-Monitor Pro,http://www.waitematadhb.govt.nz/
+Dataset,8666552081460986791,WDHB-Payroll,http://www.waitematadhb.govt.nz/
+Dataset,6316211502505083175,WDHB-Pharmacy,http://www.waitematadhb.govt.nz/
+Dataset,-5632548682386299037,WDHB-PIMS,http://www.waitematadhb.govt.nz/
+Dataset,4632252062263396407,WDHB-Provation,http://www.waitematadhb.govt.nz/
+Dataset,6137765912201745169,WDHB-Radiology,http://www.waitematadhb.govt.nz/
+Dataset,9133999061093391930,WDHB-Renal SWE,http://www.waitematadhb.govt.nz/
+Dataset,6252364954653956338,WDHB-Trendcare,http://www.waitematadhb.govt.nz/
+Dataset,4486368297723532941,WDHB-XIMS,http://www.waitematadhb.govt.nz/
+Dataset,-7134420019631577200,"Well Child / Tamariki Ora
+",http://www.health.govt.nz/
+Dataset,-6489072398504412498,Auckland Business Monitor: Survey Results for waves 1 to 3,http://aucklandcouncil.govt.nz
+Dataset,-3955510240759364446,Business Demography Statistics: Enterprises by business type and industry 2000 2015,http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7606
+Dataset,1856227969832394629,Business Demography Statistics: Enterprises by employee count size and industry 2000 2015,http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7605
+Dataset,1979998253126674483,Business Demography Statistics: Enterprises by industry 2000 2015,http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7604
+Dataset,-5052497475947966130,Business Demography Statistics: Enterprises by overseas equity and industry 2000 2015,http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7608
+Dataset,4503156142468973269,Business Demography Statistics: Geographic units births and deaths by area and industry 2001 2015,http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7603
+Dataset,7803108535304783415,Business Demography Statistics: Geographic units by region and industry 2015 (with percentages),http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7601
+Dataset,4543227743799353743,Business Demography Statistics: Survival rates of enterprise births by industry 2006 2015,http://www.stats.govt.nz/browse_for_stats/businesses/business_characteristics/BusinessDemographyStatistics_HOTPFeb15.aspx
+Dataset,8939325786602577317,Business Operations Survey: Module B ICT 2008 2014,http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE7622
+Dataset,5796272586079160516,Census: Detailed Occupation by Sex and Region 2013 (d),http://www.stats.govt.nz/Census/2013-census/data-tables.aspx
+Dataset,2818501711548443416,Census: Detailed Occupation by Sex and Region (absolute values and rates per 1000) 2013,http://www.stats.govt.nz/Census/2013-census/data-tables.aspx
+Dataset,566242629644762645,"Census: Incomes by qualification, study participation, age and industry 2013",http://www.stats.govt.nz/Census/2013-census/data-tables.aspx
+Dataset,-5384600822607590196,Census: Meshblock Dataset - Individual Part 2 (absolute values) 2013,http://www.stats.govt.nz/Census/2013-census/data-tables.aspx
+Dataset,-5533070350860110780,Census: Meshblock Dataset - Individual Part 3a (absolute values) 2013,http://www.stats.govt.nz/Census/2013-census/data-tables.aspx
+Dataset,1776582642725251599,Census: Qualifications by occupation by industry 2013,http://www.stats.govt.nz/Census/2013-census/data-tables.aspx
+Dataset,-1310752332834374841,Consumers Price Index: CPI Level 3 Classes for New Zealand (Qrtly-Mar/Jun/Sep/Dec) December 2016,http://www.stats.govt.nz/infoshare/Default.aspx
+Dataset,4537778386639389893,Environmental Reporting: Air Domain Report 2014,http://www.mfe.govt.nz/more/environmental-reporting/air/air-domain-report-2014/data-and-supporting-information/data-files
+Dataset,2480761400545891950,Environmental Reporting: Influenza hospital discharges 2000 2013,http://www.mfe.govt.nz/more/environmental-reporting/air/air-domain-report-2014/data-and-supporting-information/data-files
+Dataset,-8662109018252284136,Environmental Reporting: Influenza hospital discharges by week 2013,http://www.mfe.govt.nz/more/environmental-reporting/air/air-domain-report-2014/data-and-supporting-information/data-files
+Dataset,6675892611730168983,Environmental Reporting: Melanoma rates 1996 2013,http://www.mfe.govt.nz/more/environmental-reporting/air/air-domain-report-2014/data-and-supporting-information/data-files
+Dataset,-8205881269891694699,Environmental Reporting: Notified cases of salmonellosis 1997 2013,http://www.mfe.govt.nz/more/environmental-reporting/air/air-domain-report-2014/data-and-supporting-information/data-files
+Dataset,-3943591671977585145,Figure.NZ: Mortality and publicly funded hospital discharges for infectious diseases 2013/2014,http://www.health.govt.nz/publication/mortality-2013-online-tables
+Dataset,1368453816586823533,Fiscal Time Series: Core Crown Expense Tables 2000 2015,http://www.treasury.govt.nz/budget/forecasts/hyefu2016
+Dataset,7805104492690462402,Fiscal Time Series: Historical Fiscal Indicators 1972 2016,http://www.treasury.govt.nz/budget/forecasts/hyefu2018
+Dataset,-3655781301291372354,Fiscal Time Series: Historical Fiscal Indicators (per capita) 1972 2016,http://www.treasury.govt.nz/budget/forecasts/hyefu2017
+Dataset,-2404230685474009770,"Household Economic Survey: Expenditure Statistics, Year ended June 2016",http://stats.govt.nz/browse_for_stats/people_and_communities/Households/HouseholdExpenditureStatistics_HOTPYeJun16.aspx
+Dataset,4684217581371918130,Household Use of Information and Communication Technology: Summary tables 2012,http://www.stats.govt.nz/browse_for_stats/industry_sectors/information_technology_and_communications/HouseholdUseofICT_HOTP2012.aspx
+Dataset,6155942238220327126,Labour Market Statistics 1986 2015,http://www.stats.govt.nz/browse_for_stats/snapshots-of-nz/nz-social-indicators/Home/Labour%20market/lab-force-particip.aspx
+Dataset,-6996437033149589389,"LEED: Main earnings source, by industry 2000 2014",http://www.stats.govt.nz/browse_for_stats/income-and-work/employment_and_unemployment/leed-annual-technical-notes.aspx
+Dataset,3851170592520837880,LEED: Measures by age and industry (based on ANZSIC06) 1999 2014,http://www.stats.govt.nz/browse_for_stats/income-and-work/employment_and_unemployment/leed-annual-technical-notes.aspx
+Dataset,3277539602464354781,LEED: Measures by industry (based on ANZSIC06) 1999 2014,http://www.stats.govt.nz/browse_for_stats/income-and-work/employment_and_unemployment/leed-annual-technical-notes.aspx
+Dataset,5194455188019615916,LEED: Measures by industry (based on ANZSIC06) and firm size 1999 2014,http://www.stats.govt.nz/browse_for_stats/income-and-work/employment_and_unemployment/leed-annual-technical-notes.aspx
+Dataset,8909269234971040597,LEED: Measures by industry (based on ANZSIC06) and region 1999 2014,http://www.stats.govt.nz/browse_for_stats/income-and-work/employment_and_unemployment/leed-annual-technical-notes.aspx
+Dataset,5975228467289429463,LEED: Measures by sex and industry (based on ANZSIC06) 1999 2014,http://www.stats.govt.nz/browse_for_stats/income-and-work/employment_and_unemployment/leed-annual-technical-notes.aspx
+Dataset,6422513133664615542,Local Authority Election Statistics 2013,http://www.dia.govt.nz/diawebsite.nsf/wpg_URL/Services-Local-Elections-Local-Authority-Election-Statistics-2013?OpenDocument#four
+Dataset,4077417163776849364,"National Accounts (Income and Expenditure): GDP breakdown, Year Ended March 2016",http://stats.govt.nz/browse_for_stats/economic_indicators/NationalAccounts/NationalAccountsIncomeExpenditure_HOTPYeMar16.aspx
+Dataset,8282847023537534294,New Zealand Disability Survey 2013,http://www.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013.aspx
+Dataset,926545034884032308,New Zealand Progress Indicators Tupuranga Aotearoa: Health expectancy to 2006,http://www.stats.govt.nz/browse_for_stats/snapshots-of-nz/nz-progress-indicators/home/social/health-expectancy.aspx
+Dataset,-1952087934655036581,"Producers Price Index: Inputs NZSIOC level 4, Base Dec 2010 quarter (Quarterly) September 2016",http://www.stats.govt.nz/infoshare/Default.aspx
+Dataset,8455683753475004065,"Producers Price Index: Published input commodities, Base Dec 2009 (Quarterly) September 2016",http://www.stats.govt.nz/infoshare/Default.aspx
+Dataset,8679887469901490430,"Producers Price Index: Published output commodities, Base Dec 2009 (Quarterly) September 2016",http://www.stats.govt.nz/infoshare/Default.aspx
+Dataset,5778523190829012621,Productivity Statistics: Industry-Level Statistics 1978 2015,http://www.stats.govt.nz/infoshare/Default.aspx
+Dataset,1019022409013063841,Short-term Employment Forecasts: 2016-2019 - November 2016,http://www.mbie.govt.nz/info-services/employment-skills/labour-market-reports/forecasting/short-term-employment-forecasts/short-term-employment-forecasts-2016-2019-nov-2016
+Dataset,6422294291210073133,Tertiary Education: Participation - Provider-based Enrolments Field of Study 2015,http://www.educationcounts.govt.nz/statistics/tertiary_education/participation
+Dataset,-6718914442361357944,Tertiary Education: Research Performance 2015,http://www.educationcounts.govt.nz/statistics/tertiary-education/research

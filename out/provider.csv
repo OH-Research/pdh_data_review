@@ -1,52 +1,52 @@
 :LABEL,name,providerId:ID(Provider)
-Provider,Amazon Web Services,-5017664344824904628
-Provider,Kaggle,-9102353336865241048
-Provider,Microsoft Azure,-6279021236252273507
-Provider,Google Cloud Platform,3129448447170982378
-Provider,Statistics New Zealand,5089565372784393543
-Provider,Minitry of Health,4808064399310046301
-Provider,Auckland Council,7134745942422723632
-Provider,Ministry of Health,-6988474759760479269
-Provider,Childrens Hospital of Philadelphia,-7394654659159721732
-Provider,Accident Compensation Corporation,6027639294148362065
-Provider,The University of Auckland,1475776428538762756
-Provider,Auckland District Health Board,-6718218435688497702
-Provider,Research New Zealand,1641840821895700765
-Provider,Action on Smoking and Health,6102835784707573657
-Provider,(ex) HSA Global,-6703310649383781295
-Provider,"Each renal service has its own local data collection, e.g. The Royal Adelaide Hospital, South Australia",4752173727740875177
-Provider,"Princess Alexandra Hospital, Brisbane",6723498165468471811
-Provider,Southern Cancer Network,7423940668965076425
-Provider,Midland Cancer Network,5521012553860217055
-Provider,Northern Cancer Network,8625822646469098573
-Provider,Australian and New Zealand Society of Cardiac and Thoracic Surgeons,234862813876073430
-Provider,Counties Manukau District Health Board,-7186907627851831110
-Provider,Canterbury and West Coast District Health Board,3732732870485248069
-Provider,Diabetes Projects Trust ,-3404991114411842150
-Provider,Diagnostic Medical Laboratory,-3864083892169334325
-Provider,Dr Info.,-3038727550473549603
-Provider,individual GP Practices,5379785242153400652
-Provider,Growing up in New Zealand,1564290521520392316
-Provider,Medibank Health Solutions,8449654519703139876
-Provider,Southern District Health Board,-3260364854970746880
-Provider,Pharmaceutical Management Agency,5477120777670337747
-Provider,Institute of Environmental Science and Research,5395116835390155493
-Provider,LabTests,5198949393184415380
-Provider,CBG Health Research,9111126277621750262
-Provider,New Zealand Social Science Data Service,-7000042166252693905
-Provider,Nurse Maude,5033702684409756132
-Provider,Genetic Health Service NZ,-6911627459559013774
-Provider,(ex) Health Sponsorship Council,-9010784804589809350
-Provider,individual Primary Health Organizations,3480699874813928576
-Provider,Plunket,6499211476411867222
-Provider,Enigma,-8963744389736154916
-Provider,healthAlliance,2013627641269428467
-Provider,Flinders University,4346761237443812874
-Provider,Waikato District Health Board,8584000777000546424
-Provider,Waitemata District Health Board,-3675470546734757779
-Provider,Ministry for the Environment,-6933483095904175535
-Provider,Figure.NZ,6924330910400677712
-Provider,The Treasury,2617123300533018341
-Provider,Department of Internal Affairs,806584085206006657
-Provider,"Ministry of Business, Innovation, and Employment",6293828139198881091
-Provider,Ministry of Education,-6821893119495032209
+Provider,Amazon Web Services,-148522962284315541
+Provider,Kaggle,3061380264943947062
+Provider,Microsoft Azure,188201147570562880
+Provider,Google Cloud Platform,-6309578487275800879
+Provider,Statistics New Zealand,-3910163433439112676
+Provider,Minitry of Health,273225143136476206
+Provider,Childrens Hospital of Philadelphia,-7010534643125653070
+Provider,Ministry of Health,-415553417817516801
+Provider,Accident Compensation Corporation,-577437429485542057
+Provider,The University of Auckland,-181517790996294288
+Provider,Auckland District Health Board,-5057855706352528472
+Provider,Research New Zealand,2636791425116032946
+Provider,Action on Smoking and Health,-4772131955047472344
+Provider,(ex) HSA Global,-2111005141084483236
+Provider,"Each renal service has its own local data collection, e.g. The Royal Adelaide Hospital, South Australia",3269032525651413355
+Provider,"Princess Alexandra Hospital, Brisbane",4806379220058834896
+Provider,Southern Cancer Network,-7992634751289369943
+Provider,Midland Cancer Network,-2811670514359427659
+Provider,Northern Cancer Network,8045274543169319258
+Provider,Australian and New Zealand Society of Cardiac and Thoracic Surgeons,6203211824919797660
+Provider,Counties Manukau District Health Board,4897896955085014982
+Provider,Canterbury and West Coast District Health Board,4955313390399330638
+Provider,Diabetes Projects Trust ,5112235838500112814
+Provider,Diagnostic Medical Laboratory,158140202341143652
+Provider,Dr Info.,-6658666473233318605
+Provider,individual GP Practices,4375510287084324680
+Provider,Growing up in New Zealand,4940396758340442595
+Provider,Medibank Health Solutions,7502313854830974089
+Provider,Southern District Health Board,-8937492403319794498
+Provider,Pharmaceutical Management Agency,-801648567999189311
+Provider,Institute of Environmental Science and Research,-3518146662060287681
+Provider,LabTests,-7207441378123976030
+Provider,CBG Health Research,6343942763018493190
+Provider,New Zealand Social Science Data Service,1132811538019503937
+Provider,Nurse Maude,-1858978209504055200
+Provider,Genetic Health Service NZ,85393004100913416
+Provider,(ex) Health Sponsorship Council,8379835039319778697
+Provider,individual Primary Health Organizations,2387835348724525776
+Provider,Plunket,6825902000246306726
+Provider,Enigma,-1280616580374568533
+Provider,healthAlliance,-6968361805123044760
+Provider,Flinders University,4182413736862440152
+Provider,Waikato District Health Board,-4199152922901800694
+Provider,Waitemata District Health Board,1287902019595140813
+Provider,Auckland Council,-6060658703959553348
+Provider,Ministry for the Environment,4348528781061281715
+Provider,Figure.NZ,7556681464617307057
+Provider,The Treasury,-2594769241489777221
+Provider,Department of Internal Affairs,-7565302137065200904
+Provider,"Ministry of Business, Innovation, and Employment",-2916513853843984829
+Provider,Ministry of Education,-1312014863785756601
