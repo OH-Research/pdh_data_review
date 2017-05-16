@@ -5,10 +5,10 @@ import argparse
 
 def main(folder_in, folder_out):
   provider_df = pd.DataFrame({'providerId:ID(Provider)': [], 'name': [], ':LABEL': []})
-  dataset_df = pd.DataFrame({'datasetId:ID(Dataset)': [], 'name': [], ':LABEL': []})
+  dataset_df = pd.DataFrame({'datasetId:ID(Dataset)': [], 'name': [], ':LABEL': [], 'url': []})
   tag_df = pd.DataFrame({'tagId:ID(Tag)': [], 'name': [], ':LABEL': []})
   category_df = pd.DataFrame({'categoryId:ID(Category)': [], 'name': [], ':LABEL': []})
-  level1_df = pd.DataFrame({'level1Id:ID(Level1)': [], 'name': [], ':LABEL': []})
+  level1_df = pd.DataFrame({'level1Id:ID(Level1)': [], 'name': [], ':LABEL': [], 'url': []})
 
   provider_dataset_df =  pd.DataFrame({':START_ID(Provider)': [], ':END_ID(Dataset)': []})
   dataset_tag_df =  pd.DataFrame({':START_ID(Dataset)': [], ':END_ID(Tag)': []})
@@ -23,7 +23,7 @@ def main(folder_in, folder_out):
         dataset_node_id = str(hash(dataset_info['id']))
         provider_node_id = str(hash(dataset_info['provider']))
         provider_df = pd.concat([provider_df, pd.DataFrame({'providerId:ID(Provider)': [provider_node_id], 'name': [dataset_info['provider']], ':LABEL': ['Provider']})], ignore_index=True)
-        dataset_df = pd.concat([dataset_df, pd.DataFrame({'datasetId:ID(Dataset)': [dataset_node_id], 'name': [dataset_info['title']], ':LABEL': ['Dataset']})], ignore_index=True)
+        dataset_df = pd.concat([dataset_df, pd.DataFrame({'datasetId:ID(Dataset)': [dataset_node_id], 'name': [dataset_info['title']], ':LABEL': ['Dataset'], 'url': [dataset_info['link']]})], ignore_index=True)
         provider_dataset_df = pd.concat([provider_dataset_df, pd.DataFrame({':START_ID(Provider)': [provider_node_id], ':END_ID(Dataset)': [dataset_node_id]})], ignore_index=True)
         for tag in dataset_info['tags']:
           tag_node_id = str(hash(tag))
@@ -35,9 +35,9 @@ def main(folder_in, folder_out):
           dataset_category_df = pd.concat([dataset_category_df, pd.DataFrame({':START_ID(Dataset)': [dataset_node_id], ':END_ID(Category)': [category_node_id]})], ignore_index=True)
           provider_category_df = pd.concat([provider_category_df, pd.DataFrame({':START_ID(Provider)': [provider_node_id], ':END_ID(Category)': [category_node_id]})], ignore_index=True)
         if 'figure_nz' in dataset_info.keys():
-          for item in dataset_info['figure_nz']:
-            level1_node_id = str(hash(item['title_l1']))
-            level1_df = pd.concat([level1_df, pd.DataFrame({'level1Id:ID(Level1)': [level1_node_id], 'name': [item['title_l1']], ':LABEL': ['Level1']})], ignore_index=True)
+          for i, item in enumerate(dataset_info['figure_nz']):
+            level1_node_id = str(hash(str(i) + dataset_info['id'] + '_' + item['title_l1']))
+            level1_df = pd.concat([level1_df, pd.DataFrame({'level1Id:ID(Level1)': [level1_node_id], 'name': [item['title_l1']], ':LABEL': ['Level1'], 'url': [item['url']]})], ignore_index=True)
             dataset_level1_df = pd.concat([dataset_level1_df, pd.DataFrame({':START_ID(Dataset)': [dataset_node_id], ':END_ID(Level1)': [level1_node_id]})], ignore_index=True)
    
     else:
@@ -51,6 +51,7 @@ def main(folder_in, folder_out):
   tag_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'tag.csv'), index=False)
   level1_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'level1.csv'), index=False)
   category_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'category.csv'), index=False)
+  
   provider_dataset_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'provider_dataset.csv'), index=False)
   dataset_tag_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'dataset_tag.csv'), index=False)
   dataset_category_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'dataset_category.csv'), index=False)
