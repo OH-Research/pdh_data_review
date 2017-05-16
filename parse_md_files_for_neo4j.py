@@ -8,11 +8,13 @@ def main(folder_in, folder_out):
   dataset_df = pd.DataFrame({'datasetId:ID(Dataset)': [], 'name': [], ':LABEL': []})
   tag_df = pd.DataFrame({'tagId:ID(Tag)': [], 'name': [], ':LABEL': []})
   category_df = pd.DataFrame({'categoryId:ID(Category)': [], 'name': [], ':LABEL': []})
+  level1_df = pd.DataFrame({'level1Id:ID(Level1)': [], 'name': [], ':LABEL': []})
 
   provider_dataset_df =  pd.DataFrame({':START_ID(Provider)': [], ':END_ID(Dataset)': []})
   dataset_tag_df =  pd.DataFrame({':START_ID(Dataset)': [], ':END_ID(Tag)': []})
   dataset_category_df =  pd.DataFrame({':START_ID(Dataset)': [], ':END_ID(Category)': []})
   provider_category_df =  pd.DataFrame({':START_ID(Provider)': [], ':END_ID(Category)': []})
+  dataset_level1_df =  pd.DataFrame({':START_ID(Dataset)': [], ':END_ID(Level1)': []})
 
   for filename in os.listdir(folder_in):
     if filename.endswith(".md"): 
@@ -32,6 +34,12 @@ def main(folder_in, folder_out):
           category_df = pd.concat([category_df, pd.DataFrame({'categoryId:ID(Category)': [category_node_id], 'name': [category], ':LABEL': ['Category']})], ignore_index=True)
           dataset_category_df = pd.concat([dataset_category_df, pd.DataFrame({':START_ID(Dataset)': [dataset_node_id], ':END_ID(Category)': [category_node_id]})], ignore_index=True)
           provider_category_df = pd.concat([provider_category_df, pd.DataFrame({':START_ID(Provider)': [provider_node_id], ':END_ID(Category)': [category_node_id]})], ignore_index=True)
+        if 'figure_nz' in dataset_info.keys():
+          for item in dataset_info['figure_nz']:
+            level1_node_id = str(hash(item['title_l1']))
+            level1_df = pd.concat([level1_df, pd.DataFrame({'level1Id:ID(Level1)': [level1_node_id], 'name': [item['title_l1']], ':LABEL': ['Level1']})], ignore_index=True)
+            dataset_level1_df = pd.concat([dataset_level1_df, pd.DataFrame({':START_ID(Dataset)': [dataset_node_id], ':END_ID(Level1)': [level1_node_id]})], ignore_index=True)
+   
     else:
       pass
 
@@ -41,11 +49,13 @@ def main(folder_in, folder_out):
   provider_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'provider.csv'), index=False)
   dataset_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'dataset.csv'), index=False)
   tag_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'tag.csv'), index=False)
+  level1_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'level1.csv'), index=False)
   category_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'category.csv'), index=False)
   provider_dataset_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'provider_dataset.csv'), index=False)
   dataset_tag_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'dataset_tag.csv'), index=False)
   dataset_category_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'dataset_category.csv'), index=False)
   provider_category_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'provider_category.csv'), index=False)
+  dataset_level1_df.drop_duplicates().reset_index(drop=True).to_csv(os.path.join(folder_out, 'dataset_level1.csv'), index=False)
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description='Turn the md files into csv files for bulk import in neo4j')
