@@ -1,7 +1,7 @@
 ---
 layout: post
 provider: "Kaggle"
-id: "osmi_ment_health_in_tech_survey_2016"
+id: "national_health_and_nutrition_examination_survey"
 title: "National Health and Nutrition Examination Survey"
 link: "https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey"
 categories: non-new-zealand kaggle
