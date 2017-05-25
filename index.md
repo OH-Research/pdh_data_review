@@ -3,6 +3,7 @@ layout: default
 multiple_select_active: true
 tipue_search_active: true # must add it manually at the end (conflict with the rest of js in this page?)
 exclude_from_search: true
+google_analytics: true
 --- 
 
 {% capture provider_list %}{% for post in site.posts %}#{{ post.provider }}{% endfor %}{% endcapture %}
