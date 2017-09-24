@@ -7,7 +7,7 @@ layout: post
 link: http://www.health.govt.nz/
 provider: Ministry of Health
 tags:
-- elderly
+- elder
 - residential-care
 - nzte-report
 title: Aged Residential Care (ARC) Interdistrict flow (IDF) Report

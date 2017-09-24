@@ -8,7 +8,7 @@ layout: post
 link: http://www.westcoastdhb.org.nz/
 provider: Canterbury and West Coast District Health Board
 tags:
-- elderly
+- elder
 - hospital
 - nzte-report
 title: 'CDHB-Aged Residential Care (ARC) '
