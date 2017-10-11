@@ -60,7 +60,7 @@ google_analytics: true
     <tbody class="list">
   	{% for post in site.posts %}
     <tr>
-    	<td width="50%" class="name"><a class="post-link" href="#" onclick='location.href="{{ post.url | relative_url }}";'><font size="2">{{ post.title | truncate: 80 }}</font></a></td>
+    	<td width="50%" class="name"><a class="post-link" href="{{ post.url | relative_url }}"><font size="2">{{ post.title | truncate: 80 }}</font></a></td>
         <td width="25%" class="provider"><a class="tag-link" href="#" onclick='providerFiltering("{{ post.provider }}");return false;'><font size="2">{{ post.provider }}</font></a></td>
         <td width="25%" class="tags">{% for tag in post.tags %}<a class="tag-link" href="#" onclick='topicFiltering("{{ tag }}");return false;'>#{{ tag }}</a> {% endfor %}</td> 
     </tr>

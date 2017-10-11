@@ -1,7 +1,7 @@
 # Config settings
 title: Health Data Review
 baseurl: ""
-permalink: /:categories/:title.htm
+permalink: /:title.htm
 
 # Search settings
 tipue_search:
