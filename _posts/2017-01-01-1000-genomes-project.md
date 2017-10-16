@@ -10,4 +10,4 @@ tags:
   - genomics
 ---
 
-The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, and their haplotype context.
+The 1000 Genomes Project is an international collaboration which has established the most detailed catalogue of human genetic variation, including SNPs, structural variants, their haplotype context etc.
