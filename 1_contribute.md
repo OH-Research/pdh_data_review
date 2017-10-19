@@ -10,7 +10,4 @@ exclude_from_search: true
 
 This project aims to be collaborative, suggest a dataset by creating a pull request!
 
-<video width="400" controls>
-  <source src="/assets/hinz_create_pull_request.mov" type="video/mov">
-  Your browser does not support HTML5 video.
-</video>
+<video controls="controls" width="800" height="600" name="Video Name" src="/assets/hinz_create_pull_request.mov"></video>
