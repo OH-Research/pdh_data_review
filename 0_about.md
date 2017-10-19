@@ -21,9 +21,11 @@ This website aims to review available health datasets (with a focus on New Zeala
 
 This project aims to be collaborative, suggest a dataset by creating a pull request!
 
-<video controls="controls" width="800" height="600" name="Video Name" src="/assets/hinz_create_pull_request.mov"></video>
+<video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_create_pull_request.mov"></video>
 
-Once reviewed and accepted your dataset will automaticaly added to the directory.
+<br><br>
 
-<video controls="controls" width="800" height="600" name="Video Name" src="/assets/hinz_merge_pull_request.mov"></video>
+Once reviewed and accepted your dataset will be automaticaly added to the directory.
+
+<video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_merge_pull_request.mov"></video>
 
