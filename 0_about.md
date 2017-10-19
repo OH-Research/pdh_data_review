@@ -19,13 +19,13 @@ This website aims to review available health datasets (with a focus on New Zeala
 
 <h4> <u>How to contribute:</u> </h4>
 
-This project aims to be collaborative, suggest a dataset by creating a [pull request!](https://github.com/OH-Research/pdh_data_review/tree/gh-pages/_posts)
+This project aims to be collaborative, suggest a dataset by creating a <u>[pull request!](https://github.com/OH-Research/pdh_data_review/tree/gh-pages/_posts)</u>
 
 <video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_create_pull_request.mov"></video>
 
 <br><br>
 
-Once reviewed and accepted your dataset will be automaticaly added to the directory.
+Once reviewed and accepted your dataset will be automatically added to the directory.
 
 <video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_merge_pull_request.mov"></video>
 
