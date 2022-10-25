@@ -19,13 +19,13 @@ This website aims to list available health datasets (with a focus on New Zealand
 
 <h4> <u>How to contribute:</u> </h4>
 
-This project aims to be collaborative, suggest a dataset by creating a pull request [here](https://github.com/precisiondrivenhealth/pdh_data_review/tree/gh-pages/_posts)!
+This project aims to be collaborative. Suggest a dataset by creating a pull request [here](https://github.com/precisiondrivenhealth/pdh_data_review/tree/gh-pages/_posts)!
 
 <video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_create_pull_request.mov"></video>
 
 <br><br>
 
-Once reviewed and accepted your dataset will be automatically added to the directory.
+Once reviewed and accepted, your dataset will be automatically added to the directory.
 
 <video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_merge_pull_request.mov"></video>
 
