@@ -6,7 +6,7 @@ exclude_from_search: true
 google_analytics: true
 --- 
 
-<h1>Aotearoa New Zealand Health Dataset Review</h1>
+<h1>Aotearoa New Zealand Health Data Sources Review</h1>
 Supported by <a href="https://precisiondrivenhealth.com">Precision Driven Health</a>
 
 {% capture provider_list %}{% for post in site.posts %}#{{ post.provider }}{% endfor %}{% endcapture %}
