@@ -1,4 +1,4 @@
-# Aotearoa NZ Health Data Review Project
+# Aotearoa NZ Health Data Source Review Project
 This project collected sources of health data available in Aotearoa New Zealand, making the list of data sources available through a public website. Each data source includes information about its contents and how to access it.
 
 View the project's website at https://tewhatuora.github.io/data-sources-review.
