@@ -8,7 +8,7 @@ exclude_from_search: true
 
 <div id="tipue_search_content"></div>
 
-This website aims to list available health datasets (with a focus on New Zealand) to help health data science researchers. It was compiled from 2016-2022 by researchers supported by <a href="https://precisiondrivenhealth.com">Precision Driven Health</a>, a New Zealand-based research partnership supporting health data science.
+This website aims to list available health datasets (with a focus on New Zealand) to help health data science researchers. It was compiled by researchers supported by Precision Driven Health, a New Zealand-based partnership supporting health data science which ran from 2016-2023.
 
 <h4> <u>References:</u> </h4>
 
@@ -21,11 +21,11 @@ This website aims to list available health datasets (with a focus on New Zealand
 
 This project aims to be collaborative. Suggest a dataset by creating a pull request [here](https://github.com/tewhatuora/data-sources-review/tree/gh-pages/_posts)!
 
-<video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_create_pull_request.mov"></video>
+<video controls="controls" width="400" height="300" name="Video Name" src="/data-sources-review/assets/hinz_create_pull_request.mov"></video>
 
 <br><br>
 
 Once reviewed and accepted, your dataset will be automatically added to the directory.
 
-<video controls="controls" width="400" height="300" name="Video Name" src="/assets/hinz_merge_pull_request.mov"></video>
+<video controls="controls" width="400" height="300" name="Video Name" src="/data-sources-review/assets/hinz_merge_pull_request.mov"></video>
 
