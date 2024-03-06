@@ -7,7 +7,7 @@ google_analytics: true
 --- 
 
 <h1>Aotearoa New Zealand Health Data Sources Review</h1>
-Supported by <a href="https://precisiondrivenhealth.com">Precision Driven Health</a>
+Originally created by Precision Driven Health; hosted by Te Whatu Ora
 
 {% capture provider_list %}{% for post in site.posts %}#{{ post.provider }}{% endfor %}{% endcapture %}
 {% assign provider_array = provider_list | split:'#' | uniq %}
