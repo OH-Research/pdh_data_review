@@ -1,6 +1,6 @@
 # Config settings
 title: Health Data Review
-baseurl: ""
+baseurl: "data-sources-review"
 permalink: /:title.htm
 
 # Search settings
